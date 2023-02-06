@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileCard from "./ProfileCard.js";
+import ProfileCard from "./profileCard.js";
 
 const lawyerList = [
   {
