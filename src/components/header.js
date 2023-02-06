@@ -1,11 +1,17 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Header() {
   return (
     <div className="w-full h-24 bg-primary flex justify-between items-center text-white px-8 lg:px-32 sticky top-0 z-10 ">
       <div className="flex ">
         <div className="flex justify-center items-center">
-          <img src="Logo.png" className="w-28 h-14" />
+          <Image
+            src="/Logo.png"
+            className="w-28 h-14"
+            width={100}
+            height={100}
+          />
         </div>
         <div className="gap-8 ml-20 items-center hidden lg:flex">
           <div className=" font-semibold hover:text-secondary cursor-default">

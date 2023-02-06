@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <div className="w-full h-96 bg-primary flex flex-col px-32">
@@ -22,7 +24,12 @@ export default function Footer() {
           </div>
         </div>
         <div className="h-full flex items-end">
-          <img src="Logo.png" className="w-28 h-14" />
+          <Image
+            src="/Logo.png"
+            className="w-28 h-14"
+            width={100}
+            height={100}
+          />
         </div>
       </div>
       <div className="h-1 w-full bg-[#525984]"></div>
