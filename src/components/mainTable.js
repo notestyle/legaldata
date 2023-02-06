@@ -1,5 +1,6 @@
 import React from "react";
 import ProfileCard from "./profileCard.js";
+import Tabs from "./tabs.js";
 
 const lawyerList = [
   {
@@ -55,24 +56,30 @@ const lawyerList = [
 
 export default function MainTable({ showCategory }) {
   return (
-    <div>
+    <div className="bg-white border border-gray rounded-md my-8">
       {showCategory ? (
-        <div className="w-full h-80 my-7 grid grid-cols-5 m-10">
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-          <div className="bg-secondary w-20 h-20 rounded-full "></div>
-        </div>
+        <>
+          <div className="flex w-full justify-around my-4">
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          </div>
+          <div className="flex w-full justify-around my-4">
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          </div>
+        </>
       ) : (
         <></>
       )}
-      <div className="w-full grid grid-cols-5 gap-5">
+      <div className="h-[1px] bg-gray my-12"></div>
+      <div className="w-full grid grid-cols-5 gap-5 px-4">
         {lawyerList.map((row, i) => (
           <ProfileCard
             key={i}
@@ -85,6 +92,8 @@ export default function MainTable({ showCategory }) {
           />
         ))}
       </div>
+
+      <Tabs />
     </div>
   );
 }
