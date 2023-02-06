@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileCard from "./profileCard";
+import ProfileCard from "./ProfileCard.js";
 
 const lawyerList = [
   {
@@ -56,7 +56,22 @@ const lawyerList = [
 export default function MainTable({ showCategory }) {
   return (
     <div>
-      {showCategory ? <div> Шүүлтийн бөөрөнхийнүүд</div> : <></>}
+      {showCategory ? (
+        <div className="w-full h-80 my-7 grid grid-cols-5 m-10">
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+          <div className="bg-secondary w-20 h-20 rounded-full "></div>
+        </div>
+      ) : (
+        <></>
+      )}
       <div className="w-full grid grid-cols-5 gap-5">
         {lawyerList.map((row, i) => (
           <ProfileCard

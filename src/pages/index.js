@@ -1,6 +1,7 @@
 import Layout from "@/components/layout";
 import MainTable from "@/components/mainTable";
 import Search from "@/components/search";
+import Tabs from "@/components/tabs";
 import TopFarm from "@/components/topFarm";
 import TopLawyer from "@/components/topLawyer";
 import Head from "next/head";
@@ -20,6 +21,7 @@ export default function Home() {
         <TopFarm />
         <TopLawyer />
         <MainTable showCategory />
+        <Tabs />
       </Layout>
     </>
   );
