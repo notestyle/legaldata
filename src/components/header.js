@@ -56,7 +56,7 @@ export default function Header() {
             Нэвтрэх
           </div>
         </button>
-        <button className=" text-xs font-bold text-primary bg-white w-8 h-8 rounded-lg ">
+        <button className=" text-sm font-bold text-primary bg-white w-8 h-8 rounded-lg ">
           MN
         </button>
       </div>
