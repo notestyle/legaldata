@@ -62,127 +62,162 @@ export default function MainTable({ showCategory }) {
         <>
           <div className="flex w-full justify-around my-4">
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group.svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1">Хуулийн фирм</div>
             </div>
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group (1).svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1 pl-5">Шүүгч</div>
             </div>
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group (1).svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1 pl-2">Прокурор</div>
             </div>
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group (1).svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1 pl-1">Өмгөөлөгч</div>
             </div>
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group (1).svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1 pl-5">Хуульч</div>
             </div>
           </div>
           <div className="flex w-full justify-around my-4">
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group.svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1">Байгууллага</div>
             </div>
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
-                <Image
-                  src="/Vector.svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold">7741</div>
+              <div>
+                <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
+                  <Image
+                    src="/Group (1).svg"
+                    className=" w-14 h-14"
+                    width={100}
+                    height={100}
+                  />
+                  <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                    7741
+                  </div>
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1 pl-4">Арбитч</div>
             </div>
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group.svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1 pl-3">Нотариат</div>
             </div>
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group (1).svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1 pl-4">Судлаач</div>
             </div>
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group (1).svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1 pl-6">Junior</div>
             </div>
             <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                 <Image
-                  src="/Vector.svg"
+                  src="/Group.svg"
                   className=" w-14 h-14"
                   width={100}
                   height={100}
                 />
-                <div className="text-secondary font-bold">7741</div>
+                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  7741
+                </div>
               </div>
+              <div className="font-[Ubuntu] font-bold pt-1 pl-3">Шинжээч</div>
             </div>
           </div>
         </>

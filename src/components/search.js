@@ -16,7 +16,7 @@ export default function Search() {
         <div className=" w-[88.5rem] h-14 border-2 border-gray rounded-md flex items-center font-semibold bg-white1">
           <input
             type="text"
-            className=" w-[25.625rem] h-[3.2rem]  bg-white1 placeholder:pl-1 pl-4  "
+            className=" w-[25.625rem] h-[3.2rem]  bg-white1 placeholder:pl-1 pl-4 outline-none"
             placeholder="Нэрээр хайх"
           ></input>
           <select className="bg-white1 h-10 border-l-[0.1rem] w-64 ">

@@ -22,7 +22,7 @@ export default function Ad() {
           <div className="flex justify-between pt-10">
             <div className=" w-80 h-60 flex items-center flex-col">
               <Image
-                src="/Group 1018.png"
+                src="/Group (2).svg"
                 className=" w-[4.5rem] h-16"
                 width={100}
                 height={80}
@@ -39,7 +39,7 @@ export default function Ad() {
           <div className="flex justify-between pt-10">
             <div className=" w-80 h-60  flex items-center flex-col">
               <Image
-                src="/Group 1018.png"
+                src="/Group (2).svg"
                 className=" w-[4.5rem] h-16"
                 width={100}
                 height={80}
@@ -56,7 +56,7 @@ export default function Ad() {
           <div className="flex justify-between pt-10">
             <div className=" w-80 h-60 flex items-center flex-col">
               <Image
-                src="/Group 1018.png"
+                src="/Group (2).svg"
                 className=" w-[4.5rem] h-16"
                 width={100}
                 height={80}
