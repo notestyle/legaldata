@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Header() {
@@ -14,12 +15,18 @@ export default function Header() {
           />
         </div>
         <div className="gap-8 ml-20 items-center hidden lg:flex">
-          <div className=" font-semibold hover:text-secondary cursor-default">
+          <Link
+            href="http://localhost:3000/"
+            className=" font-semibold hover:text-secondary cursor-default"
+          >
             Нүүр
-          </div>
-          <div className=" font-semibold hover:text-secondary cursor-default">
+          </Link>
+          <Link
+            href="/Service"
+            className=" font-semibold hover:text-secondary cursor-default"
+          >
             Үйлчилгээ
-          </div>
+          </Link>
           <div className=" font-semibold hover:text-secondary cursor-default">
             Чансаа
           </div>
@@ -49,7 +56,7 @@ export default function Header() {
             Нэвтрэх
           </div>
         </button>
-        <button className=" font-bold text-primary bg-white w-8 h-8 rounded-lg ">
+        <button className=" text-xs font-bold text-primary bg-white w-8 h-8 rounded-lg ">
           MN
         </button>
       </div>

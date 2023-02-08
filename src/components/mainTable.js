@@ -62,94 +62,127 @@ export default function MainTable({ showCategory }) {
         <>
           <div className="flex w-full justify-around my-4">
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
           </div>
           <div className="flex w-full justify-around my-4">
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
             <div>
-              <Image
-                src="/Group 894.png"
-                className=" w-40 h-32"
-                width={100}
-                height={100}
-              />
+              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center">
+                <Image
+                  src="/Vector.svg"
+                  className=" w-14 h-14"
+                  width={100}
+                  height={100}
+                />
+                <div className="text-secondary font-bold">7741</div>
+              </div>
             </div>
           </div>
         </>
