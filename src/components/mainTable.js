@@ -1,6 +1,7 @@
 import React from "react";
 import ProfileCard from "./profileCard.js";
 import Tabs from "./tabs.js";
+import Image from "next/image.js";
 
 const lawyerList = [
   {
@@ -60,19 +61,96 @@ export default function MainTable({ showCategory }) {
       {showCategory ? (
         <>
           <div className="flex w-full justify-around my-4">
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
           </div>
           <div className="flex w-full justify-around my-4">
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
-            <div className="bg-secondary w-20 h-20 rounded-full "></div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Group 894.png"
+                className=" w-40 h-32"
+                width={100}
+                height={100}
+              />
+            </div>
           </div>
         </>
       ) : (
@@ -88,7 +166,7 @@ export default function MainTable({ showCategory }) {
             title={row.title}
             company={row.company}
             img={row.img}
-            className="w-full"
+            className="w-full text-center"
           />
         ))}
       </div>

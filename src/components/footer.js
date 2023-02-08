@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="w-full h-96 bg-primary flex flex-col px-32">
+    <div className="w-full h-72 bg-primary flex flex-col px-32">
       <div className="w-full flex justify-between py-8">
         <div className="flex">
           <div className="pt-5 text-white text-xs ">
@@ -34,8 +34,42 @@ export default function Footer() {
       </div>
       <div className="h-1 w-full bg-[#525984]"></div>
       <div className="w-full flex justify-between">
-        <div>© 2023. Бүх эрх хуулиар хамгаалагдсан. Legal Data</div>
-        <div className="flex">1</div>
+        <div className="mt-5 text-white flex">
+          ©2023. Бүх эрх хуулиар хамгаалагдсан.
+          <div className="text-secondary pl-2"> Legal Data </div>
+        </div>
+        <div className="flex gap-2 pt-5">
+          <Image
+            src="/facebook.png"
+            className=" w-5 h-5"
+            width={100}
+            height={80}
+          />
+          <Image
+            src="/instagram.png"
+            className=" w-5 h-5"
+            width={100}
+            height={80}
+          />
+          <Image
+            src="/linkedin.png"
+            className=" w-5 h-5"
+            width={100}
+            height={80}
+          />
+          <Image
+            src="/youtube.png"
+            className=" w-5 h-5"
+            width={100}
+            height={80}
+          />
+          <Image
+            src="/twitter.png"
+            className=" w-5 h-5"
+            width={100}
+            height={80}
+          />
+        </div>
       </div>
     </div>
   );

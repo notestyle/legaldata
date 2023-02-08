@@ -53,7 +53,7 @@ export default function MainTable({ showCategory }) {
             title={row.title}
             company={row.company}
             img={row.img}
-            className="w-full"
+            className="w-full text-center"
           />
         ))}
       </div>
