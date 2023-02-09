@@ -4,7 +4,7 @@ import MainTable from "@/components/mainTable";
 import Search from "@/components/search";
 import TopFarm from "@/components/topFarm";
 import TopLawyer from "@/components/topLawyer";
-import UniqueFarm from "@/components/uniqueFarm";
+import RecommendFarm from "@/components/recommendFarm";
 import Head from "next/head";
 
 export default function Home() {
@@ -18,12 +18,16 @@ export default function Home() {
       </Head>
       <Layout>
         <Search />
-        <UniqueFarm />
-        <TopFarm />
-        <TopLawyer />
-        <div className="h-[1px] bg-gray my-12"></div>
-        <MainTable showCategory />
-        <Ad />
+        <div className="flex flex-row-reverse gap-4 w-full">
+          <RecommendFarm />
+          <div className="w-[calc(100%-22rem)] ">
+            <TopFarm />
+            <TopLawyer />
+            <div className="h-[1px] bg-gray my-12"></div>
+            <MainTable showCategory />
+            <Ad />
+          </div>
+        </div>
       </Layout>
     </>
   );

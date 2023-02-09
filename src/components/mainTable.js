@@ -55,170 +55,106 @@ const lawyerList = [
   },
 ];
 
+const categorySummary = [
+  {
+    image: "/images/icons/building.svg",
+    name: "Хуулийн фирм",
+    total: 7741,
+  },
+  {
+    image: "/images/icons/person.svg",
+    name: "Шүүгч",
+    total: 200,
+  },
+  {
+    image: "/images/icons/person.svg",
+    name: "Прокурор",
+    total: 200,
+  },
+  {
+    image: "/images/icons/person.svg",
+    name: "Өмгөөлөгч",
+    total: 200,
+  },
+  {
+    image: "/images/icons/person.svg",
+    name: "Хуульч",
+    total: 200,
+  },
+  {
+    image: "/images/icons/building.svg",
+    name: "Байгууллага",
+    total: 200,
+  },
+  {
+    image: "/images/icons/person.svg",
+    name: "Арбитч",
+    total: 200,
+  },
+  {
+    image: "/images/icons/building.svg",
+    name: "Нотариат",
+    total: 200,
+  },
+  {
+    image: "/images/icons/person.svg",
+    name: "Судлаач",
+    total: 200,
+  },
+  {
+    image: "/images/icons/person.svg",
+    name: "Junior",
+    total: 200,
+  },
+  {
+    image: "/images/icons/building.svg",
+    name: "Шинжээч",
+    total: 200,
+  },
+];
+
 export default function MainTable({ showCategory }) {
   return (
     <div className="bg-white border border-gray rounded-md my-8">
       {showCategory ? (
         <>
           <div className="flex w-full justify-around my-4">
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group.svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
-                </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1">Хуулийн фирм</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group (1).svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
-                </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1 pl-5">Шүүгч</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group (1).svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
-                </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1 pl-2">Прокурор</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group (1).svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
-                </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1 pl-1">Өмгөөлөгч</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group (1).svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
-                </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1 pl-5">Хуульч</div>
-            </div>
-          </div>
-          <div className="flex w-full justify-around my-4">
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group.svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
-                </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1">Байгууллага</div>
-            </div>
-            <div>
-              <div>
+            {categorySummary.slice(0, 5).map((row, i) => (
+              <button key={i}>
                 <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                   <Image
-                    src="/Group (1).svg"
+                    src={row.image}
                     className=" w-14 h-14"
+                    alt={row.name}
                     width={100}
                     height={100}
                   />
                   <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                    7741
+                    {row.total}
                   </div>
                 </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1 pl-4">Арбитч</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group.svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
+                <div className="font-[Ubuntu] font-bold pt-1">{row.name}</div>
+              </button>
+            ))}
+          </div>
+          <div className="flex w-full justify-around my-4">
+            {categorySummary.slice(5, 11).map((row, i) => (
+              <button key={i}>
+                <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
+                  <Image
+                    src={row.image}
+                    className=" w-14 h-14"
+                    alt={row.name}
+                    width={100}
+                    height={100}
+                  />
+                  <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                    {row.total}
+                  </div>
                 </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1 pl-3">Нотариат</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group (1).svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
-                </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1 pl-4">Судлаач</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group (1).svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
-                </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1 pl-6">Junior</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                <Image
-                  src="/Group.svg"
-                  className=" w-14 h-14"
-                  width={100}
-                  height={100}
-                />
-                <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                  7741
-                </div>
-              </div>
-              <div className="font-[Ubuntu] font-bold pt-1 pl-3">Шинжээч</div>
-            </div>
+                <div className="font-[Ubuntu] font-bold pt-1">{row.name}</div>
+              </button>
+            ))}
           </div>
         </>
       ) : (

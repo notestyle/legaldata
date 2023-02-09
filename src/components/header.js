@@ -1,29 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 export default function Header() {
+  const router = useRouter();
+
   return (
     <div className="w-full h-24 bg-primary flex justify-between items-center text-white px-8 lg:px-32 sticky top-0 z-10 ">
-      <div className="flex ">
+      <div className="flex h-full">
         <div className="flex justify-center items-center">
           <Image
             src="/Logo.png"
             className="w-28 h-14"
+            alt="logo"
             width={100}
             height={100}
           />
         </div>
-        <div className="gap-8 ml-20 items-center hidden lg:flex">
+        <div className="gap-8 ml-20 items-center hidden lg:flex h-full ">
           <Link
             href="http://localhost:3000/"
-            className=" font-semibold hover:text-secondary cursor-default"
+            className={`font-semibold ${
+              router.pathname == "/" ? "text-secondary" : ""
+            } hover:text-secondary cursor-default h-full flex items-center relative`}
           >
             Нүүр
+            <div className="w-full h-1 bg-secondary absolute bottom-0"></div>
           </Link>
           <Link
             href="/Service"
-            className=" font-semibold hover:text-secondary cursor-default"
+            className={`${
+              router.pathname == "/Service" ? "text-secondary" : ""
+            } font-semibold hover:text-secondary cursor-default`}
           >
             Үйлчилгээ
           </Link>

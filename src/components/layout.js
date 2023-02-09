@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <div className="w-full h-full bg-white px-32">{children}</div>
+      <div className="w-full h-full bg-white1 px-32">{children}</div>
       <Footer />
     </>
   );
