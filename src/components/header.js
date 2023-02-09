@@ -20,28 +20,59 @@ export default function Header() {
         </div>
         <div className="gap-8 ml-20 items-center hidden lg:flex h-full ">
           <Link
-            href="http://localhost:3000/"
+            href="/"
             className={`font-semibold ${
               router.pathname == "/" ? "text-secondary" : ""
-            } hover:text-secondary cursor-default h-full flex items-center relative`}
+            } hover:text-secondary  h-full flex items-center relative`}
           >
             Нүүр
-            <div className="w-full h-1 bg-secondary absolute bottom-0"></div>
+            <div
+              className="w-full h-1 bg-secondary absolute bottom-0"
+              hidden={router.pathname != "/"}
+            ></div>
           </Link>
           <Link
-            href="/Service"
-            className={`${
-              router.pathname == "/Service" ? "text-secondary" : ""
-            } font-semibold hover:text-secondary cursor-default`}
+            href="/service"
+            className={`font-semibold ${
+              router.pathname == "/service" ? "text-secondary" : ""
+            } hover:text-secondary  h-full flex items-center relative`}
           >
             Үйлчилгээ
+            <div
+              href="/rank"
+              className={`font-semibold ${
+                router.pathname == "/rank" ? "text-secondary" : ""
+              } hover:text-secondary  h-full flex items-center relative`}
+            ></div>
+            <div
+              className="w-full h-1 bg-secondary absolute bottom-0"
+              hidden={router.pathname != "/service"}
+            ></div>
           </Link>
-          <div className=" font-semibold hover:text-secondary cursor-default">
+          <Link
+            href="/rank"
+            className={`font-semibold ${
+              router.pathname == "/rank" ? "text-secondary" : ""
+            } hover:text-secondary  h-full flex items-center relative`}
+          >
             Чансаа
-          </div>
-          <div className=" font-semibold hover:text-secondary cursor-default">
+            <div
+              className="w-full h-1 bg-secondary absolute bottom-0"
+              hidden={router.pathname != "/rank"}
+            ></div>
+          </Link>
+          <Link
+            href="oportunity"
+            className={`font-semibold ${
+              router.pathname == "/oportunity" ? "text-secondary" : ""
+            } hover:text-secondary  h-full flex items-center relative`}
+          >
             Боломжууд
-          </div>
+            <div
+              className="w-full h-1 bg-secondary absolute bottom-0"
+              hidden={router.pathname != "/oportunity"}
+            ></div>
+          </Link>
         </div>
       </div>
       <div className="hidden lg:flex gap-4 items-center">
