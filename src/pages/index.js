@@ -16,8 +16,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/next.svg" />
       </Head>
-      <Layout>
-        <Search />
+
+      <Layout sticky={<Search />}>
         <div className="flex flex-row-reverse gap-4 w-full">
           <RecommendFarm />
           <div className="w-[calc(100%-22rem)] ">

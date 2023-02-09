@@ -2,7 +2,7 @@ import React from "react";
 export default function Pay() {
   return (
     <>
-      <div className="w-full h-[32rem] bg-white rounded-3xl drop-shadow-2xl mt-28">
+      <div className="w-full h-[32rem] bg-white rounded-3xl drop-shadow-2xl mt-28 mb-20">
         <div className="flex justify-center pt-10 font-bold text-2xl font-[Ubuntu]">
           <div>Үйлчилгээний төлбөр</div>
         </div>

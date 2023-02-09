@@ -2,11 +2,12 @@ import React from "react";
 import Footer from "./footer";
 import Header from "./header";
 
-export default function Layout({ children }) {
+export default function Layout({ children, sticky }) {
   return (
     <>
       <Header />
-      <div className="w-full h-full bg-white1 px-32">{children}</div>
+      {sticky}
+      <div className="w-full h-full bg-white1 px-52">{children}</div>
       <Footer />
     </>
   );

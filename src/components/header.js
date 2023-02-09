@@ -7,7 +7,7 @@ export default function Header() {
   const router = useRouter();
 
   return (
-    <div className="w-full h-24 bg-primary flex justify-between items-center text-white px-8 lg:px-32 sticky top-0 z-10 ">
+    <div className="w-full h-20 bg-primary flex justify-between items-center text-white px-8 lg:px-32 sticky top-0 z-10 ">
       <div className="flex h-full">
         <div className="flex justify-center items-center">
           <Image
