@@ -10,7 +10,7 @@ export default function TopFarm() {
       <div className="w-20 h-0.5 bg-secondary mt-2"></div>
       <div className="flex gap-6">
         <div className=" w-[21rem] h-24 rounded-md border border-gray bg-[#fff] flex items-center py-4 mt-5 gap-3">
-          <div className=" bg-secondary w-16 h-16 ml-3 rounded-md pr-16 "></div>
+          <img className="w-[4.3rem] h-16 pl-1 rounded-xl" src="/court.jpg" />
           <div>
             <div className=" text-sm font-bold text-primary">
               Chaing Anders PLLC
@@ -22,7 +22,7 @@ export default function TopFarm() {
           </div>
         </div>
         <div className=" w-[21rem] h-24 rounded-md border border-gray bg-[#fff] flex items-center py-4 mt-5 gap-3">
-          <div className=" bg-primary w-16 h-16 ml-3 rounded-md pr-16 "></div>
+          <img className="w-[4.3rem] h-16 pl-1 rounded-xl" src="/court.jpg" />
           <div>
             <div className=" text-sm font-bold text-primary">
               Chaing Anders PLLC
@@ -34,7 +34,7 @@ export default function TopFarm() {
           </div>
         </div>
         <div className=" w-[21rem] h-24 rounded-md border border-gray bg-[#fff] flex items-center py-4 mt-5 gap-3">
-          <div className=" bg-secondary w-16 h-16 ml-3 rounded-md pr-16 "></div>
+          <img className="w-[4.3rem] h-16 pl-1 rounded-xl" src="/court.jpg" />
           <div>
             <div className=" text-sm font-bold text-primary">
               Chaing Anders PLLC
@@ -46,7 +46,7 @@ export default function TopFarm() {
           </div>
         </div>
         <div className=" w-[21rem] h-24 rounded-md border border-gray bg-[#fff] flex items-center py-4 mt-5 gap-3">
-          <div className=" bg-primary w-16 h-16 ml-3 rounded-md pr-16 "></div>
+          <img className="w-[4.3rem] h-16 pl-1 rounded-xl" src="/court.jpg" />
           <div>
             <div className=" text-sm font-bold text-primary">
               Chaing Anders PLLC

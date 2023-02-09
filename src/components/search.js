@@ -19,20 +19,20 @@ export default function Search() {
             className=" w-[25.625rem] h-[3.2rem]  bg-white1 placeholder:pl-1 pl-4 outline-none"
             placeholder="Нэрээр хайх"
           ></input>
-          <select className="bg-white1 h-10 border-l-[0.1rem] w-64 ">
+          <select className="bg-white1 h-10 border-l-[0.1rem] w-64 outline-none ">
             <option>Байршил</option>
             <option>Улаанбаатар</option>
             <option>Сүхбаатар аймаг</option>
           </select>
-          <select className="bg-white1 h-10 border-l-[0.1rem] w-72 ">
+          <select className="bg-white1 h-10 border-l-[0.1rem] w-72 outline-none ">
             <option>Мэргэшсэн салбар</option>
-            <option>Улаанбаатар</option>
-            <option>Сүхбаатар аймаг</option>
+            <option>Өмгөөлөгч</option>
+            <option>Шүүгч</option>
           </select>
-          <select className="bg-white1 h-10 border-l-[0.1rem] w-64 ">
+          <select className="bg-white1 h-10 border-l-[0.1rem] w-64 outline-none ">
             <option>Төрөл</option>
-            <option>Улаанбаатар</option>
-            <option>Сүхбаатар аймаг</option>
+            <option>Эрүү</option>
+            <option>Залилан</option>
           </select>
           <button className=" w-[12.8rem] bg-secondary rounded-lg p-4 px-[4.8  rem] text-white">
             Хайх

@@ -2,7 +2,7 @@ import React from "react";
 export default function Pay() {
   return (
     <>
-      <div className="w-full h-[32rem] bg-white drop-shadow-2xl mt-28">
+      <div className="w-full h-[32rem] bg-white rounded-3xl drop-shadow-2xl mt-28">
         <div className="flex justify-center pt-10 font-bold text-2xl font-[Ubuntu]">
           <div>Үйлчилгээний төлбөр</div>
         </div>
@@ -18,7 +18,7 @@ export default function Pay() {
                   </div>
                   <div className="w-full h-0.5 bg-black rounded-xl"></div>
                 </div>
-                <div className="w-20 h-10flex flex-col items-center">
+                <div className="w-20 h-10 flex flex-col items-center">
                   <div className="font-[Ubuntu] text-sm font-bold pb-2">
                     1 жил
                   </div>
@@ -70,7 +70,7 @@ export default function Pay() {
                   </div>
                   <div className="w-full h-0.5 bg-black rounded-xl"></div>
                 </div>
-                <div className="w-20 h-10flex flex-col items-center">
+                <div className="w-20 h-10 flex flex-col items-center">
                   <div className="font-[Ubuntu] text-sm font-bold pb-2">
                     1 жил
                   </div>
@@ -122,7 +122,7 @@ export default function Pay() {
                   </div>
                   <div className="w-full h-0.5 bg-black rounded-xl"></div>
                 </div>
-                <div className="w-20 h-10flex flex-col items-center">
+                <div className="w-20 h-10 flex flex-col items-center">
                   <div className="font-[Ubuntu] text-sm font-bold pb-2">
                     1 жил
                   </div>
