@@ -4,6 +4,7 @@ import MainTable from "@/components/mainTable";
 import Search from "@/components/search";
 import TopFarm from "@/components/topFarm";
 import TopLawyer from "@/components/topLawyer";
+import UniqueFarm from "@/components/uniqueFarm";
 import Head from "next/head";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Layout>
         <Search />
+        <UniqueFarm />
         <TopFarm />
         <TopLawyer />
         <div className="h-[1px] bg-gray my-12"></div>
