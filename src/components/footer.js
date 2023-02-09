@@ -40,32 +40,37 @@ export default function Footer() {
         </div>
         <div className="flex gap-2 pt-5">
           <Image
-            src="/facebook.png"
+            src="/images/social/facebook.png"
             className=" w-5 h-5"
+            alt="facebook"
             width={100}
             height={80}
           />
           <Image
-            src="/instagram.png"
+            src="/images/social/instagram.png"
             className=" w-5 h-5"
+            alt="instagram"
             width={100}
             height={80}
           />
           <Image
-            src="/linkedin.png"
+            src="/images/social/linkedin.png"
             className=" w-5 h-5"
+            alt="linkedin"
             width={100}
             height={80}
           />
           <Image
-            src="/youtube.png"
+            src="/images/social/youtube.png"
             className=" w-5 h-5"
+            alt="youtube"
             width={100}
             height={80}
           />
           <Image
-            src="/twitter.png"
+            src="/images/social/twitter.png"
             className=" w-5 h-5"
+            alt="twitter"
             width={100}
             height={80}
           />
