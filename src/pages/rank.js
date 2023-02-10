@@ -17,9 +17,9 @@ export default function Home() {
       <Layout>
         <div className="w-full h-6 bg-white1"></div>
         <Tip />
-        <div className="w-full flex gap-8">
+        <div className="w-full flex gap-8 flex-col lg:flex-row">
           <Sort />
-          <div className="w-[calc(100%-20rem)]">
+          <div className="w-full lg:w-[calc(100%-20rem)] py-8">
             <TopFarm />
             <TopLawyer title="2024 оны шилдэг өмгөөлөгчид" />
             <TopLawyer title="2024 оны шилдэг шүүгчид" />
