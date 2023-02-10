@@ -1,8 +1,4 @@
-import Feature from "@/components/feature";
 import Layout from "@/components/layout";
-import Pay from "@/components/Pay";
-import Topic from "@/components/Topic";
-
 import Head from "next/head";
 
 export default function Home() {
