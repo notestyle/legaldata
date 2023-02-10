@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const categoryList = [
   {
@@ -64,6 +64,8 @@ const categoryList = [
 ];
 
 export default function Sort() {
+  const [active, setActive] = useState();
+
   return (
     <>
       <div className="lg:hidden mt-4">
@@ -88,7 +90,10 @@ export default function Sort() {
           {categoryList.map((row, i) => (
             <button
               key={i}
-              className="px-2 py-1 flex gap-2 bg-secondary rounded-full text-white h-8"
+              onClick={() => setActive(i)}
+              className={`${
+                i == active ? "bg-secondary" : "bg-primary"
+              } px-2 py-1 flex gap-2  rounded-full text-white h-8`}
             >
               {row.name} <span>{row.total}</span>
             </button>
@@ -134,10 +139,16 @@ export default function Sort() {
         <div className="w-72 py-4 flex flex-col gap-2 bg-white border border-gray rounded-md px-4">
           <div className="pt-3 font-bold mb-2">Төрөл</div>
           {categoryList.map((row, i) => (
-            <div key={i} className="w-full flex justify-between">
+            <button
+              key={i}
+              onClick={() => setActive(i)}
+              className={`${
+                active == i ? "text-secondary" : ""
+              } w-full flex justify-between`}
+            >
               <div>{row.name}</div>
               <div>{row.total}</div>
-            </div>
+            </button>
           ))}
         </div>
       </div>
