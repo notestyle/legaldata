@@ -5,7 +5,7 @@ import TopFarm from "@/components/topFarm";
 import TopLawyer from "@/components/topLawyer";
 import Head from "next/head";
 
-export default function Home() {
+export default function Rank() {
   return (
     <>
       <Head>
