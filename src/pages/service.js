@@ -18,6 +18,7 @@ export default function Home() {
         <Topic />
         <Feature />
         <Pay />
+        <div className="w-full h-6 bg-white1"></div>
       </Layout>
     </>
   );

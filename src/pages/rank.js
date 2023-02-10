@@ -1,4 +1,7 @@
 import Layout from "@/components/layout";
+import Sort from "@/components/sort";
+import Tip from "@/components/tip";
+import TopFarm from "@/components/topFarm";
 import Head from "next/head";
 
 export default function Home() {
@@ -10,7 +13,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/next.svg" />
       </Head>
-      <Layout>Чансаа</Layout>
+      <Layout>
+        <div className="w-full h-6 bg-white1"></div>
+        <Tip />
+        <Sort />
+        <TopFarm />
+      </Layout>
     </>
   );
 }
