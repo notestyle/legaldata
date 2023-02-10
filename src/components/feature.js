@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Feature() {
   return (
     <>
-      <div className="flex justify-between mt-20">
-        <div className="w-96 h-56 text-center bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg relative">
+      <div className="flex justify-center md:justify-between gap-10 mt-20 flex-col md:flex-row w-full">
+        <div className="w-full lg:w-96 h-full pt-20 lg:h-56 text-center bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg relative">
           <div className="absolute w-32 h-32 rounded-full shadow-md bg-white flex items-center justify-center transform left-1/2  -translate-x-1/2 -top-1/3">
             <Image
               className=""
@@ -21,8 +21,8 @@ export default function Feature() {
             фирмийн үнэлгээний эрэмбийг жил бүр гаргана.
           </div>
         </div>
-        <div className="w-96 h-56 text-center bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg  ">
-          <div className="absolute w-36 h-36 shadow-md rounded-full bg-white flex items-center justify-center transform left-1/2  -translate-x-1/2 -translate-y-3/4">
+        <div className="w-full lg:w-96 h-full pt-20 lg:h-56 text-center relative bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg  ">
+          <div className="absolute w-36 h-36 shadow-md rounded-full bg-white flex items-center justify-center left-1/2 -translate-x-1/2 -top-20">
             <Image
               src="/images/icons/feature2.svg"
               alt="feature"
@@ -37,7 +37,7 @@ export default function Feature() {
             үйлчлүүлэгч, харилцагчтай холбоход тусална.
           </div>
         </div>
-        <div className="w-96 h-56 text-center bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg  ">
+        <div className="w-full lg:w-96 h-full pt-20 lg:h-56 text-center bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg  ">
           <div className="absolute w-32 h-32 shadow-md rounded-full bg-white flex items-center justify-center transform left-1/2  -translate-x-1/2 -top-1/3">
             <Image
               src="/images/icons/feature3.svg"

@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="w-full h-72 bg-primary flex flex-col px-32">
+    <div className="w-full lg:h-72 bg-primary flex flex-col overflow-x-auto px-10 md:px-20 lg:px-52">
       <div className="w-full flex justify-between py-8">
-        <div className="flex">
+        <div className="flex lg:gap-0 gap-8">
           <div className="pt-5 text-white text-xs ">
             <div className=" opacity-30 pb-5">Цэсүүд</div>
             <div className="grid grid-col-4 gap-2">
@@ -15,7 +15,7 @@ export default function Footer() {
               <div>Боломжууд</div>
             </div>
           </div>
-          <div className="text-white ml-40 pt-5 text-xs w-48 h-20">
+          <div className="text-white lg:ml-40 pt-5 text-xs w-48 h-20">
             <div className=" opacity-30 pb-5">Хаяг</div>
             <div>
               Монгол Улс, Улаанбаатар хот, Сүхбаатар дүүрэг, 8-хороо Амарын
@@ -26,19 +26,20 @@ export default function Footer() {
         <div className="h-full flex items-end">
           <Image
             src="/Logo.png"
-            className="w-28 h-14"
+            className="w-28 h-14 hidden md:block"
+            alt="Logo"
             width={100}
             height={100}
           />
         </div>
       </div>
       <div className="h-1 w-full bg-[#525984]"></div>
-      <div className="w-full flex justify-between">
+      <div className="w-full flex justify-between lg:flex-row flex-col">
         <div className="mt-5 text-white flex">
           ©2023. Бүх эрх хуулиар хамгаалагдсан.
-          <div className="text-secondary pl-2"> Legal Data </div>
+          <div className="text-secondary ml-2"> Legal Data </div>
         </div>
-        <div className="flex gap-2 pt-5">
+        <div className="flex gap-2 py-5">
           <Image
             src="/images/social/facebook.png"
             className=" w-5 h-5"

@@ -11,7 +11,7 @@ export default function ProfileCard({
 }) {
   return (
     <div
-      className={`rounded-lg border border-gray bg-[#fff] flex flex-col items-center py-4 ${className}`}
+      className={`rounded-lg border border-gray bg-[#fff] flex flex-col items-center py-4 min-w-fit ${className}`}
     >
       <div className="relative w-16 h-16">
         <Image
@@ -21,7 +21,7 @@ export default function ProfileCard({
           className="object-cover object-top rounded-full"
         />
       </div>
-      <div className="flex gap-2 font-bold">
+      <div className="flex gap-2 font-bold text-base my-2">
         {firstname}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -36,9 +36,9 @@ export default function ProfileCard({
           />
         </svg>
       </div>
-      <div>{lastname}</div>
-      <div>{title}</div>
-      <div>{company}</div>
+      <div className="text-sm">{lastname}</div>
+      <div className="my-6 text-xs">{title}</div>
+      <div className="w-60 italic text-xs">{company}</div>
     </div>
   );
 }
