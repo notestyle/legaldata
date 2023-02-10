@@ -7,7 +7,9 @@ export default function Layout({ children, sticky }) {
     <>
       <Header />
       {sticky}
-      <div className="w-full h-full bg-white1 px-52">{children}</div>
+      <div className="w-full h-full bg-white1 px-10 md:px-20 lg:px-52">
+        {children}
+      </div>
       <Footer />
     </>
   );

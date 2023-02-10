@@ -26,14 +26,14 @@ const farmLlist = [
 
 export default function RecommendFarm() {
   return (
-    <div className="w-[22rem] h-[38rem] border-[1pxssss] border-gray bg-white rounded-md my-4 sticky top-[11.3rem] ">
-      <div className="pt-3 pl-2">
+    <div className="w-full lg:w-[22rem] py-4 border-[1pxssss] border-gray bg-white rounded-md my-4 lg:sticky lg:top-[11.3rem] ">
+      <div className=" pl-2">
         <div className="font-[Ubuntu] font-extrabold text-xl pl-5 ">
           Онцлох хуулийн фирм
         </div>
         <div className="bg-secondary w-20 h-0.5 mt-1 mx-5"></div>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="grid grid-cols-2 px-8 lg:px-0 lg:flex lg:flex-col items-center">
         {farmLlist.map((row, i) => (
           <div
             key={i}
