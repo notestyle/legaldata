@@ -1,7 +1,7 @@
 import Feature from "@/components/feature";
 import Layout from "@/components/layout";
 import Pay from "@/components/pay";
-import Topic from "@/components/Topic";
+import Topic from "@/components/topic";
 
 import Head from "next/head";
 
