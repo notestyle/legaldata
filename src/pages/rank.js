@@ -2,6 +2,7 @@ import Layout from "@/components/layout";
 import Sort from "@/components/sort";
 import Tip from "@/components/tip";
 import TopFarm from "@/components/topFarm";
+import TopLawyer from "@/components/topLawyer";
 import Head from "next/head";
 
 export default function Home() {
@@ -16,8 +17,14 @@ export default function Home() {
       <Layout>
         <div className="w-full h-6 bg-white1"></div>
         <Tip />
-        <Sort />
-        <TopFarm />
+        <div className="w-full flex gap-8">
+          <Sort />
+          <div className="w-[calc(100%-20rem)]">
+            <TopFarm />
+            <TopLawyer title="2024 оны шилдэг өмгөөлөгчид" />
+            <TopLawyer title="2024 оны шилдэг шүүгчид" />
+          </div>
+        </div>
       </Layout>
     </>
   );

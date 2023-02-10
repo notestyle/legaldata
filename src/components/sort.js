@@ -3,7 +3,7 @@ import React from "react";
 export default function Sort() {
   return (
     <>
-      <div className="flex flex-col py-6 gap-3">
+      <div className="flex flex-col py-6 gap-3 w-80">
         <div className=" flex flex-col justify-center w-72 h-24 bg-white border border-gray gap-1 rounded-md">
           <div className="font-[Ubuntu] font-bold pl-6">Байршил</div>
           <div className="flex justify-center">

@@ -22,7 +22,7 @@ export default function Home() {
           <RecommendFarm />
           <div className="w-[calc(100%-22rem)] ">
             <TopFarm />
-            <TopLawyer />
+            <TopLawyer title="2024 оны шилдэг өмгөөлөгчид" />
             <div className="h-[1px] bg-gray my-12"></div>
             <MainTable showCategory />
             <Ad />
