@@ -16,8 +16,12 @@ export default function Home() {
       <Layout>
         <div className="w-full h-6 bg-white1"></div>
         <Tip />
-        <Sort />
-        <TopFarm />
+        <div className="flex flex-row gap-4 w-full">
+          <Sort />
+          <div className="w-[calc(100%-22rem)]">
+            <TopFarm />
+          </div>
+        </div>
       </Layout>
     </>
   );

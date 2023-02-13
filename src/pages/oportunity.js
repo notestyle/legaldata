@@ -1,6 +1,7 @@
 import Feature from "@/components/feature";
 import Layout from "@/components/layout";
 import Pay from "@/components/Pay";
+import RecommendFarm from "@/components/recommendFarm";
 import Topic from "@/components/Topic";
 
 import Head from "next/head";
@@ -14,7 +15,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/next.svg" />
       </Head>
-      <Layout>Боломжууд</Layout>
+      <Layout>
+        <RecommendFarm />
+      </Layout>
     </>
   );
 }

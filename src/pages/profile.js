@@ -1,11 +1,10 @@
-import Feature from "@/components/feature";
+import Detail from "@/components/detail";
 import Layout from "@/components/layout";
-import Pay from "@/components/Pay";
-import Topic from "@/components/Topic";
+import Search from "@/components/search";
 
 import Head from "next/head";
 
-export default function service() {
+export default function Profile() {
   return (
     <>
       <Head>
@@ -15,10 +14,7 @@ export default function service() {
         <link rel="icon" href="/next.svg" />
       </Head>
       <Layout>
-        <Topic />
-        <Feature />
-        <Pay />
-        <div className="w-full h-6 bg-white1"></div>
+        <Detail />
       </Layout>
     </>
   );
