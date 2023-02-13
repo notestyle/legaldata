@@ -161,7 +161,7 @@ export default function MainTable({ showCategory }) {
         <></>
       )}
       <div className="h-[1px] bg-gray my-12"></div>
-      <div className="w-full grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-4 overflow-x-auto">
+      <div className="w-full grid grid-col-1 md:grid-cols-2 md:gap-3 lg:grid-cols-4 gap-5 px-4 overflow-x-auto">
         {lawyerList.map((row, i) => (
           <ProfileCard
             key={i}

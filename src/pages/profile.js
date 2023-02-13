@@ -1,3 +1,4 @@
+import Desc from "@/components/desc";
 import Detail from "@/components/detail";
 import Layout from "@/components/layout";
 import Search from "@/components/search";
@@ -14,7 +15,10 @@ export default function Profile() {
         <link rel="icon" href="/next.svg" />
       </Head>
       <Layout>
-        <Detail />
+        <div className="flex gap-10">
+          <Detail />
+          <Desc />
+        </div>
       </Layout>
     </>
   );
