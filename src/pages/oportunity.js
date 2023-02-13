@@ -1,7 +1,5 @@
 import Layout from "@/components/layout";
-import Pay from "@/components/Pay";
-import Topic from "@/components/Topic";
-
+import RecommendFarm from "@/components/recommendFarm";
 import Head from "next/head";
 
 export default function Home() {
