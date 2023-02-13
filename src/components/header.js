@@ -11,8 +11,11 @@ export default function Header() {
       <div className="flex h-full">
         <div className="flex justify-center items-center">
           <Image
+            onClick={() => {
+              router.push("/");
+            }}
             src="/Logo.png"
-            className="w-28 h-14"
+            className="w-28 h-14 cursor-pointer"
             alt="logo"
             width={100}
             height={100}

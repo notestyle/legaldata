@@ -18,11 +18,11 @@ export default function Home() {
       </Head>
 
       <Layout sticky={<Search />}>
-        <div className="flex flex-row-reverse gap-4 w-full">
+        <div className="flex lg:flex-row-reverse flex-col gap-4 w-full">
           <RecommendFarm />
-          <div className="w-[calc(100%-22rem)] ">
+          <div className="w-full lg:w-[calc(100%-22rem)] pt-4">
             <TopFarm />
-            <TopLawyer />
+            <TopLawyer title="2024 оны шилдэг өмгөөлөгчид" />
             <div className="h-[1px] bg-gray my-12"></div>
             <MainTable showCategory />
             <Ad />

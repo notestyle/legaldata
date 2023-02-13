@@ -118,10 +118,10 @@ export default function MainTable({ showCategory }) {
     <div className="bg-white border border-gray rounded-md my-8">
       {showCategory ? (
         <>
-          <div className="flex w-full justify-around my-4">
+          <div className="flex w-full justify-around my-4 overflow-x-auto gap-4 px-8">
             {categorySummary.slice(0, 5).map((row, i) => (
               <button key={i}>
-                <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
+                <div className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                   <Image
                     src={row.image}
                     className=" w-14 h-14"
@@ -137,10 +137,10 @@ export default function MainTable({ showCategory }) {
               </button>
             ))}
           </div>
-          <div className="flex w-full justify-around my-4">
+          <div className="flex w-full justify-around my-4 overflow-x-auto gap-4 px-8">
             {categorySummary.slice(5, 11).map((row, i) => (
               <button key={i}>
-                <div className="w-24 h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
+                <div className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                   <Image
                     src={row.image}
                     className=" w-14 h-14"
@@ -161,7 +161,7 @@ export default function MainTable({ showCategory }) {
         <></>
       )}
       <div className="h-[1px] bg-gray my-12"></div>
-      <div className="w-full grid grid-cols-5 gap-5 px-4">
+      <div className="w-full grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-4 overflow-x-auto">
         {lawyerList.map((row, i) => (
           <ProfileCard
             key={i}

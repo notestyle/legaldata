@@ -5,7 +5,7 @@ import Topic from "@/components/Topic";
 
 import Head from "next/head";
 
-export default function service() {
+export default function Home() {
   return (
     <>
       <Head>

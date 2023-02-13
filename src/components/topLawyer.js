@@ -39,12 +39,12 @@ const lawyerList = [
   },
 ];
 
-export default function MainTable({ showCategory }) {
+export default function TopLawyer({ title }) {
   return (
-    <div>
-      <div className="text-xl font-bold mt-9">2024 оны шилдэг өмгөөлөгчид</div>
+    <div className="w-full overflow-x-scroll ">
+      <div className="text-xl font-bold mt-9">{title}</div>
       <div className="w-20 h-0.5 bg-secondary mt-2"></div>
-      <div className="w-full grid grid-cols-5 gap-5">
+      <div className="w-full overflow-x-auto mt-5 flex gap-5 ">
         {lawyerList.map((row, i) => (
           <ProfileCard
             key={i}
