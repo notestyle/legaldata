@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Detail() {
   return (
-    <div className="w-[28rem] mt-8">
+    <div className="w-full lg:w-[28rem] my-8 sticky top-28 self-start ">
       <div>
         <div>
           <Image

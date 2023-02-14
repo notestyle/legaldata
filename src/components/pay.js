@@ -164,7 +164,7 @@ export default function Pay() {
           <div className="w-[47rem] h-20 text-center font-[Ubuntu] font-bold">
             Тайлбар: Та дээрх үйлчилгээний төлбөрийг төлснөөр Таны профайл манай
             хайлтын системд орж, хэрэлэгчдэд харагдах болно. Манай үйлчилгээ нь
-            шүүгч, прокуроруудад төлбөргүй байна. Эрхэмзаяа muu llrin al
+            шүүгч, прокуроруудад төлбөргүй байна.
           </div>
         </div>
         <div className="w-full flex justify-center pt-12">

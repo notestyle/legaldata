@@ -15,7 +15,7 @@ export default function Profile() {
         <link rel="icon" href="/next.svg" />
       </Head>
       <Layout>
-        <div className="flex gap-10">
+        <div className="flex gap-10 h-full w-full ">
           <Detail />
           <Desc />
         </div>
