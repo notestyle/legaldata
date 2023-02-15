@@ -115,10 +115,10 @@ const categorySummary = [
 
 export default function MainTable({ showCategory }) {
   return (
-    <div className="bg-white border border-gray rounded-md my-8">
+    <div className="bg-white border border-gray rounded-md my-8 py-4">
       {showCategory ? (
         <>
-          <div className="flex w-full justify-around my-4 overflow-x-auto gap-4 px-8">
+          <div className="flex w-full justify-around overflow-x-auto gap-4 px-8">
             {categorySummary.slice(0, 5).map((row, i) => (
               <button key={i}>
                 <div className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
@@ -156,11 +156,12 @@ export default function MainTable({ showCategory }) {
               </button>
             ))}
           </div>
+          <div className="h-[1px] bg-gray my-12"></div>
         </>
       ) : (
         <></>
       )}
-      <div className="h-[1px] bg-gray my-12"></div>
+
       <div className="w-full grid grid-col-1 md:grid-cols-2 md:gap-3 lg:grid-cols-4 gap-5 px-4 overflow-x-auto">
         {lawyerList.map((row, i) => (
           <ProfileCard

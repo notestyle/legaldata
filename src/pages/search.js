@@ -9,13 +9,13 @@ import {
   categoryList,
 } from "@/dummy/constant";
 export default function Search() {
-  const [sortList, setSortList] = useState([]);
+  const [sortList, setSortList] = useState(["Улаанбаатар", "Эрүү", "Шүүгч"]);
 
   function onChangeSort() {}
 
   return (
     <Layout>
-      <div className="flex">
+      <div className="flex gap-8">
         <Sort
           onChange={onChangeSort}
           ratingList={ratingList}
@@ -24,15 +24,19 @@ export default function Search() {
           categoryList={categoryList}
         />
         <div className="w-full">
-          <div className="w-full flex justify-between">
-            <input type="search" placeholder="Хайх..." />
+          <div className="w-full flex justify-between mt-8">
+            <input
+              type="text"
+              placeholder="Хайх..."
+              className=" bg-transparent text-xl outline-none w-full"
+            />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={2.5}
               stroke="currentColor"
-              className="w-6 h-6 text-secondary"
+              className="w-6 h-6 text-secondary cursor-pointer"
             >
               <path
                 strokeLinecap="round"
@@ -41,7 +45,7 @@ export default function Search() {
               />
             </svg>
           </div>
-          <div className="w-full flex">
+          <div className="w-full flex gap-2 mt-4">
             {sortList.map((row, i) => (
               <div
                 key={i}
