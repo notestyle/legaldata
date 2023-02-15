@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import TopLawyer from "./topLawyer";
 
 export default function Desc() {
   return (
