@@ -9,6 +9,7 @@ module.exports = {
         white: "#FFFFFF",
         white1: "#F5F7FA",
         gray: "#D9D9D9",
+        star: "#FFAA05",
       },
     },
   },

@@ -4,6 +4,12 @@ import Tip from "@/components/tip";
 import TopFarm from "@/components/topFarm";
 import TopLawyer from "@/components/topLawyer";
 import Head from "next/head";
+import {
+  categoryList,
+  locationList,
+  sectorList,
+  yearList,
+} from "@/dummy/constant";
 
 export default function Rank() {
   return (
@@ -18,7 +24,12 @@ export default function Rank() {
         <div className="w-full h-6 bg-white1"></div>
         <Tip />
         <div className="w-full flex gap-8 flex-col lg:flex-row">
-          <Sort />
+          <Sort
+            categoryList={categoryList}
+            locationList={locationList}
+            sectorList={sectorList}
+            yearList={yearList}
+          />
           <div className="w-full lg:w-[calc(100%-20rem)] py-8">
             <TopFarm />
             <TopLawyer title="2024 оны шилдэг өмгөөлөгчид" />
