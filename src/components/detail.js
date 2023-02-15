@@ -7,7 +7,7 @@ export default function Detail() {
       <div>
         <div>
           <Image
-            src="/images/social/farm-profile.svg"
+            src="/images/social/farm-cover.jpg"
             className=" w-full"
             alt="facebook"
             width={100}
