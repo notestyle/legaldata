@@ -1,8 +1,6 @@
 import Desc from "@/components/desc";
 import Detail from "@/components/detail";
 import Layout from "@/components/layout";
-import Search from "@/components/search";
-
 import Head from "next/head";
 
 export default function Profile() {

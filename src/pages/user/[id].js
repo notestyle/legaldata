@@ -1,7 +1,8 @@
 import Layout from "@/components/layout";
-import Detail from "@/components/detail";
-import Userdetail from "@/components/user-detail";
+import Userdetail from "@/components/userDetail";
 import Head from "next/head";
+import Userdesc from "@/components/userDesc";
+
 export default function UserPofile() {
   return (
     <>
@@ -12,7 +13,10 @@ export default function UserPofile() {
         <link rel="icon" href="/next.svg" />
       </Head>
       <Layout>
-        <Userdetail />
+        <div className="flex gap-10 h-full w-full ">
+          <Userdetail />
+          <Userdesc />
+        </div>
       </Layout>
     </>
   );

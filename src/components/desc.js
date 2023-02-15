@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Desc() {
   return (
-    <div className=" w-[47rem] border-2 border-gray rounded-2xl bg-white my-8 py-4 px-8">
+    <div className=" w-[55rem] border-2 border-gray rounded-2xl bg-white my-8 py-4 px-8">
       <div className=" ">
         <div className="font-bold font-[Ubuntu]">Товч танилцуулга</div>
         <div className="w-14 h-0.5 bg-secondary mt-1"></div>

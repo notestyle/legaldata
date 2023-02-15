@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 export default function ProfileCard({
   firstname,
@@ -9,9 +10,12 @@ export default function ProfileCard({
   img,
   className,
 }) {
+  const router = useRouter();
+
   return (
     <div
-      className={`rounded-lg border border-gray bg-[#fff] flex flex-col items-center py-4 min-w-fit ${className}`}
+      onClick={() => router.push("/user/123")}
+      className={`cursor-pointer rounded-lg border border-gray bg-[#fff] flex flex-col items-center py-4 min-w-fit ${className}`}
     >
       <div className="relative w-16 h-16">
         <Image

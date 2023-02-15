@@ -1,8 +1,9 @@
 import Layout from "@/components/layout";
+import OportunityDetail from "@/components/oportunityDetail";
 import RecommendFarm from "@/components/recommendFarm";
 import Head from "next/head";
 
-export default function Home() {
+export default function Oportunity() {
   return (
     <>
       <Head>
@@ -12,7 +13,10 @@ export default function Home() {
         <link rel="icon" href="/next.svg" />
       </Head>
       <Layout>
-        <RecommendFarm />
+        <div className="flex lg:flex-row-reverse flex-col gap-4 w-full">
+          <RecommendFarm />
+          <OportunityDetail />
+        </div>
       </Layout>
     </>
   );
