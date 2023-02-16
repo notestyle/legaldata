@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Star from "./stars";
 
-export default function Sign() {
+export default function RateMe() {
   return (
     <>
       <div className="w-full h-screen flex items-center justify-center">
@@ -25,45 +26,7 @@ export default function Sign() {
               height={100}
             />
           </div>
-          <div>
-            <div className="flex gap-2 pt-2">
-              <Image
-                src="/images/icons/star.svg"
-                className=" w-5 h-5"
-                alt="youtube"
-                width={100}
-                height={80}
-              />
-              <Image
-                src="/images/icons/star.svg"
-                className=" w-5 h-5"
-                alt="youtube"
-                width={100}
-                height={80}
-              />
-              <Image
-                src="/images/icons/star.svg"
-                className=" w-5 h-5"
-                alt="youtube"
-                width={100}
-                height={80}
-              />
-              <Image
-                src="/images/icons/star.svg"
-                className=" w-5 h-5"
-                alt="youtube"
-                width={100}
-                height={80}
-              />
-              <Image
-                src="/images/icons/star.svg"
-                className=" w-5 h-5"
-                alt="youtube"
-                width={100}
-                height={80}
-              />
-            </div>
-          </div>
+          <Star />
           <div className="flex gap-3 pt-6 w-full">
             <input
               type="text"
