@@ -57,11 +57,14 @@ export default function RateMe() {
             дэлгэрэнгүй мэдээлэл болон хувийн мэдээллээ дэлгэж болохгүй.
           </div>
           <div>
-            <input
-              type="text"
-              className=" w-[28rem] h-12 rounded  bg-[#EDEDED] placeholder: pl-2 text-sm outline-none"
-              placeholder="Сэтгэгдэл*"
-            ></input>
+            <textarea
+              className="w-full h-16"
+              id="Сэтгэгдэл"
+              name="."
+              rows="4"
+              cols="50"
+              placeholder="Сэтгэгдэл"
+            ></textarea>
           </div>
           <div className=" flex pt-3 gap-3">
             <input type="checkbox" checked></input>

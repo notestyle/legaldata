@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Star() {
   return (
-    <div>
+    <div className="flex gap-2">
       <Image
         src="/images/icons/star.svg"
         className=" w-5 h-5"
