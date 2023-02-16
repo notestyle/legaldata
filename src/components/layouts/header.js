@@ -79,15 +79,20 @@ export default function Header() {
         </div>
       </div>
       <div className="hidden lg:flex gap-4 items-center">
-        <div>
+        <div></div>
+        <button
+          className="flex items-center gap-4 font-semibold"
+          onClick={() => router.push("/register")}
+        >
           <Image
             src="/images/icons/header.svg"
+            alt="header"
             className="w-4 h-4"
             width={100}
             height={100}
           />
-        </div>
-        <button className=" font-semibold">Бүртгүүлэх</button>
+          Бүртгүүлэх
+        </button>
         <button className=" font-semibold  h-8 flex justify-between items-center overflow-hidden">
           <div className="bg-white w-8 h-full rounded-l-md flex justify-center items-center">
             <svg

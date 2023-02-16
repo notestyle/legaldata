@@ -4,6 +4,7 @@ import RateMe from "@/components/modules/rateMe";
 import Head from "next/head";
 import { useState } from "react";
 import Image from "next/image";
+import Star from "@/components/inputs/stars";
 
 export default function Profile() {
   const [showRate, setShowRate] = useState(false);
@@ -122,43 +123,9 @@ export default function Profile() {
               </div>
             </div>
             <div className="flex">
-              <div className="flex gap-3">
+              <div className="flex gap-3 items-center">
                 <div className="font-bold font-[Ubuntu]">3.5</div>
-                <Image
-                  src="/images/icons/star.svg"
-                  className=" w-5 h-5"
-                  alt="youtube"
-                  width={100}
-                  height={80}
-                />
-                <Image
-                  src="/images/icons/star.svg"
-                  className=" w-5 h-5"
-                  alt="youtube"
-                  width={100}
-                  height={80}
-                />
-                <Image
-                  src="/images/icons/star.svg"
-                  className=" w-5 h-5"
-                  alt="youtube"
-                  width={100}
-                  height={80}
-                />
-                <Image
-                  src="/images/icons/star.svg"
-                  className=" w-5 h-5"
-                  alt="youtube"
-                  width={100}
-                  height={80}
-                />
-                <Image
-                  src="/images/icons/star.svg"
-                  className=" w-5 h-5"
-                  alt="youtube"
-                  width={100}
-                  height={80}
-                />
+                <Star value={3.5} />
               </div>
               <div className="pl-6">
                 <button
