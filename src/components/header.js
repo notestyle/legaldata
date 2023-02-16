@@ -65,7 +65,7 @@ export default function Header() {
             ></div>
           </Link>
           <Link
-            href="oportunity"
+            href="/oportunity"
             className={`font-semibold ${
               router.pathname == "/oportunity" ? "text-secondary" : ""
             } hover:text-secondary  h-full flex items-center relative`}

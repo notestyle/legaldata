@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Userdetail() {
   return (
     <div>
-      <div className="w-[28rem] sticky top-28 mb-8 self-start">
+      <div className="w-[28rem] sticky top-28 self-start">
         <div>
           <Image
             src="/images/social/user-cover.svg"
