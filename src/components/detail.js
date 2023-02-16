@@ -1,7 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Detail() {
+  const router = useRouter();
   return (
     <div className="w-full lg:w-[28rem] my-8 sticky top-28 self-start ">
       <div>
@@ -145,9 +148,26 @@ export default function Detail() {
           />
         </div>
         <div className="pl-6">
-          <button className="w-60 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md hover:drop-shadow-xl">
-            Үнэлгээ өгөх
-          </button>
+          <Link
+            href="/rate"
+            className={`font-semibold ${
+              router.pathname == "/rate" ? "text-secondary" : ""
+            } hover:text-secondary  h-full flex items-center relative`}
+          >
+            <button className="w-60 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md hover:drop-shadow-xl">
+              Үнэлгээ өгөх
+            </button>
+            <div
+              href="/rank"
+              className={`font-semibold ${
+                router.pathname == "/rate" ? "text-secondary" : ""
+              } hover:text-secondary  h-full flex items-center relative`}
+            ></div>
+            <div
+              className="w-full h-1 bg-secondary absolute bottom-0"
+              hidden={router.pathname != "/rate"}
+            ></div>
+          </Link>
         </div>
       </div>
     </div>
