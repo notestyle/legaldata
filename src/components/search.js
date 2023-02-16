@@ -1,6 +1,9 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 export default function Search() {
+  const router = useRouter();
+
   return (
     <>
       <div className="w-full px-10 md:px-20 lg:px-52 h-28 flex justify-between items-center gap-10 bg-white1">
@@ -57,7 +60,12 @@ export default function Search() {
               </select>
             </div>
 
-            <button className="h-full px-4 bg-secondary rounded-lg p-4 lg:px-[4.8rem] text-white">
+            <button
+              onClick={() => {
+                router.push("/search");
+              }}
+              className="h-full px-4 bg-secondary rounded-lg p-4 lg:px-[4.8rem] text-white"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
