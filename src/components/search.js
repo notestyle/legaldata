@@ -56,7 +56,6 @@ export default function Search() {
                 <option>Залилан</option>
               </select>
             </div>
-
             <button className="h-full px-4 bg-secondary rounded-lg p-4 lg:px-[4.8rem] text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
