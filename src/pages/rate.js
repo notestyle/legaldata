@@ -1,5 +1,5 @@
-import Layout from "@/components/layout";
-import RateMe from "@/components/rateMe";
+import Layout from "@/components/layouts/layout";
+import RateMe from "@/components/modules/rateMe";
 export default function SignIn() {
   return (
     <Layout>

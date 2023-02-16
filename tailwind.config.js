@@ -10,6 +10,8 @@ module.exports = {
         white1: "#F5F7FA",
         gray: "#D9D9D9",
         star: "#FFAA05",
+        "input-bg": "#F5F7FA",
+        "input-border": "#EDEDED",
       },
     },
   },

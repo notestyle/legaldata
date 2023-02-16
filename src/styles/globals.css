@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input {
+  @apply w-full rounded  bg-input-bg px-3 py-1 outline-none border border-input-border;
+}
+
+.checkbox {
+  @apply accent-secondary text-white cursor-pointer;
+}

@@ -1,8 +1,8 @@
-import Layout from "@/components/layout";
-import Sort from "@/components/sort";
-import Tip from "@/components/tip";
-import TopFarm from "@/components/topFarm";
-import TopLawyer from "@/components/topLawyer";
+import Layout from "@/components/layouts/layout";
+import Sort from "@/components/inputs/sort";
+import Tip from "@/components/modules/tip";
+import TopFarm from "@/components/modules/topFarm";
+import TopLawyer from "@/components/modules/topLawyer";
 import Head from "next/head";
 import {
   categoryList,

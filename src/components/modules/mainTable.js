@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileCard from "./profileCard.js";
-import Tabs from "./tabs.js";
+import Tabs from "../inputs/pagination.js";
 import Image from "next/image.js";
 
 const lawyerList = [

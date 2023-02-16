@@ -1,6 +1,6 @@
-import Layout from "@/components/layout";
-import OportunityDetail from "@/components/oportunityDetail";
-import RecommendFarm from "@/components/recommendFarm";
+import Layout from "@/components/layouts/layout";
+import OportunityDetail from "@/components/modules/oportunityDetail";
+import RecommendFarm from "@/components/modules/recommendFarm";
 import Head from "next/head";
 
 export default function Oportunity() {

@@ -1,6 +1,6 @@
-import Layout from "@/components/layout";
-import MainTable from "@/components/mainTable";
-import Sort from "@/components/sort";
+import Layout from "@/components/layouts/layout";
+import MainTable from "@/components/modules/mainTable";
+import Sort from "@/components/inputs/sort";
 import { useState } from "react";
 import {
   ratingList,

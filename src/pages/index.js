@@ -1,10 +1,10 @@
-import Ad from "@/components/ad";
-import Layout from "@/components/layout";
-import MainTable from "@/components/mainTable";
-import Search from "@/components/search";
-import TopFarm from "@/components/topFarm";
-import TopLawyer from "@/components/topLawyer";
-import RecommendFarm from "@/components/recommendFarm";
+import Ad from "@/components/modules/ad";
+import Layout from "@/components/layouts/layout";
+import MainTable from "@/components/modules/mainTable";
+import Search from "@/components/inputs/search";
+import TopFarm from "@/components/modules/topFarm";
+import TopLawyer from "@/components/modules/topLawyer";
+import RecommendFarm from "@/components/modules/recommendFarm";
 import Head from "next/head";
 
 export default function Home() {

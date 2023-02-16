@@ -146,10 +146,7 @@ export default function Sort({
             <div className="pt-3 font-bold mb-2">Үнэлгээ</div>
             {ratingList.map((row, i) => (
               <div key={i} className="flex gap-8">
-                <input
-                  type="checkbox"
-                  className=" accent-secondary text-white cursor-pointer"
-                />
+                <input type="checkbox" className="checkbox" />
                 <div className="flex gap-2">
                   {[...Array(5).keys()].map((rate) =>
                     rate + 1 <= row ? (
