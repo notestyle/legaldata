@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Star from "./stars";
 
 export default function RateMe() {
+  const [rating, setRating] = useState(3.5);
+
   return (
     <>
       <div className="w-full h-screen flex items-center justify-center">
@@ -26,7 +28,7 @@ export default function RateMe() {
               height={100}
             />
           </div>
-          <Star />
+          <Star value={rating} setValue={setRating} />
           <div className="flex gap-3 pt-6 w-full">
             <input
               type="text"
