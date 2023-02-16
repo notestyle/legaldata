@@ -57,7 +57,9 @@ export default function Search() {
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   className="w-6 h-6 cursor-pointer"
-                  onClick={() => {}}
+                  onClick={() => {
+                    setSortList([...sortList.filter((a) => a != row)]);
+                  }}
                 >
                   <path
                     fillRule="evenodd"
