@@ -118,27 +118,8 @@ export default function MainTable({ showCategory }) {
     <div className="bg-white border border-gray rounded-md my-8 py-4">
       {showCategory ? (
         <>
-          <div className="flex w-full justify-around overflow-x-auto gap-4 px-8">
-            {categorySummary.slice(0, 5).map((row, i) => (
-              <button key={i}>
-                <div className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
-                  <Image
-                    src={row.image}
-                    className=" w-14 h-14"
-                    alt={row.name}
-                    width={100}
-                    height={100}
-                  />
-                  <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
-                    {row.total}
-                  </div>
-                </div>
-                <div className="font-[Ubuntu] font-bold pt-1">{row.name}</div>
-              </button>
-            ))}
-          </div>
-          <div className="flex w-full justify-around my-4 overflow-x-auto gap-4 px-8">
-            {categorySummary.slice(5, 11).map((row, i) => (
+          <div className="grid w-full grid-cols-6 justify-around overflow-x-auto gap-4 px-8">
+            {categorySummary.map((row, i) => (
               <button key={i}>
                 <div className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-full border-2 border-secondary flex flex-col justify-center items-center relative">
                   <Image

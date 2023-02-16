@@ -10,3 +10,7 @@
 .checkbox {
   @apply accent-secondary text-white cursor-pointer;
 }
+
+.menu-icon {
+  @apply h-8 w-8 cursor-pointer lg:hidden block transition-all ease-in-out transform duration-300;
+}
