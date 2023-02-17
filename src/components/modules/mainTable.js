@@ -129,11 +129,13 @@ export default function MainTable({ showCategory }) {
                     width={100}
                     height={100}
                   />
-                  <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1">
+                  <div className="text-secondary font-bold absolute -bottom-2 bg-white px-1 ">
                     {row.total}
                   </div>
                 </div>
-                <div className="font-[Ubuntu] font-bold pt-1">{row.name}</div>
+                <div className="font-[Ubuntu] font-bold pt-1 pr-3">
+                  {row.name}
+                </div>
               </button>
             ))}
           </div>

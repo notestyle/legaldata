@@ -45,6 +45,7 @@ export default function Search() {
               />
             </svg>
           </div>
+          <div className="bg-primary w-full h-[1px]"></div>
           <div className="w-full flex gap-2 mt-4">
             {sortList.map((row, i) => (
               <div
