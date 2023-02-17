@@ -20,7 +20,7 @@ export default function Register() {
           <div className="font-[Ubuntu] font-bold">ПРОФАЙЛ ҮҮСГЭХ</div>
           <div className=" w-1/3  h-0.5 bg-gradient-to-l from-white to-primary "></div>
         </div>
-        <div className="flex justify-center md:justify-between gap-10 mt-20 flex-col md:flex-row w-full">
+        <div className="flex justify-center md:justify-between gap-24 mt-20 flex-col md:flex-row w-full">
           <div className="w-full lg:w-96 h-full pt-20 lg:h-56 text-center bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg relative">
             <div className="absolute flex items-center justify-center transform left-1/2  -translate-x-1/2 -top-1/3">
               <Image

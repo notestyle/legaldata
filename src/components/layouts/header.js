@@ -115,10 +115,10 @@ export default function Header() {
             </Link>
           </div>
         </div>
-        <div className="hidden lg:flex gap-4 items-center">
+        <div className="hidden lg:flex gap-5 items-center">
           <div></div>
           <button
-            className="flex items-center gap-4 font-semibold"
+            className="flex justify-center items-center gap-4 font-semibold"
             onClick={() => router.push("/register")}
           >
             <Image
@@ -242,7 +242,7 @@ export default function Header() {
             Боломжууд
           </Link>
         </div>
-        <div className="w-full flex flex-col gap-4">
+        <div className="w-40 pt-4 flex flex-col gap-4">
           <button
             className="flex items-center gap-6 font-semibold border border-white w-full rounded-lg p-2"
             onClick={() => router.push("/register")}
@@ -257,7 +257,7 @@ export default function Header() {
             Бүртгүүлэх
           </button>
           <button className=" font-semibold  flex justify-between items-center overflow-hidden">
-            <div className="bg-white w-8 h-full  rounded-l-md flex justify-center items-center p-2">
+            <div className="bg-white w-8 h-[2.6rem]  rounded-l-md flex justify-center items-center p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

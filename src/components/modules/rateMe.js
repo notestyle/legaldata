@@ -21,7 +21,7 @@ export default function RateMe({ show, setShow }) {
               <div className="flex justify-center ">
                 <div className="w-32 h-32 rounded-full bg-white absolute -translate-y-1/2"></div>
                 <Image
-                  src="/images/social/user-profile.svg"
+                  src="/images/profiles/rate.jpg"
                   alt="user-profile"
                   className="w-28 h-28 rounded-full absolute -translate-y-1/2"
                   width={100}
