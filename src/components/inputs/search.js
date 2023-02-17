@@ -6,7 +6,7 @@ export default function Search() {
 
   return (
     <>
-      <div className="w-full px-10 md:px-20 lg:px-52 h-28 flex justify-between items-center gap-10 bg-white1">
+      <div className="w-full px-2 md:px-20 lg:px-32 h-28 flex justify-between items-center gap-10 bg-white1">
         <div className="w-1/4 h-0.5 bg-gradient-to-r from-white to-primary"></div>
         <div className=" font-bold text-primary text-lg gap-3 text-center ">
           Танд тохирох
@@ -18,7 +18,7 @@ export default function Search() {
         <div className=" w-1/4  h-0.5 bg-gradient-to-l from-white to-primary "></div>
       </div>
       <div className="lg:w-screen w-full h-full sticky top-20 z-10 flex justify-center bg-white1">
-        <div className="flex justify-center w-full px-10 md:px-20 lg:px-52">
+        <div className="flex justify-center w-full px-2 md:px-20 lg:px-32">
           <div className=" w-full h-14 border-2 border-gray rounded-md gap-4 flex items-center font-semibold bg-white">
             <input
               type="text"

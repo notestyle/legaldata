@@ -7,59 +7,22 @@ export default function Sort({
   categoryList,
   yearList,
   ratingList,
+  visible,
 }) {
   const [active, setActive] = useState();
 
   return (
     <>
-      <div className="lg:hidden mt-4">
-        <div className="flex w-full gap-2">
-          {locationList ? (
-            <select className="bg-white h-10 w-60 outline-none rounded-md shadow ">
-              <option>Бүгд</option>
-              {locationList.map((row, i) => (
-                <option key={i} value={row.id}>
-                  {row.name}
-                </option>
-              ))}
-            </select>
-          ) : (
-            <></>
-          )}
-          {yearList ? (
-            <select className="bg-white h-10 w-60 outline-none rounded-md shadow ">
-              <option>Бүгд</option>
-              {yearList.map((row, i) => (
-                <option key={i} value={row}>
-                  {row}
-                </option>
-              ))}
-            </select>
-          ) : (
-            <></>
-          )}
-          {sectorList ? (
-            <select className="bg-white h-10 w-60 outline-none rounded-md shadow ">
-              <option>Бүгд</option>
-              {sectorList.map((row, i) => (
-                <option key={i} value={row.id}>
-                  {row.name}
-                </option>
-              ))}
-            </select>
-          ) : (
-            <></>
-          )}
-        </div>
-        <div className="flex overflow-x-auto gap-2 mt-4">
+      {/* for smaller screen starting at "lg" */}
+      <div className="lg:hidden mt-4 w-full">
+        <div className="flex gap-2 mt-20">
           {categoryList &&
             categoryList.map((row, i) => (
               <button
                 key={i}
                 onClick={() => setActive(i)}
-                className={`${
-                  i == active ? "bg-secondary" : "bg-primary"
-                } px-2 py-1 flex gap-2  rounded-full text-white h-8`}
+                className={`${i == active ? "bg-secondary" : "bg-primary"
+                  } px-2 py-1 flex gap-2  rounded-full text-white h-8`}
               >
                 {row.name} <span>{row.total}</span>
               </button>
@@ -67,6 +30,7 @@ export default function Sort({
         </div>
       </div>
 
+      {/* for big screen */}
       <div className=" flex-col py-6 gap-3 w-80 hidden lg:flex">
         {locationList ? (
           <div className=" flex flex-col justify-center w-72 h-24 bg-white border border-gray gap-1 rounded-md">
@@ -129,9 +93,8 @@ export default function Sort({
               <button
                 key={i}
                 onClick={() => setActive(i)}
-                className={`${
-                  active == i ? "text-secondary" : ""
-                } w-full flex justify-between`}
+                className={`${active == i ? "text-secondary" : ""
+                  } w-full flex justify-between`}
               >
                 <div>{row.name}</div>
                 <div>{row.total}</div>

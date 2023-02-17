@@ -1,18 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="w-full lg:h-72 bg-primary flex flex-col overflow-x-auto px-10 md:px-20 lg:px-52">
+    <div className="w-full lg:h-72 bg-primary flex flex-col overflow-x-auto px-10 md:px-20 lg:px-32">
       <div className="w-full flex justify-between py-8">
         <div className="flex lg:gap-0 gap-8">
           <div className="pt-5 text-white text-xs ">
             <div className=" opacity-30 pb-5">Цэсүүд</div>
             <div className="grid grid-col-4 gap-2">
-              <div>Нүүр</div>
-              <div>Үйлчилгээ</div>
-              <div>Чансаа</div>
-              <div>Боломжууд</div>
+              <Link href={"/"}>Нүүр</Link>
+              <Link href={"/service"}>Үйлчилгээ</Link>
+              <Link href={"/rank"}>Чансаа</Link>
+              <Link href={"/oportunity"}>Боломжууд</Link>
             </div>
           </div>
           <div className="text-white lg:ml-40 pt-5 text-xs w-48 h-20">
