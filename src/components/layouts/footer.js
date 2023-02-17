@@ -34,7 +34,7 @@ export default function Footer() {
           />
         </div>
       </div>
-      <div className="h-1 w-full bg-[#525984]"></div>
+      <div className="h-[1px] w-full bg-[#525984]"></div>
       <div className="w-full flex justify-between lg:flex-row flex-col">
         <div className="mt-5 text-white flex">
           ©2023. Бүх эрх хуулиар хамгаалагдсан.

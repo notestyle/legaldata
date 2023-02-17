@@ -1,8 +1,9 @@
 import Layout from "@/components/layouts/layout";
-import Enter from "@/components/modules/login";
+import New from "@/components/new";
 import Head from "next/head";
+import React from "react";
 
-export default function Login() {
+export default function Create() {
   return (
     <>
       <Head>
@@ -12,8 +13,8 @@ export default function Login() {
         <link rel="icon" href="/next.svg" />
       </Head>
       <Layout>
-        <div className="flex pt-20 justify-center">
-          <Enter />
+        <div className="flex pt-12 justify-center">
+          <New />
         </div>
       </Layout>
     </>
