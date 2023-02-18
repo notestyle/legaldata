@@ -115,7 +115,7 @@ const categorySummary = [
 
 export default function MainTable({ showCategory }) {
 	return (
-		<div className="bg-white border border-gray rounded-md my-8 py-4">
+		<div className="bg-white border border-gray rounded-md my-8 py-8">
 
 			{showCategory ? (
 				// category badges
