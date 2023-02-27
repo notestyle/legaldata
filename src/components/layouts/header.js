@@ -112,9 +112,9 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex gap-5 items-center">
           <div></div>
-          <button
+          <Link
             className="flex justify-center items-center gap-4 font-semibold"
-            onClick={() => router.push("/register")}
+            href={"/new"}
           >
             <Image
               src="/images/icons/header.svg"
@@ -124,8 +124,8 @@ export default function Header() {
               height={100}
             />
             Бүртгүүлэх
-          </button>
-          <button className=" font-semibold  h-8 flex justify-between items-center overflow-hidden">
+          </Link>
+          <Link className=" font-semibold  h-8 flex justify-between items-center overflow-hidden" href={"/login"}>
             <div className="bg-white w-8 h-full rounded-l-md flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ export default function Header() {
             <div className="px-4 border border-white rounded-r-md h-full flex items-center ">
               Нэвтрэх
             </div>
-          </button>
+          </Link>
           <button className=" text-sm font-bold text-primary bg-white w-8 h-8 rounded-lg ">
             MN
           </button>
@@ -231,9 +231,9 @@ export default function Header() {
         </div>
         <div className="w-40 pt-4 flex flex-col gap-4">
           {/* bvrtgvvleh button */}
-          <button
+          <Link
             className="flex items-center gap-6 font-semibold border border-white w-full rounded-lg p-2"
-            onClick={() => router.push("/register")}
+            href={"/new"}
           >
             <Image
               src="/images/icons/header.svg"
@@ -243,11 +243,11 @@ export default function Header() {
               height={100}
             />
             Бүртгүүлэх
-          </button>
+          </Link>
           {/* login button */}
           <button
             className=" font-semibold  flex justify-between items-center overflow-hidden"
-            onClick={() => router.push("/register")}
+            onClick={() => router.push("/login")}
           >
             <div className="bg-white w-8 h-[2.6rem]  rounded-l-md flex justify-center items-center p-2">
               <svg
