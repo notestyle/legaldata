@@ -20,10 +20,10 @@ export default function Search() {
       {/* search section */}
       <div className="lg:w-screen w-full h-full sticky top-20 z-10 flex justify-center bg-white1 rounded-xl">
         <div className="flex justify-center w-full px-2 md:px-20 lg:px-32 rounded-lg">
-          <div className=" w-full h-14 border-2 border-gray rounded-xl gap-4 flex items-center font-semibold bg-white">
+          <div className=" w-full h-14 border-2 border-gray border-r-0 rounded-xl gap-4 flex items-center font-semibold bg-white">
             <input
               type="text"
-              className=" w-full h-[3.2rem]  bg-white placeholder:pl-1 pl-4 outline-none rounded-xl"
+              className=" w-[50rem] h-[3.2rem]  bg-white placeholder:pl-1 pl-4 outline-none rounded-xl"
               placeholder="Нэрээр хайх"
             ></input>
             <svg
@@ -42,19 +42,19 @@ export default function Search() {
             </svg>
             <div className="hidden lg:flex gap-1 h-full items-center">
               <div className="h-2/3 w-[1px] bg-primary z-20"></div>
-              <select className="bg-white h-10 outline-none">
+              <select className="bg-white w-48 h-10 outline-none">
                 <option>Байршил</option>
                 <option>Улаанбаатар</option>
                 <option>Сүхбаатар аймаг</option>
               </select>
               <div className="h-2/3 w-[1px] bg-primary"></div>
-              <select className="bg-white h-10  outline-none ">
+              <select className="bg-white w-60 h-10  outline-none ">
                 <option>Мэргэшсэн салбар</option>
                 <option>Өмгөөлөгч</option>
                 <option>Шүүгч</option>
               </select>
               <div className="h-2/3 w-[1px] bg-primary"></div>
-              <select className=" h-10  outline-none ">
+              <select className="w-52 h-10  outline-none ">
                 <option>Төрөл</option>
                 <option>Эрүү</option>
                 <option>Залилан</option>
