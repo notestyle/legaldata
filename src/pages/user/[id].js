@@ -31,10 +31,11 @@ export default function UserPofile() {
                 />
               </div>
               <div className="flex pl-2 pt-3 gap-5">
+                <div className="bg-white1 absolute w-32 h-32 rounded-full  -translate-y-1/2 "></div>
                 <div className=" w-28 h-20 relative">
                   <Image
-                    src="/images/social/user-profile.svg"
-                    className=" w-full absolute -translate-y-1/2"
+                    src="/images/profiles/3.jpeg"
+                    className=" w-full absolute -translate-y-1/2 left-2 rounded-full"
                     alt="user-profile"
                     width={100}
                     height={80}
