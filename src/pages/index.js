@@ -6,6 +6,7 @@ import TopFarm from "@/components/modules/topFarm";
 import TopLawyer from "@/components/modules/topLawyer";
 import RecommendFarm from "@/components/modules/recommendFarm";
 import Head from "next/head";
+import React from "react";
 
 export default function Home() {
   return (
