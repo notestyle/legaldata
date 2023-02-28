@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Enter() {
   return (
     <>
-      <div className="w-80 h-96 flex">
+      <div className="w-80 flex">
         <div className="w-full flex items-center flex-col">
           <div>
             <Image

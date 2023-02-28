@@ -70,7 +70,7 @@ export default function Farm_create() {
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
-                    src="/images/social/facebook.svg"
+                    src="/images/social/url_facebook.svg"
                     className="w-6 h-6 absolute left-1 top-1"
                     alt="facebook"
                     width={100}
@@ -89,7 +89,7 @@ export default function Farm_create() {
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
-                    src="/images/social/instagram.svg"
+                    src="/images/social/url_instagram.svg"
                     className="w-6 h-6 absolute left-1 top-1"
                     alt="instagram"
                     width={100}
@@ -108,7 +108,7 @@ export default function Farm_create() {
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
-                    src="/images/social/twitter.svg"
+                    src="/images/social/url_twitter.svg"
                     className="w-6 h-6 absolute left-1 top-1"
                     alt="twitter"
                     width={100}
@@ -127,7 +127,7 @@ export default function Farm_create() {
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
-                    src="/images/social/youtube.svg"
+                    src="/images/social/url_youtube.svg"
                     className="w-6 h-6 absolute left-1 top-1"
                     alt="youtube"
                     width={100}
@@ -146,7 +146,7 @@ export default function Farm_create() {
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
-                    src="/images/social/linkedin.svg"
+                    src="/images/social/url_linkedin.svg"
                     className="w-6 h-6 absolute left-1 top-1"
                     alt="linkedin"
                     width={100}
@@ -165,7 +165,7 @@ export default function Farm_create() {
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
-                    src="/images/social/facebook.svg"
+                    src="/images/social/url_internet.svg"
                     className="w-6 h-6 absolute left-1 top-1"
                     alt="facebook"
                     width={100}
