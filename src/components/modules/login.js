@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 export default function Enter() {
+  const router = useRouter();
   return (
     <>
       <div className="w-80 flex">
@@ -35,7 +37,10 @@ export default function Enter() {
             </button>
           </div>
           <div>
-            <button className="text-secondary font-semibold mt-10">
+            <button
+              className="text-secondary font-semibold mt-10"
+              onClick={() => router.push("/new")}
+            >
               БҮРТГҮҮЛЭХ
             </button>
           </div>
