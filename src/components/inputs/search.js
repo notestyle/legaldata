@@ -6,7 +6,7 @@ export default function Search() {
 
   return (
     <>
-      <div className="w-full px-2 md:px-20 lg:px-32 h-28 flex justify-between items-center gap-10 bg-white1">
+      <div className="w-full px-2 pb-16 pt-32 md:px-20 sm:pt-32 sm:pb-12 lg:px-32 lg:pt-12 h-28 flex justify-between items-center gap-10 bg-white1">
         <div className="w-1/4 h-0.5 bg-gradient-to-r from-white to-primary"></div>
         <div className=" font-bold text-primary text-lg gap-3 text-center ">
           Танд тохирох
@@ -65,7 +65,7 @@ export default function Search() {
               onClick={() => {
                 router.push("/search");
               }}
-              className="h-[32] px-4 bg-secondary rounded-lg py-4 lg:px-[4.8rem] text-white"
+              className="h-[32] px-4 bg-secondary rounded-xl py-4 lg:px-[4.8rem] text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
