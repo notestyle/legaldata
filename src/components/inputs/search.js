@@ -18,8 +18,8 @@ export default function Search() {
         <div className=" w-1/4  h-0.5 bg-gradient-to-l from-white to-primary "></div>
       </div>
       {/* search section */}
-      <div className="lg:w-screen w-full h-full sticky top-20 z-10 flex justify-center bg-white1 rounded-xl">
-        <div className="flex justify-center w-full px-2 md:px-20 lg:px-32 rounded-lg">
+      <div className="lg:w-screen w-full h-full sticky top-20 z-10 flex justify-center bg-white1 rounded-xl rounded-r-none">
+        <div className="flex justify-center w-full px-2 md:px-20 lg:px-32 rounded-xl rounded-r-none">
           <div className=" w-full h-14 border-2 border-gray rounded-xl gap-4 flex items-center font-semibold bg-white">
             <input
               type="text"
@@ -65,7 +65,7 @@ export default function Search() {
               onClick={() => {
                 router.push("/search");
               }}
-              className="h-[32] px-4 bg-secondary rounded-lg py-4 lg:px-[4.8rem] text-white"
+              className="h-[32] px-4 bg-secondary rounded-xl py-4 lg:px-[4.8rem] text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
