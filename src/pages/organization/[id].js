@@ -53,35 +53,35 @@ export default function Profile() {
                 </div>
                 <div className="flex gap-2">
                   <Image
-                    src="/images/social/facebook.svg"
+                    src="/images/social/url_facebook.svg"
                     className=" w-5 h-5"
                     alt="facebook"
                     width={100}
                     height={80}
                   />
                   <Image
-                    src="/images/social/instagram.svg"
+                    src="/images/social/url_instagram.svg"
                     className=" w-5 h-5"
                     alt="instagram"
                     width={100}
                     height={80}
                   />
                   <Image
-                    src="/images/social/linkedin.svg"
+                    src="/images/social/url_linkedin.svg"
                     className=" w-5 h-5"
                     alt="linkedin"
                     width={100}
                     height={80}
                   />
                   <Image
-                    src="/images/social/youtube.svg"
+                    src="/images/social/url_youtube.svg"
                     className=" w-5 h-5"
                     alt="youtube"
                     width={100}
                     height={80}
                   />
                   <Image
-                    src="/images/social/twitter.svg"
+                    src="/images/social/url_twitter.svg"
                     className=" w-5 h-5"
                     alt="twitter"
                     width={100}

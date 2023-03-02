@@ -1,10 +1,10 @@
-import React from "react";
 import Head from "next/head";
 import Layout from "@/components/layouts/layout";
-import Farm_create from "@/components/farm_create";
-import Farm_create_detail from "@/components/farm_create_detail";
+import Person_create from "@/components/person_create";
+import React from "react";
+import Person_create_detail from "@/components/person_create_detail";
 
-export default function farm_create() {
+export default function person_create() {
   return (
     <>
       <Head>
@@ -17,7 +17,7 @@ export default function farm_create() {
         <div className="w-full px-2 md:px-20  h-28 flex justify-between items-center mt-10 gap-10 bg-white1">
           <div className="w-[30rem] h-0.5 bg-gradient-to-r from-white1   to-primary"></div>
           <div className=" font-bold text-primary text-2xl gap-3 text-center ">
-            Хуулийн фирм
+            Хувь хүн
           </div>
           <div className=" w-[30rem]  h-0.5 bg-gradient-to-l from-white1 to-primary "></div>
         </div>
@@ -27,8 +27,8 @@ export default function farm_create() {
           </div>
         </div>
         <div className="flex pt-6 gap-10">
-          <Farm_create />
-          <Farm_create_detail />
+          <Person_create />
+          <Person_create_detail />
         </div>
       </Layout>
     </>

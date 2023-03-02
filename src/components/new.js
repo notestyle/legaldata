@@ -8,33 +8,33 @@ export default function New() {
         <div className="flex w-full gap-5">
           <input
             type="text"
-            className=" h-11 input text-sm rounded-lg"
+            className=" w-[9.4rem] h-11  text-sm rounded-lg bg-white placeholder:pl-3 border border-gray"
             placeholder="Нэр"
           ></input>
           <input
             type="text"
-            className="input text-sm h-11"
+            className=" w-[9.4rem] h-11  text-sm rounded-lg bg-white placeholder:pl-3 border border-gray"
             placeholder="Овог"
           ></input>
         </div>
         <div>
           <input
             type="text"
-            className="input text-sm h-11 bg-black"
+            className=" w-full h-11  text-sm rounded-lg bg-white placeholder:pl-3 border border-gray"
             placeholder="И-мэйл хаяг "
           ></input>
         </div>
         <div>
           <input
             type="text"
-            className="input text-sm h-11"
+            className=" w-full h-11  text-sm rounded-lg bg-white placeholder:pl-3 border border-gray"
             placeholder="Нууц үг "
           ></input>
         </div>
         <div>
           <input
             type="text"
-            className="input text-sm h-11"
+            className=" w-full h-11  text-sm rounded-lg bg-white placeholder:pl-3 border border-gray"
             placeholder="Нууц үг давт "
           ></input>
         </div>
