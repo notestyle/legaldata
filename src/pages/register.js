@@ -39,7 +39,7 @@ export default function Register() {
               of type and scrambled it to make a type specimen book.
             </div>
             <button
-              onClick={() => router.push("/organization/profile")}
+              onClick={() => router.push("farm_create")}
               className=" absolute -bottom-5 w-48 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md"
             >
               ҮҮСГЭХ
@@ -63,7 +63,7 @@ export default function Register() {
               of type and scrambled it to make a type specimen book.
             </div>
             <button
-              onClick={() => router.push("/organization/profile")}
+              onClick={() => router.push("/organization_create")}
               className=" absolute -bottom-5 w-48 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md"
             >
               ҮҮСГЭХ
@@ -87,7 +87,7 @@ export default function Register() {
               of type and scrambled it to make a type specimen book.
             </div>
             <button
-              onClick={() => router.push("/user/profile")}
+              onClick={() => router.push("/person_create")}
               className=" absolute -bottom-5 w-48 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md"
             >
               ҮҮСГЭХ

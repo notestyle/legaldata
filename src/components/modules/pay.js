@@ -1,5 +1,7 @@
 import React from "react";
+import { useRouter } from "next/router";
 export default function Pay() {
+  const router = useRouter();
   return (
     <>
       <div className="w-full h-full bg-white rounded-3xl shadow-md mt-28 mb-20 py-10 px-10">
@@ -168,7 +170,10 @@ export default function Pay() {
           </div>
         </div>
         <div className="w-full flex justify-center pt-12">
-          <button className="w-60 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md hover:drop-shadow-xl">
+          <button
+            className="w-60 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md hover:drop-shadow-xl"
+            onClick={() => router.push("/register")}
+          >
             Бидэнтэй нэгд
           </button>
         </div>
