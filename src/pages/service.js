@@ -2,6 +2,7 @@ import Feature from "@/components/modules/feature";
 import Layout from "@/components/layouts/layout";
 import Pay from "@/components/modules/pay";
 import Topic from "@/components/modules/topic";
+import React from "react";
 
 import Head from "next/head";
 
@@ -18,7 +19,6 @@ export default function Service() {
         <Topic />
         <Feature />
         <Pay />
-        <div className="w-full h-6 bg-white1"></div>
       </Layout>
     </>
   );
