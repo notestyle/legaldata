@@ -23,7 +23,7 @@ export default function Search() {
           <div className=" w-full h-14 border-2 border-gray border-r-0 rounded-xl gap-4 flex items-center font-semibold bg-white">
             <input
               type="text"
-              className=" w-[50rem] h-[3.2rem]  bg-white placeholder:pl-1 pl-4 outline-none rounded-xl"
+              className=" w-[50rem] h-[3.2rem]  bg-white pl-4 outline-none rounded-xl"
               placeholder="Нэрээр хайх"
             ></input>
             <svg
