@@ -53,7 +53,7 @@ export default function TopLawyer({ title }) {
             title={row.title}
             company={row.company}
             img={row.img}
-            className="w-full text-center"
+            className="w-full text-center text-semibold"
           />
         ))}
       </div>
