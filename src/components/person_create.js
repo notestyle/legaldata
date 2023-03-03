@@ -52,14 +52,14 @@ export default function Person_create() {
               <div>
                 <input
                   type="text"
-                  className=" text-sm w-52 h-8 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+                  className=" font-semibold w-52 h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                   placeholder="Овог"
                 ></input>
               </div>
               <div>
                 <input
                   type="text"
-                  className=" text-sm w-52 h-8 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+                  className=" font-semibold w-52 h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                   placeholder="Нэр"
                 ></input>
               </div>
@@ -80,12 +80,12 @@ export default function Person_create() {
                 <div className=" w-full flex justify-between pl-6">
                   <input
                     type="text"
-                    className="w-44 h-8  text-sm rounded-lg bg-white1 placeholder:pl-3 border border-gray outline-none"
+                    className="w-44 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
                     placeholder="Утасны дугаар 1*"
                   ></input>
                   <input
                     type="text"
-                    className="w-44 h-8  text-sm rounded-lg bg-white1 placeholder:pl-3 border border-gray outline-none"
+                    className="w-44 h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
                     placeholder="Утасны дугаар 2"
                   ></input>
                 </div>
@@ -105,7 +105,7 @@ export default function Person_create() {
                   <div>
                     <input
                       type="text"
-                      className="w-96 h-8  text-sm rounded-lg bg-white1 placeholder:pl-3 border border-gray outline-none"
+                      className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
                       placeholder="И-Майл*"
                     ></input>
                   </div>
@@ -125,7 +125,7 @@ export default function Person_create() {
                   </div>
                   <div>
                     <textarea
-                      className=" bg-white1 border border-gray rounded-lg placeholder:pl-2 outline-none"
+                      className=" bg-white1  border border-gray rounded-lg pl-2 outline-none"
                       id="about"
                       name="."
                       rows="3"

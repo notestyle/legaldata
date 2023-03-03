@@ -7,7 +7,7 @@ export default function Search() {
   return (
     <>
       <div className="w-full px-2 pb-16 pt-32 md:px-20 sm:pt-32 sm:pb-12 lg:px-32 lg:pt-12 h-28 flex justify-between items-center gap-10 bg-white1">
-        <div className="w-1/4 h-0.5 bg-gradient-to-r from-white to-primary"></div>
+        <div className="w-1/4 h-0.5 bg-gradient-to-r from-white1 to-primary"></div>
         <div className=" font-bold text-primary text-lg gap-3 text-center ">
           Танд тохирох
           <span className=" text-secondary text-lg mx-2">
@@ -15,7 +15,7 @@ export default function Search() {
           </span>
           олоорой
         </div>
-        <div className=" w-1/4  h-0.5 bg-gradient-to-l from-white to-primary "></div>
+        <div className=" w-1/4  h-0.5 bg-gradient-to-l from-white1 to-primary "></div>
       </div>
       {/* search section */}
       <div className="lg:w-screen w-full h-full sticky top-20 z-10 flex justify-center bg-white1 rounded-xl">

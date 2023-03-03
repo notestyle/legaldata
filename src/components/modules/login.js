@@ -20,14 +20,14 @@ export default function Enter() {
           <div className="w-full pt-16">
             <input
               type="text"
-              className="text-sm bg-white border w-full pr-12 pl-4 py-2 rounded-xl border-gray outline-none"
+              className="font-semibold bg-white border w-full pr-12 pl-4 py-2 rounded-xl border-gray outline-none"
               placeholder="Бүртгэлтэй И-мэйл хаяг/Утас"
             ></input>
           </div>
           <div className="w-full pt-5">
             <input
-              type="text"
-              className="text-sm bg-white border w-full pr-12 pl-4 py-2 rounded-xl border-gray outline-none"
+              type="password"
+              className="font-semibold bg-white border w-full pr-12 pl-4 py-2 rounded-xl border-gray outline-none"
               placeholder="Нууц үг"
             ></input>
           </div>

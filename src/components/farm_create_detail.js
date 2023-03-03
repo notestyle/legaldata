@@ -42,7 +42,7 @@ export default function Farm_create_detail() {
           <div className="w-14 h-0.5 bg-secondary mt-1 mb-4"></div>
           <div>
             <textarea
-              className="input h-20"
+              className="input h-20 font-semibold"
               id="about"
               name="."
               rows="4"
@@ -71,7 +71,7 @@ export default function Farm_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[630px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+              className=" font-semibold w-[630px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
@@ -214,7 +214,7 @@ export default function Farm_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[630px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+              className=" font-semibold w-[630px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Жишээ: “Капитал Маркет” ХХК"
             ></input>
           </div>
@@ -649,7 +649,7 @@ export default function Farm_create_detail() {
             <div>
               <input
                 type="text"
-                className=" text-sm w-[630px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className="  font-semibold w-[630px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Энд бич..."
               ></input>
             </div>
@@ -666,7 +666,7 @@ export default function Farm_create_detail() {
           </div>
           <div>
             <textarea
-              className="input h-20"
+              className="input h-20 font-semibold"
               id="about"
               name="."
               rows="4"
@@ -682,17 +682,17 @@ export default function Farm_create_detail() {
         <div className="flex justify-between">
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Утасны дугаар 1*"
           ></input>
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Утасны дугаар 2"
           ></input>
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="И-мэйл*"
           ></input>
         </div>
@@ -736,7 +736,7 @@ export default function Farm_create_detail() {
             ></textarea>
           </div>
           <div className="flex justify-between">
-            <div className="w-8 h-8 bg-white1 rounded-lg border border-gray">
+            <div className="w-8 h-8 bg-white1 rounded-lg border border-gray flex justify-center items-center pt-3 pr-[14px]">
               <div>
                 <Image
                   src="/images/icons/google_map.svg"
@@ -750,7 +750,7 @@ export default function Farm_create_detail() {
             <div>
               <input
                 type="text"
-                className=" text-sm w-[50rem] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className=" font-semibold w-[50rem] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Google map shared link"
               ></input>
             </div>
@@ -783,7 +783,7 @@ export default function Farm_create_detail() {
             <div>
               <input
                 type="text"
-                className=" text-sm w-[193px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Нэр"
               ></input>
             </div>
@@ -793,7 +793,7 @@ export default function Farm_create_detail() {
             <div>
               <input
                 type="text"
-                className=" text-sm w-[193px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Утасны дугаар*"
               ></input>
             </div>
@@ -803,7 +803,7 @@ export default function Farm_create_detail() {
             <div>
               <input
                 type="И-мэйл"
-                className=" text-sm w-[193px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="И-мэйл*"
               ></input>
             </div>
@@ -829,7 +829,7 @@ export default function Farm_create_detail() {
           <div>
             <input
               type="И-мэйл"
-              className=" text-sm w-[630px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+              className=" font-semibold w-[630px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
@@ -858,7 +858,7 @@ export default function Farm_create_detail() {
           <div>
             <input
               type="И-мэйл"
-              className=" text-sm w-[630px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+              className=" font-semibold w-[630px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Про боно үйл ажиллагааны тухай бичих талбар"
             ></input>
           </div>

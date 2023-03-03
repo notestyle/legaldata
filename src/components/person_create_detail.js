@@ -40,7 +40,7 @@ export default function Person_create_detail() {
           <div className="w-14 h-0.5 bg-secondary mt-1 mb-4"></div>
           <div>
             <textarea
-              className="input h-20"
+              className="input h-20 font-semibold"
               id="about"
               name="."
               rows="4"
@@ -77,7 +77,7 @@ export default function Person_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[435px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+              className=" font-semibold w-[435px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
@@ -110,7 +110,7 @@ export default function Person_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[435px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+              className=" font-semibold w-[435px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
@@ -143,7 +143,7 @@ export default function Person_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[435px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+              className=" font-semibold w-[435px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
@@ -166,34 +166,34 @@ export default function Person_create_detail() {
         <div className="flex justify-between">
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Ур чадвар 1*"
           ></input>
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Ур чадвар 2"
           ></input>
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Ур чадвар 3"
           ></input>
         </div>
         <div className="flex justify-between py-4">
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Хобби 1*"
           ></input>
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Хобби 2"
           ></input>
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Хобби 3"
           ></input>
         </div>
@@ -202,7 +202,7 @@ export default function Person_create_detail() {
           <div className="w-14 h-0.5 bg-secondary mt-1 mb-4"></div>
           <div>
             <textarea
-              className="input h-20"
+              className="input h-20 font-semibold"
               id="about"
               name="."
               rows="4"
@@ -226,7 +226,7 @@ export default function Person_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[625px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+              className=" font-semibold w-[625px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
@@ -251,7 +251,7 @@ export default function Person_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[625px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+              className=" font-semibold w-[625px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
@@ -276,7 +276,7 @@ export default function Person_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[625px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3 outline-none"
+              className=" font-semibold w-[625px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
