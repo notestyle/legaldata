@@ -169,7 +169,7 @@ export default function Pay() {
             шүүгч, прокуроруудад төлбөргүй байна.
           </div>
         </div>
-        <div className="w-full flex justify-center pt-12">
+        <div className="w-full flex justify-center pt-40 sm:pt-16 md:pt-12">
           <button
             className="w-60 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md hover:drop-shadow-xl"
             onClick={() => router.push("/register")}
