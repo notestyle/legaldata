@@ -15,7 +15,7 @@ export default function Sort({
     <>
       {/* for smaller screen starting at "lg" */}
       <div className="lg:hidden mt-4 w-full">
-        <div className="flex gap-2 mt-20 overflow-x-auto pb-1">
+        <div className="flex gap-2 mt-20 overflow-x-auto overflow-y-hidden pb-1">
           {categoryList &&
             categoryList.map((row, i) => (
               <button

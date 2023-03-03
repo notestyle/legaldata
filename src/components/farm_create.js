@@ -52,7 +52,7 @@ export default function Farm_create() {
               <div>
                 <input
                   type="text"
-                  className=" text-sm w-72 h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                  className=" font-semibold w-72 h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                   placeholder="Энд бич..."
                 ></input>
               </div>
@@ -80,7 +80,7 @@ export default function Farm_create() {
                 <div>
                   <input
                     type="text"
-                    className="w-96 h-8  text-sm rounded-lg bg-white1 placeholder:pl-3 border border-gray"
+                    className="w-96 h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
                     placeholder="URL"
                   ></input>
                 </div>
@@ -99,7 +99,7 @@ export default function Farm_create() {
                 <div>
                   <input
                     type="text"
-                    className="w-96 h-8  text-sm rounded-lg bg-white1 placeholder:pl-3 border border-gray"
+                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
                     placeholder="URL"
                   ></input>
                 </div>
@@ -118,7 +118,7 @@ export default function Farm_create() {
                 <div>
                   <input
                     type="text"
-                    className="w-96 h-8  text-sm rounded-lg bg-white1 placeholder:pl-3 border border-gray"
+                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
                     placeholder="URL"
                   ></input>
                 </div>
@@ -137,7 +137,7 @@ export default function Farm_create() {
                 <div>
                   <input
                     type="text"
-                    className="w-96 h-8  text-sm rounded-lg bg-white1 placeholder:pl-3 border border-gray"
+                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
                     placeholder="URL"
                   ></input>
                 </div>
@@ -156,7 +156,7 @@ export default function Farm_create() {
                 <div>
                   <input
                     type="text"
-                    className="w-96 h-8  text-sm rounded-lg bg-white1 placeholder:pl-3 border border-gray"
+                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
                     placeholder="URL"
                   ></input>
                 </div>
@@ -175,7 +175,7 @@ export default function Farm_create() {
                 <div>
                   <input
                     type="text"
-                    className="w-96 h-8  text-sm rounded-lg bg-white1 placeholder:pl-3 border border-gray"
+                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
                     placeholder="URL"
                   ></input>
                 </div>
