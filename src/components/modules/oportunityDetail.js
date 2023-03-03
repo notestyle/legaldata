@@ -6,7 +6,7 @@ export default function OportunityDetail() {
     <div className="w-full h-full flex flex-col place-items-center">
 
         {/* first */}
-        <div className="flex relative mt-10 flex-col 2xl:flex-row place-items-center gap-8 justify-center">
+        <div className="flex relative mt-10 flex-col xl:flex-row place-items-center gap-8 justify-center">
             {/* image */}
             <div>
             <Image
@@ -24,7 +24,7 @@ export default function OportunityDetail() {
         </div>
 
         {/* second */}
-        <div className="flex my-10 items-center gap-8 flex-col-reverse place-items-center 2xl:flex-row">
+        <div className="flex my-10 items-center gap-8 flex-col-reverse place-items-center xl:flex-row">
             <div className="w-80 md:w-[30rem] text-center font-semibold 3xl:mt-20">
                 Дэлгэрэнгүй мэдээлэлд Товч танилцуулга, Үйлчлүүлэгчийн сэтгэгдэл,
                 Онцлох ажил, Гол үйлчлүүлэгчид, Мэргэшсэн чиглэл, Хуульчид, Про боно
