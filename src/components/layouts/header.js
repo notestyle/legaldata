@@ -285,44 +285,49 @@ export default function Header() {
             Бүртгүүлэх
           </Link>
           {/* login button */}
-          {clicked ? (
-            <>
-              <div className="w-full h-full rounded-md flex items-center border border-white">
-                <Image
-                  src="/images/profiles/1.jpeg"
-                  width={100}
-                  height={100}
-                  className="bg-white h-10 w-10 object-cover rounded-l-md flex justify-center items-center"
-                />
-
-                <div className="px-4 py-2 rounded-r-md h-full flex items-center ">
-                  Бархас
-                </div>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="w-full h-full rounded-md flex items-center border border-white">
-                <div className="h-10 w-8 flex place-items-center justify-center bg-white rounded-l-sm">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="h-4 w-4 text-primary"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z"
-                      clip-rule="evenodd"
+            <Link
+                
+                href={"/login"}
+            >
+            {clicked ? (
+                <>
+                <div className="w-full h-full rounded-md flex items-center border border-white">
+                    <Image
+                    src="/images/profiles/1.jpeg"
+                    width={100}
+                    height={100}
+                    className="bg-white h-10 w-10 object-cover rounded-l-md flex justify-center items-center"
                     />
-                  </svg>
+
+                    <div className="px-4 py-2 rounded-r-md h-full flex items-center ">
+                    Бархас
+                    </div>
                 </div>
-                <div className="px-4 py-2 rounded-r-md h-full flex items-center ">
-                  Нэвтрэх
+                </>
+            ) : (
+                <>
+                <div className="w-full h-full rounded-md flex items-center border border-white">
+                    <div className="h-10 w-8 flex place-items-center justify-center bg-white rounded-l-sm">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="h-4 w-4 text-primary"
+                    >
+                        <path
+                        fill-rule="evenodd"
+                        d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z"
+                        clip-rule="evenodd"
+                        />
+                    </svg>
+                    </div>
+                    <div className="px-4 py-2 rounded-r-md h-full flex items-center ">
+                    Нэвтрэх
+                    </div>
                 </div>
-              </div>
-            </>
-          )}
+                </>
+            )}
+            </Link>
         </div>
       </div>
     </>
