@@ -47,16 +47,16 @@ export default function Header() {
       <div className="w-full fixed h-20 bg-primary flex justify-between place-items-center text-white px-2 md:px-20 lg:px-32 lg:sticky top-0 z-40 ">
         {/* left side */}
         <div className="flex h-full space-x-20 place-items-center">
-            <Image
-              onClick={() => {
-                router.push("/");
-              }}
-              src="/Logo.png"
-              className="w-28 h-14 cursor-pointer resize-none"
-              alt="logo"
-              width={100}
-              height={100}
-            />
+          <Image
+            onClick={() => {
+              router.push("/");
+            }}
+            src="/Logo.png"
+            className="w-28 h-14 cursor-pointer resize-none"
+            alt="logo"
+            width={100}
+            height={100}
+          />
           {/* routers */}
           <div className="gap-8 items-center hidden lg:flex h-full ">
             <Link
@@ -117,7 +117,6 @@ export default function Header() {
         </div>
         {/* right side */}
         <div className="hidden lg:flex gap-5 items-center">
-          
           <Link
             className="flex justify-center items-center gap-4 font-semibold"
             href={"/new"}
@@ -139,45 +138,47 @@ export default function Header() {
             {clicked ? (
               <>
                 <div className="bg-white w-8 h-full rounded-l-md flex justify-center items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="w-4 h-4 text-primary"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z"
-                    clip-rule="evenodd"
+                  <Image
+                    src="/images/profiles/1.jpeg"
+                    width={100}
+                    height={100}
+                    className="bg-white w-8 h-full rounded-l-md flex justify-center items-center object-cover"
                   />
-                </svg>
-              </div>
-              <div className="px-4 border border-white rounded-r-md h-full flex items-center ">
-                Нэвтрэх
-              </div>
+                </div>
+                <div className="px-4 border border-white rounded-r-md h-full flex items-center ">
+                  Бархас
+                </div>
               </>
-            ): (
-                <>
-                  <div className="bg-white w-8 h-full rounded-l-md flex justify-center items-center">
-                    <Image
-                      src="/images/profiles/1.jpeg"
-                      width={100}
-                      height={100}
-                      className="bg-white w-8 h-full rounded-l-md flex justify-center items-center object-cover"
+            ) : (
+              <>
+                <div className="bg-white w-8 h-full rounded-l-md flex justify-center items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-4 h-4 text-primary"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z"
+                      clip-rule="evenodd"
                     />
-                  </div>
-                  <div className="px-4 border border-white rounded-r-md h-full flex items-center ">
-                    Бархас
-                  </div>
-                </>
-            ) }
+                  </svg>
+                </div>
+                <div className="px-4 border border-white rounded-r-md h-full flex items-center ">
+                  Нэвтрэх
+                </div>
+              </>
+            )}
             {/* user logged in */}
           </Link>
-          <button className=" text-sm font-bold text-primary bg-white w-8 h-8 rounded-lg" onClick={() => setClick(!clicked)}>
+          <button
+            className=" text-sm font-bold text-primary bg-white w-8 h-8 rounded-lg"
+            onClick={() => setClick(!clicked)}
+          >
             MN
           </button>
         </div>
-
 
         {/* for small phones size : lg */}
         {open ? (
@@ -287,42 +288,41 @@ export default function Header() {
           {clicked ? (
             <>
               <div className="w-full h-full rounded-md flex items-center border border-white">
-                  <div className="h-10 w-8 flex place-items-center justify-center bg-white rounded-l-sm">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      class="h-4 w-4 text-primary"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                  </div>
-                  <div className="px-4 py-2 rounded-r-md h-full flex items-center ">
-                    Нэвтрэх
-                  </div>
+                <Image
+                  src="/images/profiles/1.jpeg"
+                  width={100}
+                  height={100}
+                  className="bg-white h-10 w-10 object-cover rounded-l-md flex justify-center items-center"
+                />
+
+                <div className="px-4 py-2 rounded-r-md h-full flex items-center ">
+                  Бархас
                 </div>
-              </>
-            ): (
-              <>
-                <div className="w-full h-full rounded-md flex items-center border border-white">
-              
-                      <Image
-                        src="/images/profiles/1.jpeg"
-                        width={100}
-                        height={100}
-                        className="bg-white h-10 w-10 object-cover rounded-l-md flex justify-center items-center"
-                      />
-                    
-                    <div className="px-4 py-2 rounded-r-md h-full flex items-center ">
-                      Бархас
-                    </div>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="w-full h-full rounded-md flex items-center border border-white">
+                <div className="h-10 w-8 flex place-items-center justify-center bg-white rounded-l-sm">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="h-4 w-4 text-primary"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
                 </div>
-              </>
-            ) }
+                <div className="px-4 py-2 rounded-r-md h-full flex items-center ">
+                  Нэвтрэх
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </>
