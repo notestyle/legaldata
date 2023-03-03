@@ -11,7 +11,7 @@ export default function Organization_create_detail() {
               <Image
                 src="/images/icons/mongolia.svg"
                 className=" w-12 h-8"
-                alt="facebook"
+                alt="mongolia flag"
                 width={100}
                 height={80}
               />
@@ -23,7 +23,7 @@ export default function Organization_create_detail() {
               <Image
                 src="/images/icons/english.svg"
                 className="w-12 h-8 opacity-25"
-                alt="facebook"
+                alt="english flag"
                 width={100}
                 height={80}
               />
@@ -42,7 +42,7 @@ export default function Organization_create_detail() {
           <div className="w-14 h-0.5 bg-secondary mt-1 mb-4"></div>
           <div>
             <textarea
-              className="input h-20"
+              className="input h-20 font-semibold"
               id="about"
               name="."
               rows="4"
@@ -71,7 +71,7 @@ export default function Organization_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[630px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+              className=" font-semibold w-[630px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
@@ -79,7 +79,7 @@ export default function Organization_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -214,7 +214,7 @@ export default function Organization_create_detail() {
           <div>
             <input
               type="text"
-              className=" text-sm w-[630px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+              className=" font-semibold w-[630px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Жишээ: “Капитал Маркет” ХХК"
             ></input>
           </div>
@@ -222,7 +222,7 @@ export default function Organization_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -240,7 +240,7 @@ export default function Organization_create_detail() {
                 <Image
                   src="/images/profiles/1.jpeg"
                   className="w-10 h-10 rounded-full m-3"
-                  alt="facebook"
+                  alt="profile"
                   width={100}
                   height={80}
                 />
@@ -252,7 +252,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/icons/verified.svg"
                     className="w-5 h-5 mb-4 ml-2"
-                    alt="facebook"
+                    alt="verified"
                     width={100}
                     height={80}
                   />
@@ -261,7 +261,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
-                    alt="facebook"
+                    alt="trash"
                     width={100}
                     height={80}
                   />
@@ -271,7 +271,7 @@ export default function Organization_create_detail() {
                 <Image
                   src="/images/profiles/4.jpeg"
                   className="w-10 h-10 rounded-full m-3"
-                  alt="facebook"
+                  alt="profile"
                   width={100}
                   height={80}
                 />
@@ -283,7 +283,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/icons/verified.svg"
                     className="w-5 h-5 mb-4 ml-2"
-                    alt="facebook"
+                    alt="verified"
                     width={100}
                     height={80}
                   />
@@ -292,7 +292,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
-                    alt="facebook"
+                    alt="trash"
                     width={100}
                     height={80}
                   />
@@ -302,7 +302,7 @@ export default function Organization_create_detail() {
                 <Image
                   src="/images/profiles/3.jpeg"
                   className="w-10 h-10 rounded-full m-3"
-                  alt="facebook"
+                  alt="profile"
                   width={100}
                   height={80}
                 />
@@ -314,7 +314,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/icons/verified.svg"
                     className="w-5 h-5 mb-4 ml-2"
-                    alt="facebook"
+                    alt="verified"
                     width={100}
                     height={80}
                   />
@@ -323,7 +323,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
-                    alt="facebook"
+                    alt="trash"
                     width={100}
                     height={80}
                   />
@@ -333,7 +333,7 @@ export default function Organization_create_detail() {
                 <Image
                   src="/images/profiles/2.jpeg"
                   className="w-10 h-10 rounded-full m-3"
-                  alt="facebook"
+                  alt="profile"
                   width={100}
                   height={80}
                 />
@@ -345,7 +345,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/icons/verified.svg"
                     className="w-5 h-5 mb-4 ml-2"
-                    alt="facebook"
+                    alt="verified"
                     width={100}
                     height={80}
                   />
@@ -354,7 +354,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
-                    alt="facebook"
+                    alt="trash"
                     width={100}
                     height={80}
                   />
@@ -372,7 +372,7 @@ export default function Organization_create_detail() {
               <Image
                 src="/images/icons/search.svg"
                 className="w-6 h-6 absolute right-3 mt-1"
-                alt="facebook"
+                alt="search"
                 width={100}
                 height={80}
               />
@@ -383,7 +383,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -395,7 +395,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -408,7 +408,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -420,7 +420,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -433,7 +433,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -445,7 +445,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -458,7 +458,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -470,7 +470,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -483,7 +483,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -495,7 +495,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -508,7 +508,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -520,7 +520,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -533,7 +533,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -545,7 +545,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -558,7 +558,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -570,7 +570,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -583,7 +583,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -595,7 +595,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -608,7 +608,7 @@ export default function Organization_create_detail() {
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
-                    alt="facebook"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
@@ -620,7 +620,7 @@ export default function Organization_create_detail() {
                     <Image
                       src="/images/icons/verified.svg"
                       className="w-5 h-5 mb-4 ml-2"
-                      alt="facebook"
+                      alt="verified"
                       width={100}
                       height={80}
                     />
@@ -649,7 +649,7 @@ export default function Organization_create_detail() {
             <div>
               <input
                 type="text"
-                className=" text-sm w-[630px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className=" font-semibold w-[630px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Энд бич..."
               ></input>
             </div>
@@ -658,7 +658,7 @@ export default function Organization_create_detail() {
               <Image
                 src="/images/icons/trash.svg"
                 className="w-6 h-6"
-                alt="facebook"
+                alt="trash"
                 width={100}
                 height={80}
               />
@@ -682,17 +682,17 @@ export default function Organization_create_detail() {
         <div className="flex justify-between">
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Утасны дугаар 1*"
           ></input>
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Утасны дугаар 2"
           ></input>
           <input
             type="text"
-            className=" text-sm w-[236px] h-9 bg-white1 border border-gray rounded-md placeholder:pl-3"
+            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="И-мэйл*"
           ></input>
         </div>
@@ -736,12 +736,12 @@ export default function Organization_create_detail() {
             ></textarea>
           </div>
           <div className="flex justify-between">
-            <div className="w-8 h-8 bg-white1 rounded-lg border border-gray">
+            <div className="w-8 h-8 bg-white1 rounded-lg border border-gray flex justify-center items-center pt-3 pr-[15px]">
               <div>
                 <Image
                   src="/images/icons/google_map.svg"
                   className="w-6 h-6 mb-4 ml-2"
-                  alt="facebook"
+                  alt="google map"
                   width={100}
                   height={80}
                 />
@@ -750,7 +750,7 @@ export default function Organization_create_detail() {
             <div>
               <input
                 type="text"
-                className=" text-sm w-[50rem] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className=" font-semibold w-[50rem] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Google map shared link"
               ></input>
             </div>
@@ -783,7 +783,7 @@ export default function Organization_create_detail() {
             <div>
               <input
                 type="text"
-                className=" text-sm w-[193px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Нэр"
               ></input>
             </div>
@@ -793,7 +793,7 @@ export default function Organization_create_detail() {
             <div>
               <input
                 type="text"
-                className=" text-sm w-[193px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Утасны дугаар*"
               ></input>
             </div>
@@ -803,7 +803,7 @@ export default function Organization_create_detail() {
             <div>
               <input
                 type="И-мэйл"
-                className=" text-sm w-[193px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="И-мэйл*"
               ></input>
             </div>
@@ -829,7 +829,7 @@ export default function Organization_create_detail() {
           <div>
             <input
               type="И-мэйл"
-              className=" text-sm w-[630px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+              className=" font-semibold w-[630px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Энд бич..."
             ></input>
           </div>
@@ -837,7 +837,7 @@ export default function Organization_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -858,7 +858,7 @@ export default function Organization_create_detail() {
           <div>
             <input
               type="И-мэйл"
-              className=" text-sm w-[630px] h-8 bg-white1 border border-gray rounded-md placeholder:pl-3"
+              className=" font-semibold w-[630px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
               placeholder="Про боно үйл ажиллагааны тухай бичих талбар"
             ></input>
           </div>
@@ -866,7 +866,7 @@ export default function Organization_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
