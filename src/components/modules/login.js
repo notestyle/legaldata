@@ -6,7 +6,7 @@ export default function Enter() {
   const router = useRouter();
   return (
     <>
-      <div className="w-80 flex">
+      <div className="w-80 py-10 flex">
         <div className="w-full flex items-center flex-col">
           <div>
             <Image

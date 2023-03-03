@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function New() {
   return (
     <>
-      <div className="w-80 h-96 flex flex-col gap-3">
+      <div className="w-80 py-10 flex flex-col gap-3">
         <div className="flex w-full gap-5">
           <input
             type="text"

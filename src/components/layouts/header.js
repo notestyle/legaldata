@@ -61,8 +61,9 @@ export default function Header() {
           <div className="gap-8 ml-20 items-center hidden lg:flex h-full ">
             <Link
               href="/"
-              className={`font-semibold ${router.pathname == "/" ? "text-secondary" : ""
-                } hover:text-secondary  h-full flex items-center relative`}
+              className={`font-semibold ${
+                router.pathname == "/" ? "text-secondary" : ""
+              } hover:text-secondary  h-full flex items-center relative`}
             >
               Нүүр
               <div
@@ -72,14 +73,16 @@ export default function Header() {
             </Link>
             <Link
               href="/service"
-              className={`font-semibold ${router.pathname == "/service" ? "text-secondary" : ""
-                } hover:text-secondary  h-full flex items-center relative`}
+              className={`font-semibold ${
+                router.pathname == "/service" ? "text-secondary" : ""
+              } hover:text-secondary  h-full flex items-center relative`}
             >
               Үйлчилгээ
               <div
                 href="/rank"
-                className={`font-semibold ${router.pathname == "/rank" ? "text-secondary" : ""
-                  } hover:text-secondary  h-full flex items-center relative`}
+                className={`font-semibold ${
+                  router.pathname == "/rank" ? "text-secondary" : ""
+                } hover:text-secondary  h-full flex items-center relative`}
               ></div>
               <div
                 className="w-full h-1 bg-secondary absolute bottom-0"
@@ -88,8 +91,9 @@ export default function Header() {
             </Link>
             <Link
               href="/rank"
-              className={`font-semibold ${router.pathname == "/rank" ? "text-secondary" : ""
-                } hover:text-secondary  h-full flex items-center relative`}
+              className={`font-semibold ${
+                router.pathname == "/rank" ? "text-secondary" : ""
+              } hover:text-secondary  h-full flex items-center relative`}
             >
               Чансаа
               <div
@@ -99,8 +103,9 @@ export default function Header() {
             </Link>
             <Link
               href="/oportunity"
-              className={`font-semibold ${router.pathname == "/oportunity" ? "text-secondary" : ""
-                } hover:text-secondary  h-full flex items-center relative`}
+              className={`font-semibold ${
+                router.pathname == "/oportunity" ? "text-secondary" : ""
+              } hover:text-secondary  h-full flex items-center relative`}
             >
               Боломжууд
               <div
@@ -125,7 +130,10 @@ export default function Header() {
             />
             Бүртгүүлэх
           </Link>
-          <Link className=" font-semibold  h-8 flex justify-between items-center overflow-hidden" href={"/login"}>
+          <Link
+            className=" font-semibold  h-8 flex justify-between items-center overflow-hidden"
+            href={"/login"}
+          >
             <div className="bg-white w-8 h-full rounded-l-md flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -143,6 +151,17 @@ export default function Header() {
             <div className="px-4 border border-white rounded-r-md h-full flex items-center ">
               Нэвтрэх
             </div>
+            <div className="bg-white w-8 h-full rounded-l-md flex justify-center items-center">
+              <Image
+                src="/images/profiles/1.jpeg"
+                width={100}
+                height={100}
+                className="bg-white w-8 h-full rounded-l-md flex justify-center items-center"
+              />
+            </div>
+            <div className="px-4 border border-white rounded-r-md h-full flex items-center ">
+              Бархасболд
+            </div>
           </Link>
           <button className=" text-sm font-bold text-primary bg-white w-8 h-8 rounded-lg ">
             MN
@@ -153,10 +172,11 @@ export default function Header() {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             onClick={() => setOpen(!open)}
-            className={`menu-icon ${open
-              ? "opacity-50 group-hover:opacity-100 rotate-90"
-              : "opacity-50 group-hover:opacity-100"
-              }`}
+            className={`menu-icon ${
+              open
+                ? "opacity-50 group-hover:opacity-100 rotate-90"
+                : "opacity-50 group-hover:opacity-100"
+            }`}
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -172,10 +192,11 @@ export default function Header() {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             id="menu-button"
-            className={`menu-icon ${open
-              ? "opacity-50 group-hover:opacity-100 rotate-90"
-              : "opacity-50 group-hover:opacity-100"
-              }`}
+            className={`menu-icon ${
+              open
+                ? "opacity-50 group-hover:opacity-100 rotate-90"
+                : "opacity-50 group-hover:opacity-100"
+            }`}
             fill="none"
             viewBox="0 0 24 24"
             onClick={() => setOpen(!open)}
@@ -191,40 +212,46 @@ export default function Header() {
         )}
       </div>
       <div
-        className={`bg-primary text-white fixed z-30 w-full px-5 h-full pt-24 ease-in-out duration-300 ${!open ? "-translate-y-full" : "translate-y-0"
-          }`}
+        className={`bg-primary text-white fixed z-30 w-full px-5 h-full pt-24 ease-in-out duration-300 ${
+          !open ? "-translate-y-full" : "translate-y-0"
+        }`}
       >
         <div className="flex flex-col gap-5">
           <Link
             href="/"
-            className={`font-semibold ${router.pathname == "/" ? "text-secondary" : ""
-              } hover:text-secondary  flex items-center relative`}
+            className={`font-semibold ${
+              router.pathname == "/" ? "text-secondary" : ""
+            } hover:text-secondary  flex items-center relative`}
           >
             Нүүр
           </Link>
           <Link
             href="/service"
-            className={`font-semibold ${router.pathname == "/service" ? "text-secondary" : ""
-              } hover:text-secondary  flex items-center relative`}
+            className={`font-semibold ${
+              router.pathname == "/service" ? "text-secondary" : ""
+            } hover:text-secondary  flex items-center relative`}
           >
             Үйлчилгээ
             <div
               href="/rank"
-              className={`font-semibold ${router.pathname == "/rank" ? "text-secondary" : ""
-                } hover:text-secondary  flex items-center relative`}
+              className={`font-semibold ${
+                router.pathname == "/rank" ? "text-secondary" : ""
+              } hover:text-secondary  flex items-center relative`}
             ></div>
           </Link>
           <Link
             href="/rank"
-            className={`font-semibold ${router.pathname == "/rank" ? "text-secondary" : ""
-              } hover:text-secondary   flex items-center relative`}
+            className={`font-semibold ${
+              router.pathname == "/rank" ? "text-secondary" : ""
+            } hover:text-secondary   flex items-center relative`}
           >
             Чансаа
           </Link>
           <Link
             href="/oportunity"
-            className={`font-semibold ${router.pathname == "/oportunity" ? "text-secondary" : ""
-              } hover:text-secondary   flex items-center relative`}
+            className={`font-semibold ${
+              router.pathname == "/oportunity" ? "text-secondary" : ""
+            } hover:text-secondary   flex items-center relative`}
           >
             Боломжууд
           </Link>
@@ -267,7 +294,6 @@ export default function Header() {
               Нэвтрэх
             </div>
           </button>
-
         </div>
       </div>
     </>
