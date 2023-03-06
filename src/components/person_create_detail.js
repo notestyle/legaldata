@@ -256,6 +256,8 @@ export default function Person_create_detail() {
             ></input>
           </div>
           <div className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+            {" "}
+            хуульчид
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
