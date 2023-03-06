@@ -26,7 +26,7 @@ export default function person_create() {
             *гэсэн тэмдэгтэй талбарыг заавал бөглөнө.
           </div>
         </div>
-        <div className="flex pt-6 gap-10">
+        <div className="flex pt-6 gap-10 flex-col lg:flex-row">
           <Person_create />
           <Person_create_detail />
         </div>
