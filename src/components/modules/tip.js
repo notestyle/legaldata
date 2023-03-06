@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Tip() {
   return (
     <>
-      <div className="w-full h-40 bg-white flex flex-col border-2 border-gray rounded-lg">
+      <div className="w-full h-40 bg-white flex flex-col border-2 border-gray rounded-lg mt-20 lg:mt-0">
         <div className="flex justify-center pt-5">
           <Image
             className="w-14 h-14"
