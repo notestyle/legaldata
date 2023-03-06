@@ -15,15 +15,14 @@ export default function Sort({
     <>
       {/* for smaller screen starting at "lg" */}
       <div className="lg:hidden mt-4 w-full">
-        <div className="flex gap-2 mt-20 overflow-x-auto overflow-y-hidden pb-1">
+        <div className="flex gap-2 overflow-x-auto overflow-y-hidden pb-1">
           {categoryList &&
             categoryList.map((row, i) => (
               <button
                 key={i}
                 onClick={() => setActive(i)}
-                className={`${
-                  i == active ? "bg-secondary" : "bg-primary"
-                } px-2 py-1 flex gap-2  rounded-full text-white h-8`}
+                className={`${i == active ? "bg-secondary" : "bg-primary"
+                  } px-2 py-1 flex gap-2  rounded-full text-white h-8`}
               >
                 {row.name} <span>{row.total}</span>
               </button>
@@ -94,9 +93,8 @@ export default function Sort({
               <button
                 key={i}
                 onClick={() => setActive(i)}
-                className={`${
-                  active == i ? "text-secondary" : ""
-                } w-full flex justify-between`}
+                className={`${active == i ? "text-secondary" : ""
+                  } w-full flex justify-between`}
               >
                 <div>{row.name}</div>
                 <div>{row.total}</div>
