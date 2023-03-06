@@ -7,38 +7,38 @@ export default function Farm_create() {
       <div className="w-full lg:w-[30rem] my-8 sticky top-20 self-start ">
         <div>
           <div className="relative">
-            <div className="absolute bottom-0 right-0 p-3">
+            <button className="absolute bottom-0 right-0 p-3">
               <Image
                 src="/images/icons/camera.svg"
                 className=" w-full"
-                alt="facebook"
+                alt="add photo"
                 width={100}
                 height={80}
               />
-            </div>
+            </button>
             <Image
               src="/images/profiles/farm_create_cover.jpg"
               className=" w-full  rounded-2xl"
-              alt="facebook"
+              alt="cover"
               width={100}
               height={80}
             />
           </div>
           <div className="flex pl-2 pt-3 gap-5">
             <div className=" w-28 h-20 relative">
-              <div className="absolute bottom-3 right-0 p-3 z-10">
+              <button className="absolute bottom-3 right-0 p-3 z-10">
                 <Image
                   src="/images/icons/camera.svg"
                   className=" w-full"
-                  alt="facebook"
+                  alt="add photo"
                   width={100}
                   height={80}
                 />
-              </div>
+              </button>
               <Image
                 src="/images/profiles/create_farm.svg"
                 className=" w-full absolute -translate-y-1/2"
-                alt="facebook"
+                alt="profile"
                 width={100}
                 height={80}
               />

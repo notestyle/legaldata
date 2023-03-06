@@ -22,7 +22,7 @@ export default function farm_create() {
           <div className=" w-[30rem]  h-0.5 bg-gradient-to-l from-white1 to-primary "></div>
         </div>
         <div className="flex justify-center">
-          <div className="text-secondary font-[Ubuntu]">
+          <div className="text-secondary font-[Ubuntu] font-semibold">
             *гэсэн тэмдэгтэй талбарыг заавал бөглөнө.
           </div>
         </div>

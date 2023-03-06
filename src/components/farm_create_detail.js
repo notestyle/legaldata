@@ -18,7 +18,7 @@ export default function Farm_create_detail() {
             </div>
             <div className="font-bold">Монгол хэл дээрх</div>
           </div>
-          <div className=" w-80 h-12 border my-5 border-secondary border-l-0 rounded-xl shadow-md flex gap-5 justify-center items-center absolute right-60">
+          <button className=" w-80 h-12 border my-5 border-secondary border-l-0 rounded-xl shadow-md flex gap-5 justify-center items-center absolute right-60">
             <div className="text-gray">
               <Image
                 src="/images/icons/english.svg"
@@ -29,7 +29,7 @@ export default function Farm_create_detail() {
               />
             </div>
             <div className="font-bold text-gray">English</div>
-          </div>
+          </button>
           <button className="bg-[#0EAC4D] h-12 py-2 px-8 rounded-xl text-white font-bold absolute right-10">
             Хадаглах
           </button>
@@ -75,7 +75,7 @@ export default function Farm_create_detail() {
               placeholder="Энд бич..."
             ></input>
           </div>
-          <div className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+          <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
@@ -83,7 +83,7 @@ export default function Farm_create_detail() {
               width={100}
               height={80}
             />
-          </div>
+          </button>
         </div>
         <div className="pt-8">
           <div className="font-bold text-sm font-[Ubuntu]">
@@ -218,7 +218,7 @@ export default function Farm_create_detail() {
               placeholder="Жишээ: “Капитал Маркет” ХХК"
             ></input>
           </div>
-          <div className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+          <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
@@ -226,7 +226,7 @@ export default function Farm_create_detail() {
               width={100}
               height={80}
             />
-          </div>
+          </button>
         </div>
         <div className="pt-8">
           <div className="font-bold text-sm font-[Ubuntu]">Хуульчид</div>
@@ -257,7 +257,7 @@ export default function Farm_create_detail() {
                     height={80}
                   />
                 </div>
-                <div className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
@@ -265,7 +265,7 @@ export default function Farm_create_detail() {
                     width={100}
                     height={80}
                   />
-                </div>
+                </button>
               </div>
               <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
                 <Image
@@ -288,7 +288,7 @@ export default function Farm_create_detail() {
                     height={80}
                   />
                 </div>
-                <div className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
@@ -296,7 +296,7 @@ export default function Farm_create_detail() {
                     width={100}
                     height={80}
                   />
-                </div>
+                </button>
               </div>
               <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
                 <Image
@@ -319,7 +319,7 @@ export default function Farm_create_detail() {
                     height={80}
                   />
                 </div>
-                <div className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
@@ -327,7 +327,7 @@ export default function Farm_create_detail() {
                     width={100}
                     height={80}
                   />
-                </div>
+                </button>
               </div>
               <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
                 <Image
@@ -350,7 +350,7 @@ export default function Farm_create_detail() {
                     height={80}
                   />
                 </div>
-                <div className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
@@ -358,7 +358,7 @@ export default function Farm_create_detail() {
                     width={100}
                     height={80}
                   />
-                </div>
+                </button>
               </div>
             </div>
           </div>
@@ -366,7 +366,7 @@ export default function Farm_create_detail() {
             <div className="flex relative mb-4">
               <input
                 type="text"
-                className="text-md bg-white1 w-full pr-12 py-2 border-b-2 border-black outline-none placeholder:text-lg font-semibold"
+                className="text-md bg-white1 w-full pr-12 py-2 border-b-2 border-gray outline-none placeholder:text-lg font-semibold"
                 placeholder="Бархасболд"
               ></input>
               <Image
@@ -654,7 +654,7 @@ export default function Farm_create_detail() {
               ></input>
             </div>
 
-            <div className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+            <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
               <Image
                 src="/images/icons/trash.svg"
                 className="w-6 h-6"
@@ -662,7 +662,7 @@ export default function Farm_create_detail() {
                 width={100}
                 height={80}
               />
-            </div>
+            </button>
           </div>
           <div>
             <textarea
@@ -833,7 +833,7 @@ export default function Farm_create_detail() {
               placeholder="Энд бич..."
             ></input>
           </div>
-          <div className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+          <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
@@ -841,7 +841,7 @@ export default function Farm_create_detail() {
               width={100}
               height={80}
             />
-          </div>
+          </button>
         </div>
         <div className="flex justify-between pt-8">
           <div>
@@ -862,7 +862,7 @@ export default function Farm_create_detail() {
               placeholder="Про боно үйл ажиллагааны тухай бичих талбар"
             ></input>
           </div>
-          <div className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+          <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
@@ -870,7 +870,7 @@ export default function Farm_create_detail() {
               width={100}
               height={80}
             />
-          </div>
+          </button>
         </div>
       </div>
     </>

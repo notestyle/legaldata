@@ -16,9 +16,9 @@ export default function Register() {
       </Head>
       <Layout>
         <div className="w-full px-10 md:px-20 lg:px-52 h-28 flex justify-between items-center gap-10 bg-white1">
-          <div className="w-1/3 h-0.5 bg-gradient-to-r from-white to-primary"></div>
+          <div className="w-1/3 h-0.5 bg-gradient-to-r from-white1 to-primary"></div>
           <div className="font-[Ubuntu] font-bold">ПРОФАЙЛ ҮҮСГЭХ</div>
-          <div className=" w-1/3  h-0.5 bg-gradient-to-l from-white to-primary "></div>
+          <div className=" w-1/3  h-0.5 bg-gradient-to-l from-white1 to-primary "></div>
         </div>
         <div className="flex justify-center md:justify-between gap-24 mt-20 flex-col md:flex-row w-full">
           <div className="w-full lg:w-96 h-full pt-20 lg:h-56 text-center bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg relative">

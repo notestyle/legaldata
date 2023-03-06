@@ -7,7 +7,7 @@ export default function Ad() {
         <div className="pt-12 flex justify-center italic font-[Ubuntu]">
           <div>Профайлаа үүсгээрэй </div>
         </div>
-        <div className="pt-8 flex justify-center font-[Ubuntu] text-2xl font-bold">
+        <div className="pt-8 flex justify-center font-[Ubuntu] text-2xl font-bold md:text-center">
           <div>ТАНЫ АЖИЛ ХЭРЭГТ ХҮЧ НЭМНЭ</div>
         </div>
         <div className="flex justify-center">
