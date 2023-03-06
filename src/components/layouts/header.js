@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { Menu, Transition } from "@headlessui/react";
 
 function useWindowSize() {
   // Initialize state with undefined width/height so server and client renders match
@@ -42,6 +43,10 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const size = useWindowSize();
 
+  function classNames(...classes) {
+    return classes.filter(Boolean).join(" ");
+  }
+
   return (
     <>
       <div className="w-full fixed h-20 bg-primary flex justify-between place-items-center text-white px-2 md:px-20 lg:px-32 lg:sticky top-0 z-40 ">
@@ -71,24 +76,71 @@ export default function Header() {
                 hidden={router.pathname != "/"}
               ></div>
             </Link>
-            <Link
-              href="/service"
-              className={`font-semibold ${
-                router.pathname == "/service" ? "text-secondary" : ""
-              } hover:text-secondary  h-full flex items-center relative`}
-            >
-              Үйлчилгээ
-              <div
-                href="/rank"
-                className={`font-semibold ${
-                  router.pathname == "/rank" ? "text-secondary" : ""
+            <Menu as="div" className="relative inline-block text-left h-full">
+              <Menu.Button
+                href="/service"
+                className={`font-semibold active:text-secondary ${
+                  router.pathname == "/service" ? "text-secondary" : ""
                 } hover:text-secondary  h-full flex items-center relative`}
-              ></div>
-              <div
-                className="w-full h-1 bg-secondary absolute bottom-0"
-                hidden={router.pathname != "/service"}
-              ></div>
-            </Link>
+              >
+                Үйлчилгээ
+                <div
+                  href="/rank"
+                  className={`font-semibold ${
+                    router.pathname == "/rank" ? "text-secondary" : ""
+                  } hover:text-secondary  h-full flex items-center relative`}
+                ></div>
+                <div
+                  className="w-full h-1 bg-secondary absolute bottom-0"
+                  hidden={router.pathname != "/service"}
+                ></div>
+              </Menu.Button>
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-100"
+                enterFrom="transform opacity-0 scale-95"
+                enterTo="transform opacity-100 scale-100"
+                leave="transition ease-in duration-75"
+                leaveFrom="transform opacity-100 scale-100"
+                leaveTo="transform opacity-0 scale-95"
+              >
+                <Menu.Items className="absolute text-black left-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                  <div className="py-1">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link
+                          href="service"
+                          className={classNames(
+                            active
+                              ? "bg-gray-100 text-gray-900"
+                              : "text-gray-700",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Үндсэн үйлчилгээ
+                        </Link>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <a
+                          href="#"
+                          className={classNames(
+                            active
+                              ? "bg-gray-100 text-gray-900"
+                              : "text-gray-700",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Нэмэлт үйлчилгээ
+                        </a>
+                      )}
+                    </Menu.Item>
+                  </div>
+                </Menu.Items>
+              </Transition>
+            </Menu>
+
             <Link
               href="/rank"
               className={`font-semibold ${
