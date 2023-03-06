@@ -26,7 +26,7 @@ export default function farm_create() {
             *гэсэн тэмдэгтэй талбарыг заавал бөглөнө.
           </div>
         </div>
-        <div className="flex pt-6 gap-10">
+        <div className="flex pt-6 gap-10 flex-col lg:flex-row">
           <Organization_create />
           <Organization_create_detail />
         </div>

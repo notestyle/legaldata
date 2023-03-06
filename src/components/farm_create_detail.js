@@ -1,41 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import Language from "./inputs/language";
 
 export default function Farm_create_detail() {
   return (
     <>
-      <div className="w-[56.5rem] my-8 px-7 bg-white border border-gray rounded-xl">
-        <div className="flex items-center relative">
-          <div className=" w-80 h-12 border my-5 border-gray rounded-xl shadow-md flex gap-3 justify-center items-center">
-            <div>
-              <Image
-                src="/images/icons/mongolia.svg"
-                className=" w-12 h-8"
-                alt="facebook"
-                width={100}
-                height={80}
-              />
-            </div>
-            <div className="font-bold">Монгол хэл дээрх</div>
-          </div>
-          <button className=" w-80 h-12 border my-5 border-secondary border-l-0 rounded-xl shadow-md flex gap-5 justify-center items-center absolute right-60">
-            <div className="text-gray">
-              <Image
-                src="/images/icons/english.svg"
-                className="w-12 h-8 opacity-25"
-                alt="facebook"
-                width={100}
-                height={80}
-              />
-            </div>
-            <div className="font-bold text-gray">English</div>
-          </button>
-          <button className="bg-[#0EAC4D] h-12 py-2 px-8 rounded-xl text-white font-bold absolute right-10">
-            Хадаглах
+      <div className="w-full my-8 p-7  bg-white border border-gray rounded-xl">
+        <div className="flex items-center justify-between">
+          <Language />
+          <button className="bg-[#0EAC4D] h-12 py-2 px-8 rounded-xl text-white font-bold">
+            Хадгалах
           </button>
         </div>
-        <div className="w-full h-0.5 bg-gray"></div>
-        <div className="py-5">
+        <div className="w-full h-0.5 bg-gray my-7"></div>
+        <div className="">
           <div className="font-bold text-sm font-[Ubuntu]">
             Товч танилцуулга
           </div>
@@ -232,137 +210,135 @@ export default function Farm_create_detail() {
           <div className="font-bold text-sm font-[Ubuntu]">Хуульчид</div>
           <div className="w-14 h-0.5 bg-secondary my-2"></div>
         </div>
-        <div className="flex gap-3">
-          <div className=" w-72 bg-white1 border border-gray rounded-lg">
-            <div className="pl-3 flex flex-col gap-3">
-              <div className="font-bold py-2">Сонгогдсон хуульчид</div>
-              <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
+        <div className="flex flex-col lg:flex-row gap-3">
+          <div className="flex flex-col gap-3 px-2 w-full lg:w-96 bg-white1 border border-gray rounded-lg">
+            <div className="font-bold py-2">Сонгогдсон хуульчид</div>
+            <div className=" w-full h-16 bg-white border border-gray rounded-lg flex items-center">
+              <Image
+                src="/images/profiles/1.jpeg"
+                className="w-10 h-10 rounded-full m-3"
+                alt="facebook"
+                width={100}
+                height={80}
+              />
+              <div>
+                <div className="font-bold text-lg">Бархасболд</div>
+                <div className="font-[Ubuntu]">Баярсайхан</div>
+              </div>
+              <div>
                 <Image
-                  src="/images/profiles/1.jpeg"
-                  className="w-10 h-10 rounded-full m-3"
+                  src="/images/icons/verified.svg"
+                  className="w-5 h-5 mb-4 ml-2"
                   alt="facebook"
                   width={100}
                   height={80}
                 />
-                <div>
-                  <div className="font-bold text-lg">Бархасболд</div>
-                  <div className="font-[Ubuntu]">Баярсайхан</div>
-                </div>
-                <div>
-                  <Image
-                    src="/images/icons/verified.svg"
-                    className="w-5 h-5 mb-4 ml-2"
-                    alt="facebook"
-                    width={100}
-                    height={80}
-                  />
-                </div>
-                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
-                  <Image
-                    src="/images/icons/trash.svg"
-                    className="w-5 h-5"
-                    alt="facebook"
-                    width={100}
-                    height={80}
-                  />
-                </button>
               </div>
-              <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
+              <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                 <Image
-                  src="/images/profiles/4.jpeg"
-                  className="w-10 h-10 rounded-full m-3"
+                  src="/images/icons/trash.svg"
+                  className="w-5 h-5"
                   alt="facebook"
                   width={100}
                   height={80}
                 />
-                <div>
-                  <div className="font-bold text-lg">Бархасболд</div>
-                  <div className="font-[Ubuntu]">Баярсайхан</div>
-                </div>
-                <div>
-                  <Image
-                    src="/images/icons/verified.svg"
-                    className="w-5 h-5 mb-4 ml-2"
-                    alt="facebook"
-                    width={100}
-                    height={80}
-                  />
-                </div>
-                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
-                  <Image
-                    src="/images/icons/trash.svg"
-                    className="w-5 h-5"
-                    alt="facebook"
-                    width={100}
-                    height={80}
-                  />
-                </button>
+              </button>
+            </div>
+            <div className=" w-full h-16 bg-white border border-gray rounded-lg flex items-center">
+              <Image
+                src="/images/profiles/4.jpeg"
+                className="w-10 h-10 rounded-full m-3"
+                alt="facebook"
+                width={100}
+                height={80}
+              />
+              <div>
+                <div className="font-bold text-lg">Бархасболд</div>
+                <div className="font-[Ubuntu]">Баярсайхан</div>
               </div>
-              <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
+              <div>
                 <Image
-                  src="/images/profiles/3.jpeg"
-                  className="w-10 h-10 rounded-full m-3"
+                  src="/images/icons/verified.svg"
+                  className="w-5 h-5 mb-4 ml-2"
                   alt="facebook"
                   width={100}
                   height={80}
                 />
-                <div>
-                  <div className="font-bold text-lg">Бархасболд</div>
-                  <div className="font-[Ubuntu]">Баярсайхан</div>
-                </div>
-                <div>
-                  <Image
-                    src="/images/icons/verified.svg"
-                    className="w-5 h-5 mb-4 ml-2"
-                    alt="facebook"
-                    width={100}
-                    height={80}
-                  />
-                </div>
-                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
-                  <Image
-                    src="/images/icons/trash.svg"
-                    className="w-5 h-5"
-                    alt="facebook"
-                    width={100}
-                    height={80}
-                  />
-                </button>
               </div>
-              <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
+              <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                 <Image
-                  src="/images/profiles/2.jpeg"
-                  className="w-10 h-10 rounded-full m-3"
+                  src="/images/icons/trash.svg"
+                  className="w-5 h-5"
                   alt="facebook"
                   width={100}
                   height={80}
                 />
-                <div>
-                  <div className="font-bold text-lg">Бархасболд</div>
-                  <div className="font-[Ubuntu]">Баярсайхан</div>
-                </div>
-                <div>
-                  <Image
-                    src="/images/icons/verified.svg"
-                    className="w-5 h-5 mb-4 ml-2"
-                    alt="facebook"
-                    width={100}
-                    height={80}
-                  />
-                </div>
-                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
-                  <Image
-                    src="/images/icons/trash.svg"
-                    className="w-5 h-5"
-                    alt="facebook"
-                    width={100}
-                    height={80}
-                  />
-                </button>
+              </button>
+            </div>
+            <div className=" w-full h-16 bg-white border border-gray rounded-lg flex items-center">
+              <Image
+                src="/images/profiles/3.jpeg"
+                className="w-10 h-10 rounded-full m-3"
+                alt="facebook"
+                width={100}
+                height={80}
+              />
+              <div>
+                <div className="font-bold text-lg">Бархасболд</div>
+                <div className="font-[Ubuntu]">Баярсайхан</div>
               </div>
+              <div>
+                <Image
+                  src="/images/icons/verified.svg"
+                  className="w-5 h-5 mb-4 ml-2"
+                  alt="facebook"
+                  width={100}
+                  height={80}
+                />
+              </div>
+              <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                <Image
+                  src="/images/icons/trash.svg"
+                  className="w-5 h-5"
+                  alt="facebook"
+                  width={100}
+                  height={80}
+                />
+              </button>
+            </div>
+            <div className=" w-full h-16 bg-white border border-gray rounded-lg flex items-center">
+              <Image
+                src="/images/profiles/2.jpeg"
+                className="w-10 h-10 rounded-full m-3"
+                alt="facebook"
+                width={100}
+                height={80}
+              />
+              <div>
+                <div className="font-bold text-lg">Бархасболд</div>
+                <div className="font-[Ubuntu]">Баярсайхан</div>
+              </div>
+              <div>
+                <Image
+                  src="/images/icons/verified.svg"
+                  className="w-5 h-5 mb-4 ml-2"
+                  alt="facebook"
+                  width={100}
+                  height={80}
+                />
+              </div>
+              <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                <Image
+                  src="/images/icons/trash.svg"
+                  className="w-5 h-5"
+                  alt="facebook"
+                  width={100}
+                  height={80}
+                />
+              </button>
             </div>
           </div>
-          <div className=" p-3 bg-white1 border border-gray rounded-lg">
+          <div className=" p-3 bg-white1 border border-gray rounded-lg w-full">
             <div className="flex relative mb-4">
               <input
                 type="text"
@@ -379,7 +355,7 @@ export default function Farm_create_detail() {
             </div>
             <div className="">
               <div className="grid grid-cols-2 gap-2  ">
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
@@ -404,7 +380,7 @@ export default function Farm_create_detail() {
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"
@@ -429,10 +405,10 @@ export default function Farm_create_detail() {
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
                   <Image
                     src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
+                    className="w-10 h-10 rounded-full m-3 object-cover"
                     alt="facebook"
                     width={100}
                     height={80}
@@ -454,7 +430,7 @@ export default function Farm_create_detail() {
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
                   <Image
                     src="/images/profiles/1.jpeg"
                     className="w-10 h-10 rounded-full m-3"

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Organization_create() {
   return (
     <>
-      <div className="w-full lg:w-[30rem] my-8 sticky top-20 self-start ">
+      <div className="w-full lg:w-[30rem] my-8 lg:sticky top-20 self-start  ">
         <div>
           <div className="relative">
             <button className="absolute bottom-0 right-0 p-3">
