@@ -13,7 +13,7 @@ export default function Oportunity() {
         <link rel="icon" href="/next.svg" />
       </Head>
       <Layout>
-        <div className="flex lg:flex-row-reverse flex-col gap-4 w-full">
+        <div className="flex pt-16 md:pt-0 lg:flex-row-reverse flex-col gap-4 w-full">
           <RecommendFarm />
           <OportunityDetail />
         </div>

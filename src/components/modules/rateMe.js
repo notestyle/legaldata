@@ -16,8 +16,8 @@ export default function RateMe({ show, setShow }) {
               setShow(false);
             }}
           ></div>
-          <div className="z-40 flex items-center justify-center fixed transform left-[calc(50%-15rem)] top-[calc(50%-18rem)]">
-            <div className="bg-white flex flex-col items-center w-[30rem] px-4 rounded-xl relative shadow">
+          <div className="z-40 flex items-center justify-center fixed transform left-[calc(50%-13rem)] sm:left-[calc(50%-15rem)] top-[calc(50%-18rem)]">
+            <div className="bg-white flex flex-col items-center w-full mx-4 sm:w-[30rem] px-4 rounded-xl relative shadow">
               <div className="flex justify-center ">
                 <div className="w-32 h-32 rounded-full bg-white absolute -translate-y-1/2"></div>
                 <Image
@@ -39,7 +39,7 @@ export default function RateMe({ show, setShow }) {
                 />
               </div>
               <Star value={rating} setValue={setRating} />
-              <div className="flex gap-3 pt-6 w-full">
+              <div className="flex flex-col sm:flex-row gap-3 pt-6 w-full">
                 <input
                   type="text"
                   className="input"
@@ -51,7 +51,7 @@ export default function RateMe({ show, setShow }) {
                   <option>Өмгөөлөгч</option>
                 </select>
               </div>
-              <div className="flex gap-3 pt-4 w-full">
+              <div className="flex flex-col sm:flex-row gap-3 pt-4 w-full">
                 <input
                   type="text"
                   className="input"

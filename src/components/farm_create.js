@@ -48,16 +48,16 @@ export default function Farm_create() {
         <div className="w-full bg-white border border-gray rounded-lg">
           <div className="px-5 pt-4">
             <div className="font-bold ">Хуулийн фирмийн нэр*</div>
-            <div className="flex pt-3 gap-5 justify-between">
+            <div className="flex pt-3 gap-5 w-full justify-between">
               <div>
                 <input
                   type="text"
-                  className=" font-semibold w-72 h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+                  className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                   placeholder="Энд бич..."
                 ></input>
               </div>
               <div>
-                <select className="text-sm font-semibold w-28 h-8 bg-white1 border border-gray rounded-md outline-none  ">
+                <select className="text-sm font-semibold w-full h-8 bg-white1 border border-gray rounded-md outline-none  ">
                   <option>ХХК</option>
                   <option>ХХК1</option>
                   <option>ХХК2</option>

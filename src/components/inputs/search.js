@@ -5,10 +5,6 @@ import { Menu, Transition } from "@headlessui/react";
 export default function Search() {
   const router = useRouter();
 
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
-
   return (
     <>
       <div className="w-full px-2 pb-16 pt-32 md:px-20 sm:pt-32 sm:pb-12 lg:px-32 lg:pt-12 h-28 flex justify-between items-center gap-10 bg-white1">
@@ -59,7 +55,7 @@ export default function Search() {
               >
                 <Menu.Items className="absolute text-black right-0 z-10 mt-2 px-2 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                   <div>
-                    <div className="py-1 flex gap-2">
+                    <div className="py-1 flex gap-2 flex-col md:flex-row">
                       <select className="bg-white  h-10 outline-none">
                         <option>Байршил</option>
                         <option>Улаанбаатар</option>
