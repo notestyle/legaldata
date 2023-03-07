@@ -69,7 +69,7 @@ export default function Register() {
               ҮҮСГЭХ
             </button>
           </div>
-          <div className="w-full lg:w-96 h-full pt-20 lg:h-56 text-center bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg  ">
+          <div className="w-full relative lg:w-96 h-full pt-20 lg:h-56 text-center bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-lg mb-12 ">
             <div className="absolute flex items-center justify-center transform left-1/2  -translate-x-1/2 -top-1/3">
               <Image
                 className="w-40"
