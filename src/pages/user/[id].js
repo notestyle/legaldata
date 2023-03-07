@@ -29,70 +29,74 @@ export default function UserPofile() {
                 height={80}
               />
             </div>
-            <div className="flex pl-2 pt-3 gap-5">
-              <div className="bg-white1 absolute w-32 h-32 rounded-full  -translate-y-1/2 "></div>
-              <div className=" w-28 h-20 relative">
-                <Image
-                  src="/images/profiles/3.jpeg"
-                  className=" w-full absolute -translate-y-1/2 left-2 rounded-full"
-                  alt="user-profile"
-                  width={100}
-                  height={80}
-                />
-              </div>
-              <div className="font-bold font-[Ubuntu]">Company Name </div>
-              <div>
-                <Image
-                  src="/images/icons/verified.svg"
-                  className=" w-5 h-5"
-                  alt="verified"
-                  width={100}
-                  height={80}
-                />
-              </div>
-              <div className="flex gap-2">
-                <Image
-                  src="/images/social/url_facebook.svg"
-                  className=" w-5 h-5"
-                  alt="facebook"
-                  width={100}
-                  height={80}
-                />
-                <Image
-                  src="/images/social/url_instagram.svg"
-                  className=" w-5 h-5"
-                  alt="instagram"
-                  width={100}
-                  height={80}
-                />
-                <Image
-                  src="/images/social/url_linkedin.svg"
-                  className=" w-5 h-5"
-                  alt="linkedin"
-                  width={100}
-                  height={80}
-                />
-                <Image
-                  src="/images/social/url_youtube.svg"
-                  className=" w-5 h-5"
-                  alt="youtube"
-                  width={100}
-                  height={80}
-                />
-                <Image
-                  src="/images/social/url_twitter.svg"
-                  className=" w-5 h-5"
-                  alt="twitter"
-                  width={100}
-                  height={80}
-                />
+            <div className="flex mt-3 ">
+              <div className="flex justify-between w-full">
+                <div className="flex h-20">
+                  <div className=" w-20 h-20 md:w-36 md:h-36 bg-white1 p-1 ml-4 rounded-full -translate-y-1/2 flex items-center justify-center">
+                    <Image
+                      src="/images/profiles/3.jpeg"
+                      className="rounded-full p-2 object-cover"
+                      alt="facebook"
+                      fill
+                    />
+                  </div>
+
+                  <div className="flex items-center h-fit">
+                    <div className="font-bold font-[Ubuntu]">Barkhas bold</div>
+                    <Image
+                      src="/images/icons/verified.svg"
+                      className=" w-5 h-5 ml-2"
+                      alt="facebook"
+                      width={100}
+                      height={80}
+                    />
+                  </div>
+                </div>
+
+                <div className=" flex lg:flex gap-2 flex-wrap">
+                  <Image
+                    src="/images/social/url_facebook.svg"
+                    className=" w-5 h-5"
+                    alt="facebook"
+                    width={100}
+                    height={80}
+                  />
+                  <Image
+                    src="/images/social/url_instagram.svg"
+                    className=" w-5 h-5"
+                    alt="instagram"
+                    width={100}
+                    height={80}
+                  />
+                  <Image
+                    src="/images/social/url_linkedin.svg"
+                    className=" w-5 h-5"
+                    alt="linkedin"
+                    width={100}
+                    height={80}
+                  />
+                  <Image
+                    src="/images/social/url_youtube.svg"
+                    className=" w-5 h-5"
+                    alt="youtube"
+                    width={100}
+                    height={80}
+                  />
+                  <Image
+                    src="/images/social/url_twitter.svg"
+                    className=" w-5 h-5"
+                    alt="twitter"
+                    width={100}
+                    height={80}
+                  />
+                </div>
               </div>
             </div>
             <div className="w-full h-48 border-2 border-gray rounded-2xl mb-10 bg-white">
-              <div className="pl-5 pt-3">
+              <div className="pl-5 py-2">
                 <div className="font-bold font-[Ubuntu]">Надтай холбогдох</div>
                 <div className="pt-5">
-                  <div className="w-full flex gap-12">
+                  <div className="w-full flex gap-6">
                     <div className="flex gap-3">
                       <Image
                         src="/images/icons/phone.svg"
@@ -132,17 +136,17 @@ export default function UserPofile() {
                       battulga.purvee@gmail.com
                     </div>
                   </div>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 w-full">
                     <div>
                       <Image
                         src="/images/icons/location.svg"
-                        className=" w-10 h-10"
+                        className=" w-6 h-6"
                         alt="twitter"
                         width={100}
                         height={80}
                       />
                     </div>
-                    <div className="font-bold font-[Ubuntu]">
+                    <div className="w-full text-sm font-semibold font-[Ubuntu]">
                       Улаанбаатар хот, Сүхбаатар дүүрэг, 8-р хороо, Амарын
                       гудамж 29, Сан Бизнес Центр, 402 тоот
                     </div>
@@ -151,9 +155,9 @@ export default function UserPofile() {
               </div>
             </div>
             <div className="flex">
-              <div className="flex gap-3 items-center">
+              <div className="flex pl-4 gap-3 items-center">
                 <div className="font-bold font-[Ubuntu]">3.5</div>
-                <Star value={3.5} />
+                <Star value={3.5} setValue={() => {}} />
               </div>
 
               <button
@@ -274,49 +278,14 @@ export default function UserPofile() {
                 <div className="font-bold font-[Ubuntu] pt-3">Үнэлгээ</div>
                 <div className="w-14 h-0.5 bg-secondary mt-1"></div>
               </div>
-              <div className="w-full flex justify-between ">
+              <div className="w-full flex justify-between flex flex-col sm:flex-row">
                 <div className="font-bold font-[Ubuntu]">
                   Болор-Эрдэнэ ТӨРБОЛД:
                 </div>
-                <div className="flex">
-                  <div className="flex gap-3">
-                    <div className="font-bold font-[Ubuntu]">3.5</div>
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                  </div>
+
+                <div className="flex gap-2 ">
+                  <div className="font-bold font-[Ubuntu]">3.5</div>
+                  <Star value={3.5}></Star>
                 </div>
               </div>
               <div className="pt-3">
@@ -324,47 +293,11 @@ export default function UserPofile() {
                 ажилладаг. Тэрээр бичих чадвар сайтай бөгөөд үйлчлүүлэгчдийнхээ
                 төлөө шударга ёсыг уйгагүй эрэлхийлдэг.
               </div>
-              <div className="w-full flex justify-between pt-6 ">
+              <div className="w-full flex flex-col sm:flex-row justify-between pt-6 ">
                 <div className="font-bold font-[Ubuntu]">Unknown</div>
-                <div className="flex">
-                  <div className="flex gap-3">
-                    <div className="font-bold font-[Ubuntu]">3.5</div>
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                    <Image
-                      src="/images/icons/star.svg"
-                      className=" w-5 h-5"
-                      alt="youtube"
-                      width={100}
-                      height={80}
-                    />
-                  </div>
+                <div className="flex gap-2 ">
+                  <div className="font-bold font-[Ubuntu]">3.5</div>
+                  <Star value={3.5}></Star>
                 </div>
               </div>
               <div className="pt-3">
