@@ -736,7 +736,7 @@ export default function Farm_create_detail() {
             29, Сан Бизнес Центр, 402 тоот"
             ></textarea>
           </div>
-          <div className="flex justify-between">
+          <div className="flex w-full gap-4 ">
             <div className="w-8 h-8 bg-white1 rounded-lg border border-gray flex justify-center items-center pt-3 pr-[14px]">
               <div>
                 <Image
@@ -748,13 +748,11 @@ export default function Farm_create_detail() {
                 />
               </div>
             </div>
-            <div>
-              <input
-                type="text"
-                className=" font-semibold w-[50rem] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
-                placeholder="Google map shared link"
-              ></input>
-            </div>
+            <input
+              type="text"
+              className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+              placeholder="Google map shared link"
+            ></input>
           </div>
         </div>
         <div className="flex justify-between mt-8">
@@ -768,43 +766,41 @@ export default function Farm_create_detail() {
             +
           </button>
         </div>
-        <div className="w-full p-3 mt-2 bg-white rounded-lg border border-gray flex justify-between">
+        <div className="w-full p-3 mt-2 gap-4 bg-white rounded-lg border border-gray lg:flex grid grid-cols-2 ">
           <div className=" flex flex-col gap-2">
             <div className="font-semibold italic">Мэргэшсэн чиглэл</div>
-            <div>
-              <select className=" font-semibold text-sm w-[193px] h-9 bg-white1 border border-gray rounded-md outline-none  ">
-                <option>Хөрөнгө оруулалтын сан</option>
-                <option>Хөрөнгө оруулалтын сан</option>
-                <option>Хөрөнгө оруулалтын сан</option>
-              </select>
-            </div>
+
+            <select className=" font-semibold text-sm w-full h-8 bg-white1 border border-gray rounded-md outline-none  ">
+              <option>Хөрөнгө оруулалтын сан</option>
+              <option>Хөрөнгө оруулалтын сан</option>
+              <option>Хөрөнгө оруулалтын сан</option>
+            </select>
           </div>
           <div className="flex flex-col gap-2">
             <div className="font-semibold italic">Нэр</div>
-            <div>
-              <input
-                type="text"
-                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
-                placeholder="Нэр"
-              ></input>
-            </div>
+
+            <input
+              type="text"
+              className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+              placeholder="Нэр"
+            ></input>
           </div>
           <div className="flex flex-col gap-2">
             <div className="font-semibold italic">Утас</div>
             <div>
               <input
                 type="text"
-                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+                className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Утасны дугаар*"
               ></input>
             </div>
           </div>
           <div className="flex flex-col gap-2">
-            <div className="font-semibold italic">Нэр</div>
+            <div className="font-semibold italic">И-мэйл</div>
             <div>
               <input
                 type="И-мэйл"
-                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+                className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="И-мэйл*"
               ></input>
             </div>
@@ -819,21 +815,18 @@ export default function Farm_create_detail() {
             +
           </button>
         </div>
-        <div className="w-full flex justify-between mt-2">
-          <div>
-            <select className=" font-semibold text-sm w-28 h-9 bg-white1 border border-gray rounded-md outline-none  ">
-              <option>2023</option>
-              <option>2022</option>
-              <option>2021</option>
-            </select>
-          </div>
-          <div>
-            <input
-              type="И-мэйл"
-              className=" font-semibold w-[630px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
-              placeholder="Энд бич..."
-            ></input>
-          </div>
+        <div className="w-full flex mt-2 gap-4">
+          <select className=" font-semibold text-sm w-28 h-8 bg-white1 border border-gray rounded-md outline-none  ">
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+          </select>
+
+          <input
+            type="И-мэйл"
+            className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Энд бич..."
+          ></input>
           <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
@@ -855,14 +848,13 @@ export default function Farm_create_detail() {
             +
           </button>
         </div>
-        <div className="w-full flex justify-between mt-2 mb-5">
-          <div>
-            <input
-              type="И-мэйл"
-              className=" font-semibold w-[630px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
-              placeholder="Про боно үйл ажиллагааны тухай бичих талбар"
-            ></input>
-          </div>
+        <div className="w-full flex justify-between mt-2 mb-5 gap-4">
+          <input
+            type="И-мэйл"
+            className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Про боно үйл ажиллагааны тухай бичих талбар"
+          ></input>
+
           <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
