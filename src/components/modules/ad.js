@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 export default function Ad() {
+  const router = useRouter();
   return (
     <>
       <div className="w-full py-8">
@@ -69,7 +71,10 @@ export default function Ad() {
           </div>
         </div>
         <div className="flex justify-center pt-10">
-          <button className="w-60 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md hover:drop-shadow-xl">
+          <button
+            className="w-60 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md hover:drop-shadow-xl"
+            onClick={() => router.push("/register")}
+          >
             Бидэнтэй нэгд
           </button>
         </div>

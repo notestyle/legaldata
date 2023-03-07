@@ -57,7 +57,7 @@ export default function Farm_create() {
                 ></input>
               </div>
               <div>
-                <select className="text-sm font-semibold w-28 h-8 bg-white1 border border-gray rounded-md  ">
+                <select className="text-sm font-semibold w-28 h-8 bg-white1 border border-gray rounded-md outline-none  ">
                   <option>ХХК</option>
                   <option>ХХК1</option>
                   <option>ХХК2</option>
@@ -66,7 +66,7 @@ export default function Farm_create() {
             </div>
             <div className="pt-4 font-bold">Холбоос</div>
             <div className="py-4 flex flex-col gap-3">
-              <div className="flex justify-between relative">
+              <div className="flex relative gap-2 w-full">
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
@@ -77,15 +77,14 @@ export default function Farm_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+
+                <input
+                  type="text"
+                  className="w-full h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
+              <div className="flex relative gap-2 w-full">
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
@@ -96,15 +95,14 @@ export default function Farm_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+
+                <input
+                  type="text"
+                  className="w-full h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
+              <div className="flex gap-2 relative">
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
@@ -115,15 +113,13 @@ export default function Farm_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+                <input
+                  type="text"
+                  className="w-full h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
+              <div className="flex w-full gap-2 relative">
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
@@ -134,15 +130,14 @@ export default function Farm_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+
+                <input
+                  type="text"
+                  className="w-full h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
+              <div className="flex w-full gap-2 relative">
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
@@ -153,15 +148,14 @@ export default function Farm_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+
+                <input
+                  type="text"
+                  className="w-full h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
+              <div className="flex w-full gap-2 relative">
                 <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
@@ -172,13 +166,12 @@ export default function Farm_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+
+                <input
+                  type="text"
+                  className="w-full h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
             </div>
           </div>
