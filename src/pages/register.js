@@ -15,7 +15,7 @@ export default function Register() {
         <link rel="icon" href="/next.svg" />
       </Head>
       <Layout>
-        <div className="w-full px-10 md:px-20 lg:px-52 h-28 flex justify-between items-center gap-10 bg-white1">
+        <div className="w-full px-10 my-16 md:px-20 lg:px-52 h-28 flex justify-between items-center gap-10 bg-white1">
           <div className="w-1/3 h-0.5 bg-gradient-to-r from-white1 to-primary"></div>
           <div className="font-[Ubuntu] font-bold">ПРОФАЙЛ ҮҮСГЭХ</div>
           <div className=" w-1/3  h-0.5 bg-gradient-to-l from-white1 to-primary "></div>

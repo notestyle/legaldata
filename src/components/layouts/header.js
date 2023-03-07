@@ -109,7 +109,7 @@ export default function Header() {
                     <Menu.Item>
                       {({ active }) => (
                         <Link
-                          href="service"
+                          href="/service"
                           className={classNames(
                             active
                               ? "bg-gray-100 text-gray-900"

@@ -29,10 +29,10 @@ export default function Ad() {
               width={100}
               height={80}
             />
-            <div className="text-center font-[Ubuntu] font-bold pt-4">
+            <div className="text-center font-semibold font-[Ubuntu] pt-4">
               Бидэнтэй нэгд
             </div>
-            <div className="font-semibold text-center text-md pt-5">
+            <div className=" text-center text-md pt-5">
               Legal Connect нь хууль зүйн салбарын бүх мэргэжилтнүүдийн сүлжээ
               юм. Бидэнтэй нэгдээрэй.
             </div>
@@ -48,7 +48,7 @@ export default function Ad() {
             <div className="text-center font-[Ubuntu] font-bold pt-4">
               Мэдлэг, туршлагаа онцол{" "}
             </div>
-            <div className=" w-72 font-semibold text-center text-md pt-5">
+            <div className=" w-72 text-center text-md pt-5">
               Өөрийн профайлыг үүсгэж, өөрийн мэдлэг, ур чадвар, туршлагаа
               онцлоорой.
             </div>
@@ -64,7 +64,7 @@ export default function Ad() {
             <div className="text-center font-[Ubuntu] font-bold pt-4">
               Хязгааргүй боломж{" "}
             </div>
-            <div className=" w-60 font-semibold text-center text-md pt-5">
+            <div className=" w-60 text-center text-md pt-5">
               Legal Connect -д нэгдэж ажил хэрэг, хамтын ажиллагаагаа
               өргөжүүлээрэй.
             </div>
