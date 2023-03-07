@@ -13,7 +13,7 @@ export default function Ad() {
           <div>ТАНЫ АЖИЛ ХЭРЭГТ ХҮЧ НЭМНЭ</div>
         </div>
         <div className="flex justify-center">
-          <div className=" w-[60rem] text-center font-[Ubuntu] font-bold pt-12  ">
+          <div className=" w-[60rem] text-center font-[Ubuntu] pt-12  ">
             legal Connect нь хууль зүйн салбарынхныг нэг дор нэгтгэнэ. Манай
             платформ нь хууль зүйн салбарын эрэлт, хэрэгцээнд нийцүүлэн
             хийгдсэн. Legal Connect -ийн профайл нь таныг бүрэн илэрхийлж, ажил
