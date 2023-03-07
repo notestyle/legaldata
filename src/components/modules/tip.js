@@ -14,8 +14,8 @@ export default function Tip() {
             height={100}
           />
         </div>
-        <div className="flex justify-center pt-3">
-          <div className="font-[Ubuntu] italic text-center w-[33rem]">
+        <div className="flex justify-center py-3">
+          <div className="font-[Ubuntu] italic text-center w-full">
             Бид хуулийн фирм, өмгөөлөгчдийн үнэлгээний эрэмбийг өөрийн
             бүртгэлтэй хэрэглэгчдийн үнэлгээнд үндэслэн гаргадаг.
           </div>

@@ -163,7 +163,7 @@ export default function Pay() {
           </div>
         </div>
         <div className="w-full h-20 flex justify-center text-center pt-8">
-          <div className="w-[47rem] h-20 text-center font-[Ubuntu] font-bold">
+          <div className="w-[47rem] h-20 text-center font-[Ubuntu]">
             Тайлбар: Та дээрх үйлчилгээний төлбөрийг төлснөөр Таны профайл манай
             хайлтын системд орж, хэрэлэгчдэд харагдах болно. Манай үйлчилгээ нь
             шүүгч, прокуроруудад төлбөргүй байна.

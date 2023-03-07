@@ -19,8 +19,8 @@ export default function Profile() {
 
       <Layout>
         <RateMe setShow={setShowRate} show={showRate} />
-        <div className="flex gap-10 h-full w-full ">
-          <div className="w-full lg:w-[28rem] my-8 sticky top-28 self-start ">
+        <div className="lg:flex gap-10 h-full w-full ">
+          <div className="w-full lg:w-full my-8 lg:sticky top-28 self-start ">
             <div>
               <div>
                 <Image
@@ -31,7 +31,7 @@ export default function Profile() {
                   height={80}
                 />
               </div>
-              <div className="flex pl-2 pt-3 gap-5">
+              <div className="flex pl-2 pt-3 gap-2">
                 <div className=" w-28 h-20 relative">
                   <Image
                     src="/images/social/company-profile.svg"
@@ -51,7 +51,7 @@ export default function Profile() {
                     height={80}
                   />
                 </div>
-                <div className="flex gap-2">
+                <div className=" flex pr-8 lg:flex gap-2">
                   <Image
                     src="/images/social/url_facebook.svg"
                     className=" w-5 h-5"
@@ -130,7 +130,7 @@ export default function Profile() {
               <div className="pl-6">
                 <button
                   onClick={() => setShowRate(true)}
-                  className="w-60 h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md hover:drop-shadow-xl"
+                  className="w-full h-10 bg-[#EF233C] rounded-xl text-[#EDF2F4] font-[Ubuntu] font-semibold text-sm drop-shadow-md hover:drop-shadow-xl px-4"
                 >
                   Үнэлгээ өгөх
                 </button>

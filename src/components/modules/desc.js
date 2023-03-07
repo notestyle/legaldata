@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Desc() {
   return (
-    <div className=" w-[55rem] border-2 border-gray rounded-2xl bg-white my-8 py-4 px-8">
+    <div className=" w-full border-2 border-gray rounded-2xl bg-white my-8 py-4 px-8">
       <div className=" ">
         <div className="font-bold font-[Ubuntu]">Товч танилцуулга</div>
         <div className="w-14 h-0.5 bg-secondary mt-1"></div>
@@ -20,8 +20,8 @@ export default function Desc() {
         </div>
       </div>
       <div className=" w-full h-[1px] mt-8 bg-[#D9D9D9]"></div>
-      <div className="pt-4 flex">
-        <div className="w-96">
+      <div className="pt-4  lg:flex ">
+        <div className="w-full">
           <div className="font-bold font-[Ubuntu]">Онцлох ажил</div>
           <div className="w-14 h-0.5 bg-secondary mt-1"></div>
           <div className="text-sm tracking-wide pt-5 text-primary">
@@ -35,7 +35,7 @@ export default function Desc() {
             </div>
           </div>
         </div>
-        <div className="w-1/2 pl-5">
+        <div className="w-1/2 pt-4">
           <div className="font-bold font-[Ubuntu]">Мэргэшсэн чиглэл</div>
           <div className="w-14 h-0.5 bg-secondary mt-1"></div>
           <div className="text-sm tracking-wide pt-5 text-primary">
@@ -70,7 +70,7 @@ export default function Desc() {
         </div>
       </div>
       <div className=" w-full h-[1px] mt-8 bg-[#D9D9D9]"></div>
-      <div className=" pt-4 flex">
+      <div className="pt-4  lg:flex">
         <div className="w-96">
           <div className="font-bold font-[Ubuntu]">Гол үйлчлүүлэгчид</div>
           <div className="w-14 h-0.5 bg-secondary mt-1"></div>
@@ -84,7 +84,7 @@ export default function Desc() {
             <div>• &quot;Анар Капитал&quot; ББСБ</div>
           </div>
         </div>
-        <div className="w-1/2 pl-5">
+        <div className="w-1/2">
           <div className="text-sm tracking-wide pt-12">
             <div>• Кредит Монгол ББСБ</div>
             <div>• Дэвжих нэхий ББСБ</div>
@@ -103,13 +103,13 @@ export default function Desc() {
         <div className="w-14 h-0.5 bg-secondary mt-1"></div>
       </div>
       <div className=" w-full h-[1px] mt-8 bg-[#D9D9D9]"></div>
-      <div className="w-full">
+      <div className="w-full bg-">
         <div className="flex flex-col items-center py-2">
           <div className="font-bold font-[Ubuntu]">Шууд холбогдох</div>
           <div className="w-14 h-0.5 bg-secondary mt-1"></div>
         </div>
-        <div className="flex justify-between py-3">
-          <div className="w-40">
+        <div className=" grid grid-cols-1 gap-6 lg:flex justify-between py-3">
+          <div className="w-full">
             <div className="flex flex-col items-center gap-2">
               <div className="font-bold font-[Ubuntu] italic">
                 Мэргэшсэн чиглэл
@@ -129,7 +129,7 @@ export default function Desc() {
               <div className="w-full h-0.5 bg-primary mt-1"></div>
             </div>
           </div>
-          <div className="w-40">
+          <div className="w-full">
             <div className="flex flex-col items-center gap-2">
               <div className="font-bold font-[Ubuntu] italic">Нэр</div>
               <div className="w-full h-0.5 bg-secondary mt-1"></div>
@@ -147,7 +147,7 @@ export default function Desc() {
               <div className="w-full h-0.5 bg-primary mt-1"></div>
             </div>
           </div>
-          <div className="w-40">
+          <div className="w-full">
             <div className="flex flex-col items-center gap-2">
               <div className="font-bold font-[Ubuntu] italic">Утас</div>
               <div className="w-full h-0.5 bg-secondary mt-1"></div>
@@ -165,7 +165,7 @@ export default function Desc() {
               <div className="w-full h-0.5 bg-primary mt-1"></div>
             </div>
           </div>
-          <div className="w-40">
+          <div className="w-full">
             <div className="flex flex-col items-center gap-2">
               <div className="font-bold font-[Ubuntu] italic">И-мэйл</div>
               <div className="w-full h-0.5 bg-secondary mt-1"></div>
@@ -208,7 +208,7 @@ export default function Desc() {
         <div className="flex flex-col items-center gap-3">
           <div className="font-bold font-[Ubuntu]">ШАГНАЛ УРАМШУУЛАЛ</div>
           <div className="w-14 h-0.5 bg-secondary"></div>
-          <div className="font-bold font-[Ubuntu]">
+          <div className="font-bold font-[Ubuntu] text-center">
             2022 он. Оны шилдэг хуулийн фирмээр шалгарсан.
           </div>
         </div>
