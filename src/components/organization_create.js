@@ -48,14 +48,12 @@ export default function Organization_create() {
         <div className="w-full bg-white border border-gray rounded-lg">
           <div className="px-5 pt-4">
             <div className="font-bold ">Байгууллагын нэр*</div>
-            <div className="flex pt-3 gap-5 justify-between">
-              <div>
-                <input
-                  type="text"
-                  className=" font-semibold w-72 h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
-                  placeholder="Энд бич..."
-                ></input>
-              </div>
+            <div className="flex pt-3 gap-4">
+              <input
+                type="text"
+                className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+                placeholder="Энд бич..."
+              ></input>
               <div>
                 <select className=" font-semibold w-28 h-8 bg-white1 border border-gray rounded-md outline-none  ">
                   <option>ХХК</option>
@@ -66,8 +64,8 @@ export default function Organization_create() {
             </div>
             <div className="pt-4 font-bold">Холбоос</div>
             <div className="py-4 flex flex-col gap-3">
-              <div className="flex justify-between relative">
-                <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
+              <div className="flex gap-4 relative">
+                <div className="bg-white1 w-9 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
                     src="/images/social/url_facebook.svg"
@@ -77,16 +75,15 @@ export default function Organization_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8 font-semibold outline-none rounded-lg bg-white1 pl-3 border border-gray"
-                    placeholder="URL"
-                  ></input>
-                </div>
+
+                <input
+                  type="text"
+                  className="w-full h-8 font-semibold outline-none rounded-lg bg-white1 pl-3 border border-gray"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
-                <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
+              <div className="flex gap-4 relative">
+                <div className="bg-white1 w-9 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
                     src="/images/social/url_instagram.svg"
@@ -96,16 +93,15 @@ export default function Organization_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+
+                <input
+                  type="text"
+                  className="w-full h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
-                <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
+              <div className="flex gap-4 relative">
+                <div className="bg-white1 w-9 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
                     src="/images/social/url_twitter.svg"
@@ -115,16 +111,14 @@ export default function Organization_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+                <input
+                  type="text"
+                  className="w-full h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
-                <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
+              <div className="flex gap-4 relative">
+                <div className="bg-white1 w-9 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
                     src="/images/social/url_youtube.svg"
@@ -134,16 +128,14 @@ export default function Organization_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+                <input
+                  type="text"
+                  className="w-full h-8 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
-                <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
+              <div className="flex gap-4 relative">
+                <div className="bg-white1 w-9 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
                     src="/images/social/url_linkedin.svg"
@@ -153,16 +145,14 @@ export default function Organization_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+                <input
+                  type="text"
+                  className="w-full h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
-              <div className="flex justify-between relative">
-                <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
+              <div className="flex gap-4 relative">
+                <div className="bg-white1 w-9 h-8 rounded-lg border border-gray"></div>
                 <div>
                   <Image
                     src="/images/social/url_internet.svg"
@@ -172,13 +162,11 @@ export default function Organization_create() {
                     height={80}
                   />
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    className="w-96 h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
-                    placeholder="URL"
-                  ></input>
-                </div>
+                <input
+                  type="text"
+                  className="w-full h-8  font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
+                  placeholder="URL"
+                ></input>
               </div>
             </div>
           </div>

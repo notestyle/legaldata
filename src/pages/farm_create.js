@@ -14,7 +14,7 @@ export default function farm_create() {
         <link rel="icon" href="/next.svg" />
       </Head>
       <Layout>
-        <div className="w-full px-2 md:px-20  h-28 flex justify-between items-center mt-10 gap-10 bg-white1">
+        <div className="w-full px-2 md:px-20  h-28 flex justify-between items-center mt-20 gap-10 bg-white1">
           <div className="w-[30rem] h-0.5 bg-gradient-to-r from-white1   to-primary"></div>
           <div className=" font-bold text-primary text-2xl gap-3 text-center ">
             Хуулийн фирм

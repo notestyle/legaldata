@@ -37,9 +37,9 @@ export default function Person_create_detail() {
             +
           </button>
         </div>
-        <div className="flex pt-3 gap-7">
+        <div className="flex pt-3 gap-4">
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md outline-none ">
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
@@ -47,7 +47,7 @@ export default function Person_create_detail() {
           </div>
           <div className="font-bold text-xl w-2">-</div>
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md outline-none ">
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
@@ -70,9 +70,9 @@ export default function Person_create_detail() {
             />
           </div>
         </div>
-        <div className="flex pt-3 gap-7">
+        <div className="flex pt-3 gap-4">
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md outline-none ">
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
@@ -80,7 +80,7 @@ export default function Person_create_detail() {
           </div>
           <div className="font-bold text-xl w-2">-</div>
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md outline-none ">
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
@@ -103,9 +103,9 @@ export default function Person_create_detail() {
             />
           </div>
         </div>
-        <div className="flex pt-3 gap-7">
+        <div className="flex pt-3 gap-4">
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md outline-none ">
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
@@ -113,7 +113,7 @@ export default function Person_create_detail() {
           </div>
           <div className="font-bold text-xl w-2">-</div>
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md outline-none ">
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
@@ -194,9 +194,9 @@ export default function Person_create_detail() {
           <div className="font-bold text-sm font-[Ubuntu]">Бүтээл</div>
           <div className="w-14 h-0.5 bg-secondary mt-1 mb-4"></div>
         </div>
-        <div className="flex pt-3 gap-7 w-full">
+        <div className="flex pt-3 gap-4 w-full">
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md outline-none ">
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
@@ -209,7 +209,7 @@ export default function Person_create_detail() {
             placeholder="Энд бич..."
           ></input>
 
-          <div className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+          <div className="w-12 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
@@ -219,9 +219,9 @@ export default function Person_create_detail() {
             />
           </div>
         </div>
-        <div className="flex pt-3 gap-7 w-full">
+        <div className="flex pt-3 gap-4 w-full">
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md outline-none ">
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
@@ -234,7 +234,7 @@ export default function Person_create_detail() {
             placeholder="Энд бич..."
           ></input>
 
-          <div className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+          <div className="w-12 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
@@ -244,9 +244,9 @@ export default function Person_create_detail() {
             />
           </div>
         </div>
-        <div className="flex py-4 gap-7 w-full">
+        <div className="flex py-4 gap-4 w-full">
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md outline-none ">
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
@@ -259,7 +259,7 @@ export default function Person_create_detail() {
             placeholder="Энд бич..."
           ></input>
 
-          <div className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+          <div className="w-12 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"

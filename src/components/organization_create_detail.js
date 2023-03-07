@@ -38,21 +38,21 @@ export default function Organization_create_detail() {
             +
           </button>
         </div>
-        <div className="flex pt-3 gap-7">
+        <div className="flex pt-3 gap-4">
           <div>
-            <select className=" font-semibold w-32 h-9 bg-white1 border border-gray rounded-md  ">
+            <select className=" font-semibold w-20 h-9 bg-white1 border border-gray rounded-md outline-none  ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
             </select>
           </div>
-          <div>
-            <input
-              type="text"
-              className=" font-semibold w-[630px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
-              placeholder="Энд бич..."
-            ></input>
-          </div>
+
+          <input
+            type="text"
+            className=" font-semibold w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Энд бич..."
+          ></input>
+
           <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
@@ -69,7 +69,7 @@ export default function Organization_create_detail() {
           </div>
           <div className="w-14 h-0.5 bg-secondary mt-1 mb-4"></div>
         </div>
-        <div className="w-[845px] h-48 bg-white1 flex  rounded-lg border border-gray">
+        <div className="w-full h-48 bg-white1 flex  rounded-lg border border-gray">
           <div className="w-1/2 ">
             <div className="pl-5">
               <div className=" flex pt-3 gap-3 w-full">
@@ -126,7 +126,7 @@ export default function Organization_create_detail() {
           </div>
           <div className="w-14 h-0.5 bg-secondary mt-1 mb-4"></div>
         </div>
-        <div className="w-[845px] h-48 bg-white1 flex rounded-lg border border-gray ">
+        <div className="w-full h-48 bg-white1 flex rounded-lg border border-gray ">
           <div className="w-1/2 ">
             <div className="pl-5">
               <div className=" flex pt-3 gap-3 w-full">
@@ -188,14 +188,13 @@ export default function Organization_create_detail() {
             +
           </button>
         </div>
-        <div className="flex justify-between pt-2">
-          <div>
-            <input
-              type="text"
-              className=" font-semibold w-[630px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
-              placeholder="Жишээ: “Капитал Маркет” ХХК"
-            ></input>
-          </div>
+        <div className="flex justify-between pt-2 gap-4">
+          <input
+            type="text"
+            className=" font-semibold w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Жишээ: “Капитал Маркет” ХХК"
+          ></input>
+
           <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
@@ -210,63 +209,34 @@ export default function Organization_create_detail() {
           <div className="font-bold text-sm font-[Ubuntu]">Хуульчид</div>
           <div className="w-14 h-0.5 bg-secondary my-2"></div>
         </div>
-        <div className="flex gap-3">
-          <div className=" w-72 bg-white1 border border-gray rounded-lg">
-            <div className="pl-3 flex flex-col gap-3">
+        <div className=" flex flex-col lg:flex gap-3">
+          <div className=" w-full bg-white1 border border-gray rounded-lg">
+            <div className="px-3 flex flex-col gap-3">
               <div className="font-bold py-2">Сонгогдсон хуульчид</div>
-              <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
-                <Image
-                  src="/images/profiles/1.jpeg"
-                  className="w-10 h-10 rounded-full m-3"
-                  alt="profile"
-                  width={100}
-                  height={80}
-                />
-                <div>
-                  <div className="font-bold text-lg">Бархасболд</div>
-                  <div className="font-[Ubuntu]">Баярсайхан</div>
-                </div>
-                <div>
+              <div className=" w-full h-16 bg-white border border-gray rounded-lg flex justify-between items-center">
+                <div className="flex items-center">
                   <Image
-                    src="/images/icons/verified.svg"
-                    className="w-5 h-5 mb-4 ml-2"
-                    alt="verified"
+                    src="/images/profiles/1.jpeg"
+                    className="w-10 h-10 rounded-full m-3"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
+                  <div>
+                    <div className="font-bold text-lg">Бархасболд</div>
+                    <div className="font-[Ubuntu]">Баярсайхан</div>
+                  </div>
+                  <div>
+                    <Image
+                      src="/images/icons/verified.svg"
+                      className="w-5 h-5 mb-4 ml-2"
+                      alt="verified"
+                      width={100}
+                      height={80}
+                    />
+                  </div>
                 </div>
-                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
-                  <Image
-                    src="/images/icons/trash.svg"
-                    className="w-5 h-5"
-                    alt="trash"
-                    width={100}
-                    height={80}
-                  />
-                </button>
-              </div>
-              <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
-                <Image
-                  src="/images/profiles/4.jpeg"
-                  className="w-10 h-10 rounded-full m-3"
-                  alt="profile"
-                  width={100}
-                  height={80}
-                />
-                <div>
-                  <div className="font-bold text-lg">Бархасболд</div>
-                  <div className="font-[Ubuntu]">Баярсайхан</div>
-                </div>
-                <div>
-                  <Image
-                    src="/images/icons/verified.svg"
-                    className="w-5 h-5 mb-4 ml-2"
-                    alt="verified"
-                    width={100}
-                    height={80}
-                  />
-                </div>
-                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                <button className="w-7 h-7 mr-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
@@ -276,28 +246,30 @@ export default function Organization_create_detail() {
                   />
                 </button>
               </div>
-              <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
-                <Image
-                  src="/images/profiles/3.jpeg"
-                  className="w-10 h-10 rounded-full m-3"
-                  alt="profile"
-                  width={100}
-                  height={80}
-                />
-                <div>
-                  <div className="font-bold text-lg">Бархасболд</div>
-                  <div className="font-[Ubuntu]">Баярсайхан</div>
-                </div>
-                <div>
+              <div className=" w-full h-16 bg-white border border-gray rounded-lg flex justify-between items-center">
+                <div className="flex items-center">
                   <Image
-                    src="/images/icons/verified.svg"
-                    className="w-5 h-5 mb-4 ml-2"
-                    alt="verified"
+                    src="/images/profiles/1.jpeg"
+                    className="w-10 h-10 rounded-full m-3"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
+                  <div>
+                    <div className="font-bold text-lg">Бархасболд</div>
+                    <div className="font-[Ubuntu]">Баярсайхан</div>
+                  </div>
+                  <div>
+                    <Image
+                      src="/images/icons/verified.svg"
+                      className="w-5 h-5 mb-4 ml-2"
+                      alt="verified"
+                      width={100}
+                      height={80}
+                    />
+                  </div>
                 </div>
-                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                <button className="w-7 h-7 mr-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
@@ -307,28 +279,63 @@ export default function Organization_create_detail() {
                   />
                 </button>
               </div>
-              <div className=" w-64 h-16 bg-white border border-gray rounded-lg flex items-center">
-                <Image
-                  src="/images/profiles/2.jpeg"
-                  className="w-10 h-10 rounded-full m-3"
-                  alt="profile"
-                  width={100}
-                  height={80}
-                />
-                <div>
-                  <div className="font-bold text-lg">Бархасболд</div>
-                  <div className="font-[Ubuntu]">Баярсайхан</div>
-                </div>
-                <div>
+              <div className=" w-full h-16 bg-white border border-gray rounded-lg flex justify-between items-center">
+                <div className="flex items-center">
                   <Image
-                    src="/images/icons/verified.svg"
-                    className="w-5 h-5 mb-4 ml-2"
-                    alt="verified"
+                    src="/images/profiles/1.jpeg"
+                    className="w-10 h-10 rounded-full m-3"
+                    alt="profile"
                     width={100}
                     height={80}
                   />
+                  <div>
+                    <div className="font-bold text-lg">Бархасболд</div>
+                    <div className="font-[Ubuntu]">Баярсайхан</div>
+                  </div>
+                  <div>
+                    <Image
+                      src="/images/icons/verified.svg"
+                      className="w-5 h-5 mb-4 ml-2"
+                      alt="verified"
+                      width={100}
+                      height={80}
+                    />
+                  </div>
                 </div>
-                <button className="w-7 h-7 ml-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                <button className="w-7 h-7 mr-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+                  <Image
+                    src="/images/icons/trash.svg"
+                    className="w-5 h-5"
+                    alt="trash"
+                    width={100}
+                    height={80}
+                  />
+                </button>
+              </div>
+              <div className=" w-full h-16 bg-white border border-gray rounded-lg flex justify-between items-center">
+                <div className="flex items-center">
+                  <Image
+                    src="/images/profiles/1.jpeg"
+                    className="w-10 h-10 rounded-full m-3"
+                    alt="profile"
+                    width={100}
+                    height={80}
+                  />
+                  <div>
+                    <div className="font-bold text-lg">Бархасболд</div>
+                    <div className="font-[Ubuntu]">Баярсайхан</div>
+                  </div>
+                  <div>
+                    <Image
+                      src="/images/icons/verified.svg"
+                      className="w-5 h-5 mb-4 ml-2"
+                      alt="verified"
+                      width={100}
+                      height={80}
+                    />
+                  </div>
+                </div>
+                <button className="w-7 h-7 mr-5 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                   <Image
                     src="/images/icons/trash.svg"
                     className="w-5 h-5"
@@ -356,254 +363,274 @@ export default function Organization_create_detail() {
               />
             </div>
             <div className="">
-              <div className="grid grid-cols-2 gap-2  ">
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+              <div className=" flex flex-col lg:grid grid-cols-2 gap-2  ">
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
-                <div className=" w-64 h-16 mt-2 bg-white border border-gray rounded-lg flex items-center">
-                  <Image
-                    src="/images/profiles/1.jpeg"
-                    className="w-10 h-10 rounded-full m-3"
-                    alt="profile"
-                    width={100}
-                    height={80}
-                  />
-                  <div>
-                    <div className="font-bold text-lg">Бархасболд</div>
-                    <div className="font-[Ubuntu]">Баярсайхан</div>
-                  </div>
-                  <div>
+                <div className=" w-full h-16 mt-2 bg-white border border-gray rounded-lg flex items-center justify-between">
+                  <div className="flex items-center">
                     <Image
-                      src="/images/icons/verified.svg"
-                      className="w-5 h-5 mb-4 ml-2"
-                      alt="verified"
+                      src="/images/profiles/1.jpeg"
+                      className="w-10 h-10 rounded-full m-3"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
+                    <div>
+                      <div className="font-bold text-lg">Бархасболд</div>
+                      <div className="font-[Ubuntu]">Баярсайхан</div>
+                    </div>
+                    <div>
+                      <Image
+                        src="/images/icons/verified.svg"
+                        className="w-5 h-5 mb-4 ml-2"
+                        alt="verified"
+                        width={100}
+                        height={80}
+                      />
+                    </div>
                   </div>
-                  <button className="bg-[#0EAC4D] w-9 h-9 ml-4 rounded-lg text-white font-bold text-2xl flex justify-center">
+                  <button className="bg-[#0EAC4D] w-9 h-9 mr-4 rounded-lg text-white font-bold text-2xl flex justify-center">
                     +
                   </button>
                 </div>
@@ -623,16 +650,14 @@ export default function Organization_create_detail() {
           </button>
         </div>
         <div className="w-full gap-3 p-3 mt-2 border border-gray rounded-lg">
-          <div className="flex justify-between pb-3">
-            <div>
-              <input
-                type="text"
-                className=" font-semibold w-[630px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
-                placeholder="Энд бич..."
-              ></input>
-            </div>
+          <div className="flex gap-4 pb-3">
+            <input
+              type="text"
+              className=" font-semibold w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+              placeholder="Энд бич..."
+            ></input>
 
-            <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+            <button className="w-10 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
               <Image
                 src="/images/icons/trash.svg"
                 className="w-6 h-6"
@@ -657,20 +682,20 @@ export default function Organization_create_detail() {
           <div className="font-bold text-sm font-[Ubuntu]">Холбоо барих</div>
           <div className="w-14 h-0.5 bg-secondary my-2"></div>
         </div>
-        <div className="flex justify-between">
+        <div className="flex gap-4">
           <input
             type="text"
-            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            className=" font-semibold text-sm w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Утасны дугаар 1*"
           ></input>
           <input
             type="text"
-            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            className=" font-semibold text-sm w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="Утасны дугаар 2"
           ></input>
           <input
             type="text"
-            className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            className=" font-semibold text-sm w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
             placeholder="И-мэйл*"
           ></input>
         </div>
@@ -678,23 +703,23 @@ export default function Organization_create_detail() {
           <div className="font-bold text-sm font-[Ubuntu]">Хаяг*</div>
         </div>
         <div className=" flex flex-col gap-3">
-          <div className="flex justify-between">
+          <div className="flex w-full gap-4">
             <div>
-              <select className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md outline-none">
+              <select className=" font-semibold w-full h-9 bg-white1 border border-gray rounded-md outline-none">
                 <option>Нийслэл/Аймаг</option>
                 <option>Улаанбаатар</option>
                 <option>Дархан</option>
               </select>
             </div>
             <div>
-              <select className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md outline-none ">
+              <select className=" font-semibold w-full h-9 bg-white1 border border-gray rounded-md outline-none ">
                 <option>Дүүрэг/Сум</option>
                 <option>Хан-Уул</option>
                 <option>Чингэлтэй</option>
               </select>
             </div>
             <div>
-              <select className=" font-semibold w-[236px] h-9 bg-white1 border border-gray rounded-md outline-none">
+              <select className=" font-semibold w-full h-9 bg-white1 border border-gray rounded-md outline-none">
                 <option>Хороо/Баг</option>
                 <option>1-р хороо</option>
                 <option>2-р хороо</option>
@@ -703,7 +728,7 @@ export default function Organization_create_detail() {
           </div>
           <div>
             <textarea
-              className="input h-20"
+              className="input text-sm h-20"
               id="about"
               name="."
               rows="4"
@@ -713,7 +738,7 @@ export default function Organization_create_detail() {
             29, Сан Бизнес Центр, 402 тоот"
             ></textarea>
           </div>
-          <div className="flex justify-between">
+          <div className="flex gap-4">
             <div className="w-8 h-8 bg-white1 rounded-lg border border-gray flex justify-center items-center pt-3 pr-[15px]">
               <div>
                 <Image
@@ -725,13 +750,11 @@ export default function Organization_create_detail() {
                 />
               </div>
             </div>
-            <div>
-              <input
-                type="text"
-                className=" font-semibold w-[50rem] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
-                placeholder="Google map shared link"
-              ></input>
-            </div>
+            <input
+              type="text"
+              className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+              placeholder="Google map shared link"
+            ></input>
           </div>
         </div>
         <div className="flex justify-between mt-8">
@@ -745,11 +768,11 @@ export default function Organization_create_detail() {
             +
           </button>
         </div>
-        <div className="w-full p-3 mt-2 bg-white rounded-lg border border-gray flex justify-between">
+        <div className=" grid grid-cols-2 lg:w-full p-3 mt-2 bg-white rounded-lg border border-gray flex gap-3">
           <div className=" flex flex-col gap-2">
             <div className="font-semibold italic">Мэргэшсэн чиглэл</div>
             <div>
-              <select className=" font-semibold text-sm w-[193px] h-9 bg-white1 border border-gray rounded-md outline-none  ">
+              <select className=" font-semibold text-sm w-full h-9 bg-white1 border border-gray rounded-md outline-none  ">
                 <option>Хөрөнгө оруулалтын сан</option>
                 <option>Хөрөнгө оруулалтын сан</option>
                 <option>Хөрөнгө оруулалтын сан</option>
@@ -761,7 +784,7 @@ export default function Organization_create_detail() {
             <div>
               <input
                 type="text"
-                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+                className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Нэр"
               ></input>
             </div>
@@ -771,7 +794,7 @@ export default function Organization_create_detail() {
             <div>
               <input
                 type="text"
-                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+                className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="Утасны дугаар*"
               ></input>
             </div>
@@ -781,7 +804,7 @@ export default function Organization_create_detail() {
             <div>
               <input
                 type="И-мэйл"
-                className=" font-semibold w-[193px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+                className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
                 placeholder="И-мэйл*"
               ></input>
             </div>
@@ -796,22 +819,22 @@ export default function Organization_create_detail() {
             +
           </button>
         </div>
-        <div className="w-full flex justify-between mt-2">
+        <div className="w-full flex gap-4 mt-2">
           <div>
-            <select className=" font-semibold text-sm w-28 h-9 bg-white1 border border-gray rounded-md outline-none  ">
+            <select className=" font-semibold text-sm w-20 h-8 bg-white1 border border-gray rounded-md outline-none  ">
               <option>2023</option>
               <option>2022</option>
               <option>2021</option>
             </select>
           </div>
-          <div>
-            <input
-              type="И-мэйл"
-              className=" font-semibold w-[630px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
-              placeholder="Энд бич..."
-            ></input>
-          </div>
-          <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+
+          <input
+            type="И-мэйл"
+            className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Энд бич..."
+          ></input>
+
+          <button className="w-12 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
@@ -832,14 +855,13 @@ export default function Organization_create_detail() {
             +
           </button>
         </div>
-        <div className="w-full flex justify-between mt-2 mb-5">
-          <div>
-            <input
-              type="И-мэйл"
-              className=" font-semibold w-[630px] h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
-              placeholder="Про боно үйл ажиллагааны тухай бичих талбар"
-            ></input>
-          </div>
+        <div className="w-full flex gap-4 mt-2 mb-5">
+          <input
+            type="И-мэйл"
+            className=" font-semibold w-full h-8 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Про боно үйл ажиллагааны тухай бичих талбар"
+          ></input>
+
           <button className="w-9 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
             <Image
               src="/images/icons/trash.svg"
