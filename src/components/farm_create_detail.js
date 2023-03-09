@@ -680,7 +680,7 @@ export default function Farm_create_detail() {
           <div className="font-bold text-sm font-[Ubuntu]">Холбоо барих</div>
           <div className="w-14 h-0.5 bg-secondary my-2"></div>
         </div>
-        <div className="flex gap-4 flex-col sm:flex-row">
+        <div className="flex gap-4 flex-col">
           <input
             type="text"
             className=" text-sm font-semibold w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"

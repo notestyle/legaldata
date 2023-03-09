@@ -682,7 +682,7 @@ export default function Organization_create_detail() {
           <div className="font-bold text-sm font-[Ubuntu]">Холбоо барих</div>
           <div className="w-14 h-0.5 bg-secondary my-2"></div>
         </div>
-        <div className="flex gap-4">
+        <div className="flex flex-col gap-4">
           <input
             type="text"
             className=" font-semibold text-sm w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
@@ -739,16 +739,14 @@ export default function Organization_create_detail() {
             ></textarea>
           </div>
           <div className="flex gap-4">
-            <div className="w-8 h-8 bg-white1 rounded-lg border border-gray flex justify-center items-center pt-3 pr-[15px]">
-              <div>
-                <Image
-                  src="/images/icons/google_map.svg"
-                  className="w-6 h-6 mb-4 ml-2"
-                  alt="google map"
-                  width={100}
-                  height={80}
-                />
-              </div>
+            <div className="w-8 h-8 bg-white1 rounded-lg border border-gray flex justify-center items-center">
+              <Image
+                src="/images/icons/google_map.svg"
+                className="w-6 h-6"
+                alt="google map"
+                width={100}
+                height={80}
+              />
             </div>
             <input
               type="text"

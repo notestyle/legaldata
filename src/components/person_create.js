@@ -63,14 +63,16 @@ export default function Person_create() {
             <div className="pt-4 font-bold">Холбогдох</div>
             <div className="flex flex-col gap-3 py-2">
               <div className="flex justify-between relative">
-                <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
-                <Image
-                  src="/images/icons/phone.svg"
-                  className="w-6 h-6 absolute left-1 top-1"
-                  alt="instagram"
-                  width={100}
-                  height={80}
-                />
+                <div className="bg-white1 w-8 h-8 rounded-lg border border-gray flex items-center justify-center">
+                  <Image
+                    src="/images/icons/phone.svg"
+                    className="w-6 h-6"
+                    alt="instagram"
+                    width={100}
+                    height={80}
+                  />
+                </div>
+
                 <div className=" w-full flex justify-between pl-4 gap-4">
                   <input
                     type="text"
@@ -86,14 +88,16 @@ export default function Person_create() {
               </div>
               <div>
                 <div className="flex justify-between relative">
-                  <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
-                  <Image
-                    src="/images/icons/mail.svg"
-                    className="w-6 h-6 absolute left-1 top-1"
-                    alt="instagram"
-                    width={100}
-                    height={80}
-                  />
+                  <div className="bg-white1 w-8 h-8 rounded-lg border border-gray flex items-center justify-center">
+                    <Image
+                      src="/images/icons/mail.svg"
+                      className="w-6 h-6"
+                      alt="instagram"
+                      width={100}
+                      height={80}
+                    />
+                  </div>
+
                   <input
                     type="text"
                     className="w-full h-8 ml-4 font-semibold rounded-lg bg-white1 pl-3 border border-gray outline-none"
@@ -103,14 +107,16 @@ export default function Person_create() {
               </div>
               <div>
                 <div className="flex justify-between relative">
-                  <div className="bg-white1 w-8 h-8 rounded-lg border border-gray"></div>
-                  <Image
-                    src="/images/icons/location.svg"
-                    className="w-6 h-6 absolute left-1 top-1"
-                    alt="instagram"
-                    width={100}
-                    height={80}
-                  />
+                  <div className="bg-white1 w-8 h-8 rounded-lg border border-gray flex items-center justify-center">
+                    <Image
+                      src="/images/icons/location.svg"
+                      className="w-6 h-6"
+                      alt="instagram"
+                      width={100}
+                      height={80}
+                    />
+                  </div>
+
                   <textarea
                     className=" bg-white1 w-full ml-4 border border-gray rounded-lg pl-2 outline-none"
                     id="about"
