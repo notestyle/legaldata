@@ -766,7 +766,7 @@ export default function Organization_create_detail() {
             +
           </button>
         </div>
-        <div className=" grid grid-cols-2 lg:w-full p-3 mt-2 bg-white rounded-lg border border-gray flex gap-3">
+        <div className=" grid grid-cols-2 lg:w-full p-3 mt-2 bg-white rounded-lg border border-gray lg:flex gap-3">
           <div className=" flex flex-col gap-2">
             <div className="font-semibold italic">Мэргэшсэн чиглэл</div>
             <div>
