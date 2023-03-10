@@ -31,7 +31,7 @@ export default function Person_create_detail() {
         <div className="flex justify-between">
           <div>
             <div className="font-bold text-sm font-[Ubuntu]">Боловсрол</div>
-            <div className="w-14 h-0.5 bg-secondary mt-1 mb-4"></div>
+            <div className="w-14 h-0.5 bg-secondary mt-1"></div>
           </div>
           <button className="bg-[#0EAC4D] w-9 h-9 rounded-lg text-white font-bold text-2xl flex justify-center">
             +
@@ -111,6 +111,132 @@ export default function Person_create_detail() {
               height={80}
             />
           </div>
+        </div>
+        <div className="flex justify-between pt-4">
+          <div>
+            <div className="font-bold text-sm font-[Ubuntu]">
+              Ажлын туршлага
+            </div>
+            <div className="w-14 h-0.5 bg-secondary mt-1 m  4"></div>
+          </div>
+          <button className="bg-[#0EAC4D] w-9 h-9 rounded-lg text-white font-bold text-2xl flex justify-center">
+            +
+          </button>
+        </div>
+        <div className="flex pt-3 gap-4">
+          <div>
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
+              <option>2023</option>
+              <option>2022</option>
+              <option>2021</option>
+            </select>
+          </div>
+
+          <input
+            type="text"
+            className=" font-semibold w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Энд бич..."
+          ></input>
+
+          <div className="w-12 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+            <Image
+              src="/images/icons/trash.svg"
+              className="w-6 h-6"
+              alt="facebook"
+              width={100}
+              height={80}
+            />
+          </div>
+        </div>
+        <div className="flex pt-3 gap-4">
+          <div>
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
+              <option>2023</option>
+              <option>2022</option>
+              <option>2021</option>
+            </select>
+          </div>
+
+          <input
+            type="text"
+            className=" font-semibold w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Энд бич..."
+          ></input>
+
+          <div className="w-12 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+            <Image
+              src="/images/icons/trash.svg"
+              className="w-6 h-6"
+              alt="facebook"
+              width={100}
+              height={80}
+            />
+          </div>
+        </div>
+        <div className="flex pt-3 gap-4">
+          <div>
+            <select className=" font-semibold w-16 h-9 bg-white1 border border-gray rounded-md outline-none ">
+              <option>2023</option>
+              <option>2022</option>
+              <option>2021</option>
+            </select>
+          </div>
+
+          <input
+            type="text"
+            className=" font-semibold w-full h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Энд бич..."
+          ></input>
+
+          <div className="w-12 h-9 bg-white1 border border-gray flex items-center justify-center rounded-lg">
+            <Image
+              src="/images/icons/trash.svg"
+              className="w-6 h-6"
+              alt="facebook"
+              width={100}
+              height={80}
+            />
+          </div>
+        </div>
+        <div className="pt-10">
+          <div className="font-bold text-sm font-[Ubuntu]">
+            Сонгуульт ажил & Гишүүнчлэл
+          </div>
+          <div className="w-14 h-0.5 bg-secondary mt-1 mb-4"></div>
+        </div>
+        <div className="flex flex-col lg:flex-row gap-2 justify-between">
+          <input
+            type="text"
+            className=" font-semibold w-full lg:w-1/3 h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Сонгуульт ажил"
+          ></input>
+          <input
+            type="text"
+            className=" font-semibold w-full lg:w-1/3 h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Сонгуульт ажил 2"
+          ></input>
+          <input
+            type="text"
+            className=" font-semibold w-full lg:w-1/3 h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Сонгуульт ажил 3"
+          ></input>
+        </div>
+        <div className="flex flex-col lg:flex-row gap-2 justify-between py-4">
+          <input
+            type="text"
+            className=" font-semibold w-full lg:w-1/3 h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Гишүүнчлэл 1"
+          ></input>
+          <input
+            type="text"
+            className=" font-semibold w-full lg:w-1/3 h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Гишүүнчлэл 2"
+          ></input>
+          <input
+            type="text"
+            className=" font-semibold w-full lg:w-1/3 h-9 bg-white1 border border-gray rounded-md pl-3 outline-none"
+            placeholder="Гишүүнчлэл 3"
+          ></input>
         </div>
         <div className="pt-10">
           <div className="font-bold text-sm font-[Ubuntu]">
