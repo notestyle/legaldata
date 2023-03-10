@@ -197,7 +197,7 @@ export default function Farm_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -215,7 +215,7 @@ export default function Farm_create_detail() {
                 <Image
                   src="/images/profiles/1.jpeg"
                   className="w-10 h-10 rounded-full m-3"
-                  alt="facebook"
+                  alt="profile"
                   width={100}
                   height={80}
                 />
@@ -227,7 +227,7 @@ export default function Farm_create_detail() {
                   <Image
                     src="/images/icons/verified.svg"
                     className="w-5 h-5 mt-2 ml-2"
-                    alt="facebook"
+                    alt="verified"
                     width={100}
                     height={80}
                   />
@@ -236,8 +236,8 @@ export default function Farm_create_detail() {
               <button className="w-7 h-7 mr-3 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                 <Image
                   src="/images/icons/trash.svg"
-                  className="w-5 h-5"
-                  alt="facebook"
+                  className="w-6 h-6"
+                  alt="trash"
                   width={100}
                   height={80}
                 />
@@ -248,7 +248,7 @@ export default function Farm_create_detail() {
                 <Image
                   src="/images/profiles/1.jpeg"
                   className="w-10 h-10 rounded-full m-3"
-                  alt="facebook"
+                  alt="profile"
                   width={100}
                   height={80}
                 />
@@ -260,7 +260,7 @@ export default function Farm_create_detail() {
                   <Image
                     src="/images/icons/verified.svg"
                     className="w-5 h-5 mt-2 ml-2"
-                    alt="facebook"
+                    alt="verified"
                     width={100}
                     height={80}
                   />
@@ -269,8 +269,8 @@ export default function Farm_create_detail() {
               <button className="w-7 h-7 mr-3 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                 <Image
                   src="/images/icons/trash.svg"
-                  className="w-5 h-5"
-                  alt="facebook"
+                  className="w-6 h-6"
+                  alt="trash"
                   width={100}
                   height={80}
                 />
@@ -281,7 +281,7 @@ export default function Farm_create_detail() {
                 <Image
                   src="/images/profiles/1.jpeg"
                   className="w-10 h-10 rounded-full m-3"
-                  alt="facebook"
+                  alt="profile"
                   width={100}
                   height={80}
                 />
@@ -293,7 +293,7 @@ export default function Farm_create_detail() {
                   <Image
                     src="/images/icons/verified.svg"
                     className="w-5 h-5 mt-2 ml-2"
-                    alt="facebook"
+                    alt="verified"
                     width={100}
                     height={80}
                   />
@@ -302,8 +302,8 @@ export default function Farm_create_detail() {
               <button className="w-7 h-7 mr-3 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                 <Image
                   src="/images/icons/trash.svg"
-                  className="w-5 h-5"
-                  alt="facebook"
+                  className="w-6 h-6"
+                  alt="trash"
                   width={100}
                   height={80}
                 />
@@ -314,7 +314,7 @@ export default function Farm_create_detail() {
                 <Image
                   src="/images/profiles/1.jpeg"
                   className="w-10 h-10 rounded-full m-3"
-                  alt="facebook"
+                  alt="profile"
                   width={100}
                   height={80}
                 />
@@ -326,7 +326,7 @@ export default function Farm_create_detail() {
                   <Image
                     src="/images/icons/verified.svg"
                     className="w-5 h-5 mt-2 ml-2"
-                    alt="facebook"
+                    alt="verified"
                     width={100}
                     height={80}
                   />
@@ -335,8 +335,8 @@ export default function Farm_create_detail() {
               <button className="w-7 h-7 mr-3 bg-white1 border border-gray flex items-center justify-center rounded-lg">
                 <Image
                   src="/images/icons/trash.svg"
-                  className="w-5 h-5"
-                  alt="facebook"
+                  className="w-6 h-6"
+                  alt="trash"
                   width={100}
                   height={80}
                 />
@@ -353,7 +353,7 @@ export default function Farm_create_detail() {
               <Image
                 src="/images/icons/search.svg"
                 className="w-6 h-6 absolute right-3 mt-1"
-                alt="facebook"
+                alt="search"
                 width={100}
                 height={80}
               />
@@ -365,7 +365,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -377,7 +377,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -392,7 +392,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -404,7 +404,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -419,7 +419,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -431,7 +431,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -446,7 +446,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -458,7 +458,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -473,7 +473,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -485,7 +485,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -500,7 +500,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -512,7 +512,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -527,7 +527,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -539,7 +539,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -554,7 +554,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -566,7 +566,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -581,7 +581,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -593,7 +593,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -608,7 +608,7 @@ export default function Farm_create_detail() {
                     <Image
                       src="/images/profiles/1.jpeg"
                       className="w-10 h-10 rounded-full m-3"
-                      alt="facebook"
+                      alt="profile"
                       width={100}
                       height={80}
                     />
@@ -620,7 +620,7 @@ export default function Farm_create_detail() {
                       <Image
                         src="/images/icons/verified.svg"
                         className="w-5 h-5 mb-5 ml-2"
-                        alt="facebook"
+                        alt="verified"
                         width={100}
                         height={80}
                       />
@@ -659,7 +659,7 @@ export default function Farm_create_detail() {
               <Image
                 src="/images/icons/trash.svg"
                 className="w-6 h-6"
-                alt="facebook"
+                alt="trash"
                 width={100}
                 height={80}
               />
@@ -742,7 +742,7 @@ export default function Farm_create_detail() {
                 <Image
                   src="/images/icons/google_map.svg"
                   className="w-6 h-6 mb-4 ml-2"
-                  alt="facebook"
+                  alt="map"
                   width={100}
                   height={80}
                 />
@@ -831,7 +831,7 @@ export default function Farm_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -859,7 +859,7 @@ export default function Farm_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />

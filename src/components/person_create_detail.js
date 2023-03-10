@@ -56,7 +56,7 @@ export default function Person_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -81,7 +81,7 @@ export default function Person_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -106,7 +106,7 @@ export default function Person_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -142,7 +142,7 @@ export default function Person_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -167,7 +167,7 @@ export default function Person_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -192,7 +192,7 @@ export default function Person_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -315,7 +315,7 @@ export default function Person_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -340,7 +340,7 @@ export default function Person_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />
@@ -365,7 +365,7 @@ export default function Person_create_detail() {
             <Image
               src="/images/icons/trash.svg"
               className="w-6 h-6"
-              alt="facebook"
+              alt="trash"
               width={100}
               height={80}
             />

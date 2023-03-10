@@ -19,7 +19,7 @@ export default function Organization_create() {
             <Image
               src="/images/profiles/farm_create_cover.jpg"
               className=" w-full  rounded-2xl"
-              alt="facebook"
+              alt="cover"
               width={100}
               height={80}
             />
@@ -30,7 +30,7 @@ export default function Organization_create() {
                 <Image
                   src="/images/icons/camera.svg"
                   className=" w-full"
-                  alt="facebook"
+                  alt="add photo"
                   width={100}
                   height={80}
                 />
@@ -38,7 +38,7 @@ export default function Organization_create() {
               <Image
                 src="/images/profiles/create_farm.svg"
                 className=" w-full absolute -translate-y-1/2"
-                alt="facebook"
+                alt="profile"
                 width={100}
                 height={80}
               />
@@ -157,7 +157,7 @@ export default function Organization_create() {
                   <Image
                     src="/images/social/url_internet.svg"
                     className="w-6 h-6 absolute left-1 top-1"
-                    alt="facebook"
+                    alt="internet"
                     width={100}
                     height={80}
                   />

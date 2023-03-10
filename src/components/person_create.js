@@ -11,7 +11,7 @@ export default function Person_create() {
               <Image
                 src="/images/icons/camera.svg"
                 className=" w-full"
-                alt="facebook"
+                alt="add photo"
                 width={100}
                 height={80}
               />
@@ -19,7 +19,7 @@ export default function Person_create() {
             <Image
               src="/images/profiles/farm_create_cover.jpg"
               className=" w-full  rounded-2xl"
-              alt="facebook"
+              alt="cover"
               width={100}
               height={80}
             />
@@ -38,7 +38,7 @@ export default function Person_create() {
               <Image
                 src="/images/profiles/create_farm.svg"
                 className=" w-full absolute -translate-y-1/2"
-                alt="facebook"
+                alt="profile"
                 width={100}
                 height={80}
               />
@@ -67,7 +67,7 @@ export default function Person_create() {
                   <Image
                     src="/images/icons/phone.svg"
                     className="w-6 h-6"
-                    alt="instagram"
+                    alt="phone"
                     width={100}
                     height={80}
                   />
@@ -92,7 +92,7 @@ export default function Person_create() {
                     <Image
                       src="/images/icons/mail.svg"
                       className="w-6 h-6"
-                      alt="instagram"
+                      alt="mail"
                       width={100}
                       height={80}
                     />
@@ -111,7 +111,7 @@ export default function Person_create() {
                     <Image
                       src="/images/icons/location.svg"
                       className="w-6 h-6"
-                      alt="instagram"
+                      alt="location"
                       width={100}
                       height={80}
                     />
